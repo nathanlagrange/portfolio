@@ -1,5 +1,5 @@
 module.exports = {
-  root: false,
+  root: true,
   env: {
     browser: true,
     node: true
@@ -15,5 +15,7 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    "indent": ["error", 2]
+  }
 }
