@@ -14,9 +14,14 @@
     "@nuxt/content": "^1.14.0",
     "animejs": "^3.2.1",
     "core-js": "^3.18.1",
+<<<<<<< HEAD
     "eslint": "^7.32.0",
     "nuxt": "^2.13.3",
     "sass": "^1.4.2",
+=======
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.15.7",
+>>>>>>> parent of 0ae1eb9 (no nodesass just sass generate)
     "sass-loader": "^10.1.1"
   },
   "devDependencies": {
