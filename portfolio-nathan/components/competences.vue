@@ -51,12 +51,6 @@
     </section>
 </template>
 
-<script>
-export default {
-    
-}
-</script>
-
 <style lang="scss" scoped>
 @import "../assets/css/_mixins.scss";
     section{
@@ -128,13 +122,13 @@ export default {
         section{
             #assets{
                 width: 100%;
-            }   
+            }
         }
      }
 
     @media screen and (max-width: 850px) {
         section{
-            @include padding-section-mobile; 
+            @include padding-section-mobile;
         }
     }
 
