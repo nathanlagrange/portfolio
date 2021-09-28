@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{articles:[{slug:"21w11",title:"Profil de compétence #21w11",date:"09 mars 2021",id:"0011"},{slug:"21w10",title:"Carte de visite Nextrek #21w10",date:"04 mars 2021",id:"0010"},{slug:"21w09",title:"Boutons et inputs #21w09",date:"26 février 2021",id:"0009"}]}],fetch:{},mutations:void 0});
