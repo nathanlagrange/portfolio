@@ -1,0 +1,36 @@
+<template>
+    <section class="titlepage">
+        <h1>{{ title }}</h1>
+    </section>
+</template>
+
+<script>
+export default {
+    props: {
+        title: {
+            type: String,
+            default: 'Titre de la page'
+        }
+    }
+}
+</script>
+
+<style lang="scss" scoped>
+@import "~/assets/css/_mixins.scss";
+@import "~/assets/css/_colors.scss";
+    .titlepage{
+        display: flex;
+        align-items: center;
+        height: 30vh;
+        background: $dark-color;
+        width: 100%;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        h1{
+            color: white;
+            font-weight: 400;
+            font-size: 40px;
+        }
+    }
+</style>

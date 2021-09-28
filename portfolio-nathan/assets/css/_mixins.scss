@@ -1,0 +1,18 @@
+@mixin padding-section{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@mixin padding-section-mobile{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@mixin padding-section-short{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+@mixin border-radius{
+    border-radius: 5px;
+}
