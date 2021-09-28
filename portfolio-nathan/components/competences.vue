@@ -51,6 +51,12 @@
     </section>
 </template>
 
+<script>
+export default {
+    
+}
+</script>
+
 <style lang="scss" scoped>
 @import "../assets/css/_mixins.scss";
     section{
@@ -59,7 +65,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #000000 100%), url("~/assets/img/banner/banner-nl.webp");
+        background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #000000 100%), url(/_nuxt/assets/img/banner/banner-nl.webp);
         background-position: center;
         background-size: cover;
         @include padding-section;
@@ -118,17 +124,17 @@
         }
     }
 
-    @media screen and (max-width: 999px) {
+     @media screen and (max-width: 999px) {
         section{
             #assets{
                 width: 100%;
-            }
+            }   
         }
-    }
+     }
 
     @media screen and (max-width: 850px) {
         section{
-            @include padding-section-mobile;
+            @include padding-section-mobile; 
         }
     }
 

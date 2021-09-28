@@ -70,7 +70,7 @@ export default {
             display: flex;
             justify-content: center;
             img{
-                max-width: 750px;
+                width: 750px;
                 height: auto;
                 @include border-radius;
                 margin-bottom: 10px;
