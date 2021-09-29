@@ -12,7 +12,7 @@
         <p id="description">
           {{ article.description }}
         </p>
-        <nuxt-content :document="article" />
+        <nuxt-content class="nuxt-content" :document="article" />
       </article>
     </section>
   </main>
@@ -65,18 +65,23 @@ export default {
       font-weight: 400;
       max-width: 750px;
     }
-    .nuxt-content-container{
+    .nuxt-content{
       width: 100%;
       height: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       img{
-        width: 750px;
+        max-width: 750px;
         height: auto;
         @include border-radius;
         margin-bottom: 10px;
         margin-top: 50px;
         filter: drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.3));
+      }
+      p{
+        max-width: 750px;
       }
     }
   }
@@ -85,7 +90,7 @@ export default {
 @media screen and (max-width: 1199px) {
   #article-section{
     article{
-      .nuxt-content-container{
+      .nuxt-content{
         img{
           width: 100%;
         }
