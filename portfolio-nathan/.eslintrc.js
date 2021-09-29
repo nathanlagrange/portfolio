@@ -1,5 +1,5 @@
 module.exports = {
-  root: false,
+  root: true,
   env: {
     browser: true,
     node: true
@@ -16,6 +16,5 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    "indent": "off"
   }
 }

@@ -21,9 +21,9 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-      const article = await $content('blog', params.slug).fetch()
+    const article = await $content('blog', params.slug).fetch()
 
-      return { article }
+    return { article }
   }
 }
 </script>
@@ -100,12 +100,23 @@ export default {
 }
 
 @media screen and (max-width: 850px) {
-    #article-section{
-        @include padding-section-mobile;
-        article{
-          @include padding-section-mobile;
-          width: 100%;
-        }
+  #article-section{
+    @include padding-section-mobile;
+    article{
+      @include padding-section-mobile;
+      width: 100%;
     }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #article-section{
+    padding-left: 0;
+    padding-right: 0;
+    article{
+      border-radius: 0;
+      width: 100%;
+    }
+  }
 }
 </style>

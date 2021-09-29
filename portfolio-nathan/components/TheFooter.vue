@@ -1,35 +1,47 @@
 <template>
-    <footer>
-        <div id="name">
-            <img src="../assets/img/logo/logo-nl.svg" alt="logo nathan lagrange">
-            <h6>nathan<strong>lagrange</strong></h6>
-        </div>
-        <div id="footer-nav">
-            <ul>
-                <nuxt-link to="/"><li>accueil</li></nuxt-link>
-                <nuxt-link to="/web"><li>web</li></nuxt-link>
-                <nuxt-link to="/design"><li>design</li></nuxt-link>
-                <nuxt-link to="/musique"><li>musique</li></nuxt-link>
-                <nuxt-link to="/contact"><li>contact</li></nuxt-link>
-            </ul>
-        </div>
-        <div id="footer-icon">
-            <a href="https://www.linkedin.com/in/nathan-l-584085111/" target="_blank"><img src="../assets/img/icon/linkedin.svg" alt="linkedin nathan lagrange"></a>
-            <nuxt-link to="/contact"><img src="../assets/img/icon/envelope.svg" alt="contact nathan lagrange"></nuxt-link>
-        </div>
-        <div id="footer-meta">
-            <span>{{ date }} - Tout droits réservés - <b>nathanlagrange.dev</b></span>
-        </div>
-    </footer>
+  <footer>
+    <div id="name">
+      <img src="../assets/img/logo/logo-nl-white.svg" alt="logo nathan lagrange">
+      <h6>nathan<strong>lagrange</strong></h6>
+    </div>
+    <div id="footer-nav">
+      <ul>
+        <nuxt-link to="/">
+          <li>accueil</li>
+        </nuxt-link>
+        <nuxt-link to="/web">
+          <li>web</li>
+        </nuxt-link>
+        <nuxt-link to="/design">
+          <li>design</li>
+        </nuxt-link>
+        <nuxt-link to="/musique">
+          <li>musique</li>
+        </nuxt-link>
+        <nuxt-link to="/contact">
+          <li>contact</li>
+        </nuxt-link>
+      </ul>
+    </div>
+    <div id="footer-icon">
+      <a href="https://www.linkedin.com/in/nathan-l-584085111/" target="_blank"><img src="../assets/img/icon/linkedin.svg" alt="linkedin nathan lagrange"></a>
+      <nuxt-link to="/contact">
+        <img src="../assets/img/icon/envelope.svg" alt="contact nathan lagrange">
+      </nuxt-link>
+    </div>
+    <div id="footer-meta">
+      <span>{{ date }} - Tout droits réservés - <b>nathanlagrange.dev</b></span>
+    </div>
+  </footer>
 </template>
 
 <script>
 export default {
-    data() {
-        return{
-            date: new Date().getUTCFullYear()
-        }
+  data () {
+    return {
+      date: new Date().getUTCFullYear()
     }
+  }
 }
 </script>
 
@@ -80,7 +92,7 @@ export default {
                 display: inline;
                 a{
                     text-decoration: none;
-                    color: white;    
+                    color: white;
                     li{
                         list-style-type: none;
                         display: inline;
@@ -149,11 +161,10 @@ export default {
                         text-transform: uppercase;
                     }
                 }
-            } 
+            }
             #footer-meta{
                 margin-top: 30px;
-            }           
+            }
         }
     }
-
 </style>

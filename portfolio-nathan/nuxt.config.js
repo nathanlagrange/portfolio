@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio-nathan',
+    title: 'Nathan Lagrange - développeur front-end',
     htmlAttrs: {
       lang: 'fr'
     },
@@ -49,5 +49,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: [
+      'animejs'
+    ],
   }
 }
