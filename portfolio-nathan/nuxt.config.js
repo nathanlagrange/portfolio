@@ -40,9 +40,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/content
+    // https://go.nuxtjs.dev/
     '@nuxt/content',
-    '@nuxtjs/sitemap'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -52,6 +51,6 @@ export default {
   build: {
     transpile: [
       'animejs'
-    ],
+    ]
   }
 }
