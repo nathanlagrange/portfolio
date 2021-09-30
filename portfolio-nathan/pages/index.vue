@@ -5,7 +5,7 @@
         <div id="description__text">
           <img id="nate-mobile" src="../assets/img/photo/rednate.webp" alt="nathan lagrange">
           <h1>nathan<b>lagrange</b></h1>
-          <div class="sep-20"></div>
+          <div class="sep-20" />
           <h2>
             Développeur front-end
             <br>
@@ -13,47 +13,49 @@
             <br>
             Bachelor 3 Web Design @MyDigitalSchool
           </h2>
-          <div class="sep-30"></div>
+          <div class="sep-30" />
           <blockquote>
             "La simplicité se démarque, la complexité se perd inexorablement dans la masse."
             <br>
             K. Barnett
           </blockquote>
-          <div class="sep-30"></div>
+          <div class="sep-30" />
           <p>
             <b>Bienvenue sur mon portfolio 👋</b>
             <br>
           </p>
-          <div class="sep-20"></div>
+          <div class="sep-20" />
           <p>
             Ce support web est dédié à la présentation de mes compétences en développement front-end, web design et production musicale.
             Ce site a été entièrement pensé et développé par moi-même avec le framework Nuxt (basé sur Vue).
           </p>
-          <div class="sep-20"></div>
-          <p id="cv-dl"><a href="../assets/files/cv-lagrange.pdf" download><img src="../assets/img/icon/download.svg" alt="télécharger"><u><b>Télécharger mon CV</b></u></a></p>
+          <div class="sep-20" />
+          <p id="cv-dl">
+            <a href="../assets/files/cv-lagrange.pdf" download><img src="../assets/img/icon/download.svg" alt="télécharger"><u><b>Télécharger mon CV</b></u></a>
+          </p>
         </div>
       </div>
       <div id="profil">
-        <div id="profil__pic"></div>
+        <div id="profil__pic" />
       </div>
     </section>
     <prev-site />
     <competences />
     <section id="miniblog">
-        <h2>Blog de web design</h2>
-        <div class="sep-50"></div>
-        <div id="container-article">
-            <div class="article-preview" v-for="article of articles" :key="article.slug">
-                <nuxt-link :to="{ name: 'design-slug', params: { slug: article.slug } }">
-                    <h3>{{ article.title }}</h3>
-                    <span>{{ article.date }}</span>
-                </nuxt-link>
-            </div>
+      <h2>Blog de web design</h2>
+      <div class="sep-50" />
+      <div id="container-article">
+        <div v-for="article of articles" :key="article.slug" class="article-preview">
+          <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+            <h3>{{ article.title }}</h3>
+            <span>{{ article.date }}</span>
+          </nuxt-link>
         </div>
-        <div class="sep-10"></div>
-        <nuxt-link to="/design">
-          <button2 title="En voir plus" />
-        </nuxt-link>
+      </div>
+      <div class="sep-10" />
+      <nuxt-link to="/design">
+        <button2 title="En voir plus" />
+      </nuxt-link>
     </section>
     <tschome />
   </div>
@@ -61,16 +63,85 @@
 
 <script>
 export default {
-    layout: 'default',
-    async asyncData({ $content, params }) {
-        const articles = await $content('blog', params.slug)
-        .only(['title', 'date', 'slug', 'id'])
-        .sortBy('id', 'desc')
-        .limit(3)
-        .fetch()
-        
-        return{ articles: articles }
+  layout: 'default',
+  async asyncData ({ $content, params }) {
+    const articles = await $content('blog', params.slug)
+      .only(['title', 'date', 'slug', 'id'])
+      .sortBy('id', 'desc')
+      .limit(3)
+      .fetch()
+    return { articles }
+  },
+  data () {
+    return {
+      title: 'Nathan Lagrange - Développeur front-end'
     }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Je m\'appelle Nathan Lagrange et je vous souhaite la bienvenue sur mon portfolio (dev, web design et musique).'
+        },
+        { property: 'og:site_name', content: 'Nathan Lagrange - Développeur front-end' },
+        { hid: 'og:type', property: 'og:type', content: 'page' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Nathan Lagrange - Développeur Front-end'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'Je m\'appelle Nathan Lagrange et vous souhaite la bienvenue sur mon site portfolio (dev, web design et musique).'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: '~/static/nathanlagrange-og-img.jpg'
+        },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { name: 'twitter:site', content: '@nathanlagrange' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Nathan Lagrange - Développeur front-end'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'Je vous souhaite la bienvenue sur mon site portfolio (dev, web design et musique).'
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: '~/static/nathanlagrange-og-img.jpg'
+        }
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://nathanlagrange.dev'
+        }
+      ]
+    }
+  }
 }
 </script>
 
@@ -285,7 +356,7 @@ export default {
       .article-preview{
         width: 100%;
       }
-    }  
+    }
   }
 }
 
@@ -305,7 +376,7 @@ export default {
           }
         }
       }
-    }  
+    }
   }
 }
 

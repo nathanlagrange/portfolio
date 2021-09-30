@@ -12,8 +12,8 @@
       <nuxt-link to="/web">
         <li>Web</li>
       </nuxt-link>
-      <nuxt-link to="/design">
-        <li>Design</li>
+      <nuxt-link to="/blog">
+        <li>Blog</li>
       </nuxt-link>
       <nuxt-link to="/musique">
         <li>Musique</li>
@@ -41,8 +41,8 @@
         <nuxt-link to="/web">
           <li>Web</li>
         </nuxt-link>
-        <nuxt-link to="/design">
-          <li>Design</li>
+        <nuxt-link to="/blog">
+          <li>Blog</li>
         </nuxt-link>
         <nuxt-link to="/musique">
           <li>Musique</li>

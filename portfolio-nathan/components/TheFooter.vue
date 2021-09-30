@@ -13,7 +13,7 @@
           <li>web</li>
         </nuxt-link>
         <nuxt-link to="/design">
-          <li>design</li>
+          <li>blog</li>
         </nuxt-link>
         <nuxt-link to="/musique">
           <li>musique</li>

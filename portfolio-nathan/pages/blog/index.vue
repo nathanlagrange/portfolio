@@ -1,65 +1,64 @@
 <template>
-    <div>
-        <titlepage title="Web design"/>
-        <section id="inputsearch">
-            <input
-            id="inputsearch__input"
-            v-model="searchQuery"
-            type="search"
-            autocomplete="off"
-            placeholder="🔍  Rechercher un post"
-            />
-        </section>
-        <section id="blog">
-            <div id="result" v-if="!blog.length" @click="reload()">
-                <h2>Aucun résultat pour cette recherche 😟</h2>
-                <div class="sep-20"></div>
-                <button1 title="Retour" />
-            </div>
-            <div id="blog-grid">
-                <div class="blog-grid-block" v-for="article of blog" :key="article.slug">
-                    <nuxt-link :to="{ name: 'design-slug', params: { slug: article.slug } }">
-                        <img :src="article.img" :alt="article.alt" />
-                        <span class="date">{{ article.date }}</span>
-                        <h3>{{ article.title }}</h3>
-                        <p>{{ article.extrait }}</p>
-                        <open-article />
-                    </nuxt-link>
-                </div>
-            </div>
-        </section>
-    </div>
+  <div>
+    <titlepage title="Blog" />
+    <section id="inputsearch">
+      <input
+        id="inputsearch__input"
+        v-model="searchQuery"
+        type="search"
+        autocomplete="off"
+        placeholder="🔍  Rechercher un post"
+      >
+    </section>
+    <section id="blog">
+      <div v-if="!blog.length" id="result" @click="reload()">
+        <h2>Aucun résultat pour cette recherche 😟</h2>
+        <div class="sep-20" />
+        <button1 title="Retour" />
+      </div>
+      <div id="blog-grid">
+        <div v-for="article of blog" :key="article.slug" class="blog-grid-block">
+          <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+            <img :src="article.img" :alt="article.alt">
+            <span class="date">{{ article.date }}</span>
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.extrait }}</p>
+            <open-article />
+          </nuxt-link>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
-    layout: 'default',
-    data() {
-      return {
-        searchQuery: '',
-      }
-    },
-    methods: {
-        reload(){
-            location.reload()
-        }  
-    },
-    async asyncData({ $content, params }) {
-        const blog = await $content('blog', params.slug)
-        .only(['title', 'date', 'extrait', 'slug', 'id', 'img', 'alt'])
+  layout: 'default',
+  async asyncData ({ $content, params }) {
+    const blog = await $content('blog', params.slug)
+      .only(['title', 'date', 'extrait', 'slug', 'id', 'img', 'alt'])
+      .sortBy('id', 'desc')
+      .fetch()
+    return { blog }
+  },
+  data () {
+    return {
+      searchQuery: ''
+    }
+  },
+  watch: {
+    async searchQuery (searchQuery) {
+      this.blog = await this.$content('blog')
+        .search(searchQuery)
         .sortBy('id', 'desc')
         .fetch()
-        
-        return{ blog: blog }
-    },
-    watch: {
-      async searchQuery(searchQuery) {
-        this.blog = await this.$content('blog')
-          .search(searchQuery)
-          .sortBy('id', 'desc')
-          .fetch()
-        }
     }
+  },
+  methods: {
+    reload () {
+      location.reload()
+    }
+  }
 }
 </script>
 
@@ -162,7 +161,7 @@ export default {
             @include padding-section-mobile;
         }
         #blog{
-            @include padding-section-mobile;  
+            @include padding-section-mobile;
         }
     }
     @media screen and (max-width: 499px) {

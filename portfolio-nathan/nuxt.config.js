@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Nathan Lagrange - développeur front-end',
+    title: 'Nathan Lagrange - Développeur front-end',
     htmlAttrs: {
       lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Je m\'appelle Nathan Lagrange et je vous souhaite la bienvenue sur mon portfolio dédié à la présentation de mes compétences en développement front-end, web design et production musicale...' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -41,7 +41,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
