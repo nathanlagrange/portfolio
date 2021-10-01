@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{articles:[{slug:"21w16",title:"Help'n Fiesta (projet UI)",date:"15 avril 2021",id:"0016"},{slug:"21w15",title:"FAQ accordeon",date:"09 avril 2021",id:"0015"},{slug:"21w14",title:"Page d'erreur #21w14",date:"02 avril 2021",id:"0014"}]}],fetch:{},mutations:void 0});

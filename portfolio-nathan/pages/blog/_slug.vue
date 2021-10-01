@@ -161,6 +161,9 @@ export default {
       p{
         max-width: 750px;
       }
+      blockquote{
+        text-align: center;
+      }
     }
   }
 }

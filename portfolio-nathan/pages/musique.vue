@@ -31,7 +31,7 @@
       </div>
       <div id="amorce-titles">
         <img src="~/assets/img/tsc/amorce-title.webp" alt="the solace comes amorce">
-        <div class="sep-30"></div>
+        <div class="sep-30" />
         <div id="platforms">
           <a href="https://open.spotify.com/artist/6aLE276JCRs6kclrdEeaGk" target="_blank"><img src="~/assets/img/icon/spotify.webp" alt="spotify"></a>
           <a href="https://music.apple.com/fr/artist/the-solace-comes/1486098277" target="_blank"><img src="~/assets/img/icon/apple-music.webp" alt="apple music"></a>

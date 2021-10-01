@@ -84,10 +84,13 @@ export default {
             color: black;
             transition: background 0.4s ease;
             font-weight: 400;
+            &::placeholder{
+              font-size: 16px;
+            }
             &:focus{
-                color: white;
-                background: black;
-                transition: background 0.2s ease;
+              color: white;
+              background: black;
+              transition: background 0.2s ease;
             }
         }
     }

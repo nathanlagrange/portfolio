@@ -1,3 +1,5 @@
+const axios = require('axios')
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -42,6 +44,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/
     '@nuxt/content',
+    '@nuxtjs/axios',
+    '@nuxtjs/sitemap' // toujours en dernier dans la liste des modulesnp
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -52,5 +56,13 @@ export default {
     transpile: [
       'animejs'
     ]
+  },
+
+  axios: {
+    baseURL: process.env.BASE_URL || 'localhost:3000'
+  },
+
+  sitemap: {
+    hostname: 'https://admiring-bhaskara-279590.netlify.app/'
   }
 }

@@ -12,7 +12,7 @@
         <nuxt-link to="/web">
           <li>web</li>
         </nuxt-link>
-        <nuxt-link to="/design">
+        <nuxt-link to="/blog">
           <li>blog</li>
         </nuxt-link>
         <nuxt-link to="/musique">
@@ -24,7 +24,7 @@
       </ul>
     </div>
     <div id="footer-icon">
-      <a href="https://www.linkedin.com/in/nathan-l-584085111/" target="_blank"><img src="../assets/img/icon/linkedin.svg" alt="linkedin nathan lagrange"></a>
+      <a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank"><img src="../assets/img/icon/linkedin.svg" alt="linkedin nathan lagrange"></a>
       <nuxt-link to="/contact">
         <img src="../assets/img/icon/envelope.svg" alt="contact nathan lagrange">
       </nuxt-link>

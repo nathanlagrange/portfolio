@@ -6,12 +6,12 @@
 
 <script>
 export default {
-    props: {
-        title: {
-            type: String,
-            default: 'Titre de la page'
-        }
+  props: {
+    title: {
+      type: String,
+      default: 'Titre de la page'
     }
+  }
 }
 </script>
 

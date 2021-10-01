@@ -1,23 +1,28 @@
 <template>
-<section>
+  <section>
     <div v-if="error.statusCode === 404">
-        <h1>404</h1>
-        <div class="sep-20"></div>
-        <h2>La page demandée n'existe pas</h2>
+      <h1>404</h1>
+      <div class="sep-20" />
+      <h2>La page demandée n'existe pas</h2>
     </div>
     <div v-else>
-        <h2>Une erreur s'est produite</h2>
+      <h2>Une erreur s'est produite</h2>
     </div>
-    <div class="sep-20"></div>
-    <a href="javascript:history.back()"><button3 title="Retour"/></a>
-</section>
+    <div class="sep-20" />
+    <a href="javascript:history.back()"><button3 title="Retour" /></a>
+  </section>
 </template>
 
 <script>
-  export default {
-    props: ['error'],
-    layout: 'default'
+export default {
+  layout: 'default',
+  props: {
+    error: {
+      type: String,
+      required: true
+    }
   }
+}
 </script>
 
 <style lang="scss" scoped>

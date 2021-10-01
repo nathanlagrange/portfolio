@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="sep-10" />
-      <nuxt-link to="/design">
+      <nuxt-link to="/blog">
         <button2 title="En voir plus" />
       </nuxt-link>
     </section>
@@ -130,7 +130,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: '~/static/nathanlagrange-og-img.jpg'
+          content: '/nathanlagrange-og-img.jpg'
         }
       ],
       link: [

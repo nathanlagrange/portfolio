@@ -27,36 +27,42 @@
   font-family: 'Manrope';
   font-weight: 300;
   src: url("../fonts/Manrope/static/Manrope-Light.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Manrope';
   font-weight: 400;
   src: url("../fonts/Manrope/static/Manrope-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Manrope';
   font-weight: 500;
   src: url("../fonts/Manrope/static/Manrope-Medium.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Manrope';
   font-weight: 600;
   src: url("../fonts/Manrope/static/Manrope-SemiBold.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Manrope';
   font-weight: 700;
   src: url("../fonts/Manrope/static/Manrope-Bold.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Manrope';
   font-weight: 800;
   src: url("../fonts/Manrope/static/Manrope-ExtraBold.ttf") format("truetype");
+  font-display: swap;
 }
 
 * {
@@ -86,7 +92,7 @@ blockquote {
 
 button {
   font-family: 'Manrope';
-  border-radius: 5px;
+  border-radius: 5px !important;
   width: auto;
   min-height: 45px;
   max-height: 45px;

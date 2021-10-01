@@ -189,8 +189,8 @@
     @media screen and (max-width: 599px) {
         section{
             #tsc-profil{
-                height: auto;
-                max-width: 100%!important;
+                height: 200px;
+                max-width: 200px;
             }
             #container-music{
                 flex-direction: column;

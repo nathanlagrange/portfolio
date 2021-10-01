@@ -23,7 +23,7 @@
       </nuxt-link>
     </ul>
     <div id="nav-social">
-      <a href="https://www.linkedin.com/in/nathan-l-584085111/" target="_blank"><img id="linkedin" src="../assets/img/icon/linkedin.svg" alt="linkedin"></a>
+      <a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank"><img id="linkedin" src="../assets/img/icon/linkedin.svg" alt="linkedin"></a>
       <nuxt-link to="/contact">
         <img id="envelope" src="../assets/img/icon/envelope.svg" alt="envelope">
       </nuxt-link>
