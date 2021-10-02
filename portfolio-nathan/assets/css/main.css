@@ -1,3 +1,15 @@
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
 .sep-10 {
   min-height: 10px;
   width: 100%;
@@ -76,6 +88,10 @@
 html {
   font-family: 'Manrope';
   width: 100%;
+}
+
+body {
+  background-color: #1e1e1e;
 }
 
 main {

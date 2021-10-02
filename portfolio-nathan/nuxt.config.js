@@ -12,7 +12,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' },
       { hid: 'description', name: 'description', content: 'Je m\'appelle Nathan Lagrange et je vous souhaite la bienvenue sur mon portfolio dédié à la présentation de mes compétences en développement front-end, web design et production musicale...' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
@@ -37,7 +37,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@/modules/generator'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -45,7 +46,7 @@ export default {
     // https://go.nuxtjs.dev/
     '@nuxt/content',
     '@nuxtjs/axios',
-    '@nuxtjs/sitemap' // toujours en dernier dans la liste des modulesnp
+    '@nuxtjs/sitemap' // toujours en dernier dans la liste des modules
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -57,12 +58,22 @@ export default {
       'animejs'
     ]
   },
-
-  axios: {
-    baseURL: process.env.BASE_URL || 'localhost:3000'
+  
+  sitemap: {
+    hostname: 'https://nathanlagrange.dev',
+    gzip: true,
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    }
   },
 
-  sitemap: {
-    hostname: 'https://admiring-bhaskara-279590.netlify.app/'
+  loading: {
+    color: '#C7CF00',
+    height: '2px',
+    duration: 5000,
+    continuous: true,
+    failedColor: 'red'
   }
 }

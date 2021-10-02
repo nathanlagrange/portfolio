@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog/musique", {data:[{blog:[{slug:"amorce-release",title:"RELEASE : Amorce",date:"01 novembre 2019",extrait:"Amorce est le premier morceau que j'ai produit avec l'artiste Anaysa. Disponible sur toutes les plateformes de streaming.",id:"0000",img:"https:\u002F\u002Fi.imgur.com\u002FpMCcB1Z.gif",alt:"amorce the solace comes"}]}],fetch:{},mutations:void 0});

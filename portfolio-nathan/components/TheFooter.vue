@@ -21,6 +21,9 @@
         <nuxt-link to="/contact">
           <li>contact</li>
         </nuxt-link>
+        <nuxt-link to="/mentionslegales">
+          <li>mentions légales</li>
+        </nuxt-link>
       </ul>
     </div>
     <div id="footer-icon">

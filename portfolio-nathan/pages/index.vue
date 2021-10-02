@@ -5,7 +5,7 @@
         <div id="description__text">
           <img id="nate-mobile" src="../assets/img/photo/rednate.webp" alt="nathan lagrange">
           <h1>nathan<b>lagrange</b></h1>
-          <div class="sep-20" />
+          <div class="sep-30" />
           <h2>
             Développeur front-end
             <br>
@@ -15,9 +15,12 @@
           </h2>
           <div class="sep-30" />
           <blockquote>
-            "La simplicité se démarque, la complexité se perd inexorablement dans la masse."
+            <span>
+              <b>“When opportunity knocks, it’s too late to prepare.”</b>
+            </span>
             <br>
-            K. Barnett
+            <div class="sep-10" />
+            J. Wooden
           </blockquote>
           <div class="sep-30" />
           <p>
@@ -106,7 +109,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: '~/static/nathanlagrange-og-img.jpg'
+          content: 'https://i.imgur.com/QxkJmkT.jpg'
         },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
@@ -130,7 +133,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: '/nathanlagrange-og-img.jpg'
+          content: 'https://i.imgur.com/QxkJmkT.jpg'
         }
       ],
       link: [
@@ -172,7 +175,11 @@ export default {
       height: 100%;
       blockquote{
         color: white;
+        font-weight: 400;
         font-style: italic;
+        span{
+          color: $light-color;
+        }
       }
       #nate-mobile{
         display: none;
@@ -188,9 +195,13 @@ export default {
         letter-spacing: 0.18em;
       }
       h2{
-        color: $light-color;
+        color: white;
         font-size: 20px;
         font-weight: 300;
+        background-color: $cold-color;
+        @include border-radius;
+        max-width: 410px;
+        padding: 15px;
         a{
           color: inherit;
           text-decoration: none;
@@ -241,7 +252,12 @@ export default {
       border-radius: 5px;
       filter: drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.3));
       opacity: 1;
-      transition: border-radius 2s ease;
+      transition: transform 0.3s ease-out;
+      transform: rotate(4deg);
+      &:hover{
+        transform: rotate(0deg);
+        transition: transform 0.3s ease-out;
+      }
     }
   }
 }
@@ -262,7 +278,7 @@ export default {
         font-size: 18px!important;
       }
       blockquote{
-        font-size: 18px;
+        font-size: 16px;
       }
       #cv-dl{
         display: none!important;

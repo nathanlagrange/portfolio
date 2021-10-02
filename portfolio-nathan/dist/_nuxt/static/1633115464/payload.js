@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{articles:[{slug:"21w17",title:"Commande de fast food #21w17",date:"25 avril 2021",id:"0017"},{slug:"21w16",title:"Help'n Fiesta (projet Figma) #21w16",date:"15 avril 2021",id:"0016"},{slug:"21w15",title:"FAQ accordeon #21w15",date:"09 avril 2021",id:"0015"}]}],fetch:{},mutations:void 0});

@@ -8,6 +8,7 @@ id: '000'
 img: https://i.postimg.cc/15HR9gcP/etlesviolonsnechanterontpas.webp
 alt: "affiche de film"
 video-url: https://youtu.be/psyHilqXjSc
+categorie: autre
 ---
 
 ![affiche de film](https://i.imgur.com/cqthIoQ.jpg)

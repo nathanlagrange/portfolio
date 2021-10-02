@@ -18,19 +18,27 @@ export default {
 <style lang="scss" scoped>
 @import "~/assets/css/_mixins.scss";
 @import "~/assets/css/_colors.scss";
-    .titlepage{
-        display: flex;
-        align-items: center;
-        height: 30vh;
-        background: $dark-color;
-        width: 100%;
-        padding-top: 100px;
-        display: flex;
-        justify-content: center;
-        h1{
-            color: white;
-            font-weight: 400;
-            font-size: 40px;
-        }
+  .titlepage{
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    background: $dark-color;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    @include padding-section;
+    h1{
+      color: white;
+      font-weight: 400;
+      font-size: 40px;
+      text-align: center;
     }
+  }
+
+  @media screen and (max-width: 850px) {
+    .titlepage{
+      @include padding-section-mobile;
+    }
+  }
 </style>

@@ -3,6 +3,18 @@
     <TheHeader />
     <section id="article-section">
       <article>
+        <div id="ariane">
+          <nuxt-link to="/blog">
+            blog
+          </nuxt-link>
+          <span class="separator-ariane"><b>></b></span>
+          <nuxt-link :to="article.categorie">
+            {{ article.categorie }}
+          </nuxt-link>
+          <span class="separator-ariane"><b>></b></span>
+          <span>{{ article.slug }}</span>
+        </div>
+        <div class="sep-30" />
         <a href="javascript:history.back()"><button1 title="Retour" /></a>
         <div class="sep-30" />
         <h1>{{ article.title }}</h1>
@@ -132,6 +144,13 @@ export default {
     min-height: 120vh;
     @include padding-section;
     filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
+    #ariane{
+      width: 100%;
+      display: flex;
+      cursor: pointer;
+      font-weight: bold;
+      justify-content: center;
+    }
     h1{
       text-align: center;
     }

@@ -1,11 +1,12 @@
 <template>
-    <span>OUVRIR L’ARTICLE<img src="~/assets/img/icon/arrow-article.svg"></span>
+    <span class="link-article">OUVRIR L’ARTICLE<img src="~/assets/img/icon/arrow-article.svg"></span>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "~/assets/css/_mixins.scss";
 @import "~/assets/css/_colors.scss";
-    span{
+@import "~/assets/css/_blog.scss";
+    .link-article{
         color: $cold-color;
         font-weight: 700;
         text-decoration: underline;

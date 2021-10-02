@@ -6,7 +6,8 @@ description: "Je compose et mixe de la musique sous le nom de The Solace Comes. 
 extrait: "Amorce est le premier morceau que j'ai produit avec l'artiste Anaysa. Disponible sur toutes les plateformes de streaming."
 id: '0000'
 img: https://i.imgur.com/pMCcB1Z.gif
-alt:
+alt: amorce the solace comes
+categorie: musique
 ---
 
 ## <b>Pour écouter le morceau, cliquer sur [ce lien](https://li.sten.to/amorce) 🎶.</b>

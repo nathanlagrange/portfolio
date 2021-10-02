@@ -7,6 +7,7 @@ extrait: ""
 id: ''
 img:
 alt:
+categorie:
 ---
 
 <div class="sep-50"></div>
