@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{articles:[{slug:"21w20",title:"Music app #21w20",date:"15 mai 2021",id:"0020"},{slug:"21w19",title:"Covidcoin (crypto app) #21w19",date:"08 mai 2021",id:"0019"},{slug:"21w18",title:"Template pronostics VIP #21w18",date:"02 mai 2021",id:"0018"}]}],fetch:{},mutations:void 0});

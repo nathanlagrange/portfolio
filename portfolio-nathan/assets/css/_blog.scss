@@ -92,6 +92,12 @@ input[type="search"], select:focus{
       }
     }
   }
+  #seemore{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
   #result{
     width: 100%;
     height: auto;
@@ -113,26 +119,47 @@ input[type="search"], select:focus{
   }
 }
 
-@media screen and (max-width: 549px) {
-  #inputsearch{
-    margin-top: 25px;
-  }
+@media screen and (max-width: 749px) {
   #categorie{
+    padding: 0;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 490px;
+    @include padding-section;
     button{
       margin-right: 0px;
       margin-left: 0px;
       margin-bottom: 10px;
       margin-top: 10px;
+      min-width: 100%!important;
+    }
+    a{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
     }
   }
 }
 
 @media screen and (max-width: 499px) {
     #inputsearch{
-        input{
-            width: 100%;
-        }
+      input{
+        width: 100%;
+      }
+    }
+    #categorie{
+      @include padding-section-mobile;
+      margin: 0;
+      width: 100%;
+      align-self: center;
+      a{
+        min-width: 100%;
+      }
+      button{
+        min-width: 100%!important;
+      }
     }
     #blog{
         #blog-grid{

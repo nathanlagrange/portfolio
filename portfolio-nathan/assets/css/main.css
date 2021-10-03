@@ -6,6 +6,10 @@ h2 {
   font-size: 35px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p {
   font-size: 20px;
 }
@@ -98,10 +102,6 @@ main {
   width: 100%;
 }
 
-h1 {
-  font-size: 40px;
-}
-
 blockquote {
   font-size: 20px;
 }
@@ -126,5 +126,9 @@ button {
 
 button:hover {
   letter-spacing: 2px;
+}
+
+input {
+  border-radius: 5px !important;
 }
 /*# sourceMappingURL=main.css.map */

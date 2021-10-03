@@ -1,18 +1,18 @@
 <template>
-    <button class="button1">
-        {{ title }}
-    </button>
+  <button class="button1">
+    {{ title }}
+  </button>
 </template>
 
 <script>
-    export default {
-        props: {
-            title: {
-                type: String,
-                default: 'BOUTON'
-            }
-        }
+export default {
+  props: {
+    title: {
+      type: String,
+      default: 'BOUTON'
     }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

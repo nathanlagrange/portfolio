@@ -10,7 +10,7 @@ alt: amorce the solace comes
 categorie: musique
 ---
 
-## <b>Pour écouter le morceau, cliquer sur [ce lien](https://li.sten.to/amorce) 🎶.</b>
+### <b>Pour écouter le morceau, cliquer sur [ce lien](https://li.sten.to/amorce) 🎶.</b>
 
 <div class="sep-50"></div>
 
@@ -24,7 +24,7 @@ categorie: musique
 
 <div class="sep-50"></div>
 
-## Crédits :
+### Crédits :
 
 
 <br>

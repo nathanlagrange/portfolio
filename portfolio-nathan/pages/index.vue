@@ -7,7 +7,7 @@
           <h1>nathan<b>lagrange</b></h1>
           <div class="sep-30" />
           <h2>
-            Développeur front-end
+            Développeur front-end (VueJS)
             <br>
             Webmaster <a href="https://hermione.co" target="_blank">@hermione.co</a>
             <br>

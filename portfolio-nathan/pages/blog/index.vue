@@ -13,6 +13,9 @@
     </section>
     <div class="sep-40" />
     <div id="categorie">
+      <nuxt-link to="/blog">
+        <button2 title="Tout" />
+      </nuxt-link>
       <nuxt-link to="/blog/webdesign">
         <button1 title="Web design" />
       </nuxt-link>
@@ -40,6 +43,9 @@
           </nuxt-link>
         </div>
       </div>
+      <div class="sep-50" />
+      <div class="sep-20" />
+      <div id="seemore" @click="nolimit()"><button1 title="Afficher plus" /></div>
     </section>
   </div>
 </template>
@@ -50,6 +56,7 @@ export default {
   async asyncData ({ $content, params }) {
     const blog = await $content('blog', params.slug)
       .only(['title', 'date', 'extrait', 'slug', 'id', 'img', 'alt'])
+      .limit(12)
       .sortBy('id', 'desc')
       .fetch()
     return { blog }
@@ -70,6 +77,13 @@ export default {
   methods: {
     reload () {
       location.reload()
+    },
+    async nolimit () {
+      this.blog = await this.$content('blog')
+        .sortBy('id', 'desc')
+        .limit()
+        .fetch()
+      document.getElementById('seemore').style.display = 'none'
     }
   }
 }

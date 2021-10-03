@@ -103,10 +103,14 @@ export default {
     position: fixed;
     box-sizing: border-box;
     @include padding-section;
-    transition: all 0.3s ease-out;
+    transition: height 0.3s ease-out, background-color 0.3s ease-out;
+    a.nuxt-link-exact-active{
+      font-weight: bold;
+      color: $light-color!important;
+    }
     &.onScroll{
       background-color: rgba($color: #000000, $alpha: 0.4);
-      transition: all 0.5s ease-out;
+      transition: height 0.5s ease-out, background-color 0.5s ease-out;
       height: 75px;
       &:hover{
         background-color: rgba($color: #000000, $alpha: 1.0);

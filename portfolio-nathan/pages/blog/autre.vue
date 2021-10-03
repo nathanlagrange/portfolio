@@ -22,6 +22,9 @@
       <nuxt-link to="/blog/musique">
         <button1 title="Musique" />
       </nuxt-link>
+      <nuxt-link to="/blog/autre">
+        <button2 title="Autre" />
+      </nuxt-link>
     </div>
     <section id="blog">
       <div v-if="!blog.length" id="result" @click="reload()">

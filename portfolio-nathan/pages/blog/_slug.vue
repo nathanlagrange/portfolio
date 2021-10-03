@@ -1,26 +1,23 @@
 <template>
   <main>
-    <TheHeader />
+    <titlepage :title="article.title" />
+    <div id="ariane">
+      <nuxt-link to="/blog">
+        blog
+      </nuxt-link>
+      <div class="separator-ariane"><b>></b></div>
+      <nuxt-link :to="article.categorie">
+        {{ article.categorie }}
+      </nuxt-link>
+      <div class="separator-ariane"><b>></b></div>
+      <span>{{ article.slug }}</span>
+    </div>
     <section id="article-section">
       <article>
-        <div id="ariane">
-          <nuxt-link to="/blog">
-            blog
-          </nuxt-link>
-          <span class="separator-ariane"><b>></b></span>
-          <nuxt-link :to="article.categorie">
-            {{ article.categorie }}
-          </nuxt-link>
-          <span class="separator-ariane"><b>></b></span>
-          <span>{{ article.slug }}</span>
-        </div>
-        <div class="sep-30" />
         <a href="javascript:history.back()"><button1 title="Retour" /></a>
         <div class="sep-30" />
-        <h1>{{ article.title }}</h1>
-        <div class="sep-20" />
         <span id="date">{{ article.date }}</span>
-        <div class="sep-40" />
+        <div class="sep-30" />
         <p id="description">
           {{ article.description }}
         </p>
@@ -33,6 +30,7 @@
 
 <script>
 export default {
+  layout: 'default',
   async asyncData ({ $content, params }) {
     const article = await $content('blog', params.slug).fetch()
 
@@ -55,7 +53,7 @@ export default {
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.article.description
+          content: this.article.extrait
         },
         {
           hid: 'og:type',
@@ -80,7 +78,7 @@ export default {
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: this.article.description
+          content: this.article.extrait
         },
         {
           hid: 'twitter:image',
@@ -122,9 +120,24 @@ export default {
 <style lang="scss">
 @import "../../assets/css/_mixins.scss";
 @import "../../assets/css/_colors.scss";
+#ariane{
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  color: white;
+  .separator-ariane{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+      font-weight: bold;
+  }
+}
 #article-section{
   @include padding-section;
-  padding-top: 70px;
   background-color: $dark-color;
   display: flex;
   justify-content: center;
@@ -132,8 +145,8 @@ export default {
   article{
     margin-bottom: 50px;
     margin-top: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -144,13 +157,6 @@ export default {
     min-height: 120vh;
     @include padding-section;
     filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
-    #ariane{
-      width: 100%;
-      display: flex;
-      cursor: pointer;
-      font-weight: bold;
-      justify-content: center;
-    }
     h1{
       text-align: center;
     }

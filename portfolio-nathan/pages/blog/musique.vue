@@ -19,6 +19,9 @@
       <nuxt-link to="/blog/webdesign">
         <button1 title="Web design" />
       </nuxt-link>
+      <nuxt-link to="/blog/musique">
+        <button2 title="Musique" />
+      </nuxt-link>
       <nuxt-link to="/blog/autre">
         <button1 title="Autre" />
       </nuxt-link>

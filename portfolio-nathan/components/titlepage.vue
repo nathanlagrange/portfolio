@@ -21,13 +21,14 @@ export default {
   .titlepage{
     display: flex;
     align-items: center;
-    height: 30vh;
+    height: auto;
     background: $dark-color;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     @include padding-section;
+    margin-bottom: 15px;
     h1{
       color: white;
       font-weight: 400;

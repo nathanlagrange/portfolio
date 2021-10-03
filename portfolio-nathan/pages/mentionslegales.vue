@@ -113,7 +113,84 @@
           articles L.335-2 et suivants du Code de la Propriété Intellectuelle.
         </p>
         <div class="sep-50" />
-        <h2>VI. Limitations de responsabilité.</h2>
+        <h2>VI. Limitations de responsabilité</h2>
+        <div class="sep-30" />
+        <p>
+          nathanlagrange.dev agit en tant qu’éditeur du site. nathanlagrange.dev
+          est responsable de la qualité et de la véracité du Contenu qu’il publie.
+        </p>
+        <div class="sep-30" />
+        <p>
+          nathanlagrange.dev ne pourra être tenu responsable des dommages directs et indirects causés au
+          matériel de l’utilisateur, lors de l’accès au site internet nathanlagrange.dev
+          et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 4,
+          soit de l’apparition d’un bug ou d’une incompatibilité.
+        </p>
+        <p>
+          nathanlagrange.dev ne pourra également être tenu responsable des dommages indirects
+          (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation
+          du site nathanlagrange.dev.
+        </p>
+        <div class="sep-50" />
+        <h2>VII. Gestion des données personnelles</h2>
+        <div class="sep-30" />
+        <p>
+          Le Client est informé des réglementations concernant la communication marketing,
+          la loi du 21 Juin 2014 pour la confiance dans l’Economie Numérique, la Loi
+          Informatique et Liberté du 06 Août 2004 ainsi que du Règlement Général sur la
+          Protection des Données (RGPD : n° 2016-679).
+        </p>
+        <div class="sep-30" />
+        <h3>A. Responsables de la collecte des données personnelles</h3>
+        <div class="sep-30" />
+        <p>
+          Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur
+          et de sa navigation sur le Site, le responsable du traitement des Données Personnelles est : Nathan Lagrange.
+          nathanlagrange.dev est représenté par Nathan Lagrange, son représentant légal.
+        </p>
+        <div class="sep-30" />
+        <p>
+          En tant que responsable du traitement des données qu’il collecte,
+          nathanlagrange.dev s’engage à respecter le cadre des dispositions légales en vigueur.
+          Il lui appartient notamment au client d’établir les finalités de ses traitements de données,
+          de fournir à ses prospects et clients, à partir de la collecte de leurs consentements,
+          une information complète sur le traitement de leurs données personnelles et de maintenir
+          un registre des traitements conforme à la réalité.
+        </p>
+        <div class="sep-30" />
+        <p>
+          Chaque fois que nathanlagrange.dev traite des Données Personnelles, nathanlagrange.dev
+          prend toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des
+          Données Personnelles au regard des finalités pour lesquelles nathanlagrange.dev les traite.
+        </p>
+        <div class="sep-30" />
+        <h3>B. Finalité des données collectées</h3>
+        <div class="sep-30" />
+        <p>
+          nathanlagrange.dev est susceptible de traiter tout ou partie des données :
+        </p>
+        <div class="sep-30" />
+        <ul>
+          <li>
+            - pour prévenir et lutter contre la fraude informatique (spamming, hacking…) :
+            matériel informatique utilisé pour la navigation, l’adresse IP, le mot de passe (hashé)
+          </li>
+          <div class="sep-10" />
+          <li>
+            - pour améliorer la navigation sur le Site : données de connexion et d’utilisation
+          </li>
+          <div class="sep-10" />
+          <li>
+            - pour mener des enquêtes de satisfaction facultatives sur nathanlagrange.dev : adresse email, nom, prénom
+          </li>
+        </ul>
+        <div class="sep-30" />
+        <p>
+          nathanlagrange.dev ne commercialise pas vos données personnelles qui sont donc uniquement
+          utilisées par nécessité ou à des fins statistiques et d’analyses.
+        </p>
+        <div class="sep-30" />
+        <h3>C. Droit d’accès, de rectification et d’opposition</h3>
       </div>
     </section>
   </div>
@@ -148,8 +225,15 @@
         font-size: 35px;
         width: 100%;
       }
+      h3{
+        text-align: left;
+        width: 100%;
+      }
       p{
         width: 100%;
+      }
+      li{
+        list-style-type: none;
       }
     }
   }
@@ -163,6 +247,9 @@
         width: 100%;
         h2{
           font-size: 25px;
+        }
+        h3{
+          font-size: 20px;
         }
       }
     }
