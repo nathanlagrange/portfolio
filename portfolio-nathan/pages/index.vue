@@ -7,11 +7,11 @@
           <h1>nathan<b>lagrange</b></h1>
           <div class="sep-30" />
           <h2>
-            Développeur front-end (VueJS)
+            { Développeur front-end (VueJS)
             <br>
             Webmaster <a href="https://hermione.co" target="_blank">@hermione.co</a>
             <br>
-            Bachelor 3 Web Design @MyDigitalSchool
+            Bachelor 3 Web Design @MyDigitalSchool }
           </h2>
           <div class="sep-30" />
           <blockquote>
@@ -77,7 +77,8 @@ export default {
   },
   data () {
     return {
-      title: 'Nathan Lagrange - Développeur front-end'
+      title: 'Nathan Lagrange - Développeur front-end',
+      description: 'Je m\'appelle Nathan Lagrange et je vous souhaite la bienvenue sur mon portfolio (dev, web design et musique).'
     }
   },
   head () {
@@ -87,7 +88,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Je m\'appelle Nathan Lagrange et je vous souhaite la bienvenue sur mon portfolio (dev, web design et musique).'
+          content: this.description
         },
         { property: 'og:site_name', content: 'Nathan Lagrange - Développeur front-end' },
         { hid: 'og:type', property: 'og:type', content: 'page' },
@@ -99,17 +100,17 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'Nathan Lagrange - Développeur Front-end'
+          content: this.title
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'Je m\'appelle Nathan Lagrange et vous souhaite la bienvenue sur mon site portfolio (dev, web design et musique).'
+          content: this.description
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://i.imgur.com/QxkJmkT.jpg'
+          content: 'https://ucarecdn.com/8f1d6f69-d3e4-41d1-b1d1-8f9e64322e49/ogimageindex.webp'
         },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
@@ -123,17 +124,17 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Nathan Lagrange - Développeur front-end'
+          content: this.title
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: 'Je vous souhaite la bienvenue sur mon site portfolio (dev, web design et musique).'
+          content: this.description
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: 'https://i.imgur.com/QxkJmkT.jpg'
+          content: 'https://ucarecdn.com/8f1d6f69-d3e4-41d1-b1d1-8f9e64322e49/ogimageindex.webp'
         }
       ],
       link: [
@@ -200,7 +201,7 @@ export default {
         font-weight: 300;
         background-color: $cold-color;
         @include border-radius;
-        max-width: 410px;
+        max-width: 420px;
         padding: 15px;
         a{
           color: inherit;

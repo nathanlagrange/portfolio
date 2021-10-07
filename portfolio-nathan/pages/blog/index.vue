@@ -1,6 +1,6 @@
 <template>
   <div>
-    <titlepage title="Blog" />
+    <titlepage title="Blog 📝" />
     <div class="sep-20" />
     <section id="inputsearch">
       <input
@@ -45,7 +45,9 @@
       </div>
       <div class="sep-50" />
       <div class="sep-20" />
-      <div id="seemore" @click="nolimit()"><button1 title="Afficher plus" /></div>
+      <div id="seemore" @click="nolimit()">
+        <button1 title="Afficher plus" />
+      </div>
     </section>
   </div>
 </template>

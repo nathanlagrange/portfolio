@@ -50,6 +50,12 @@
 <script>
 import anime from 'animejs/lib/anime.es.js'
 export default {
+  data () {
+    return {
+      title: 'Musique | Nathan Lagrange - Développeur front-end',
+      description: 'Je produis de la musique électronique sous le nom de The Solace Comes depuis mes 18 ans. Voici l\'ensemble de mes morceaux composés !'
+    }
+  },
   mounted () {
     this.animateEYE1()
     this.animateEYE2()
@@ -91,6 +97,71 @@ export default {
         direction: 'alternate',
         loop: true
       })
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        },
+        { property: 'og:site_name', content: 'Nathan Lagrange - Développeur front-end' },
+        { hid: 'og:type', property: 'og:type', content: 'page' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://ucarecdn.com/ef3c0424-626b-4624-a7b6-96348e9fcc8e/ogimagemusique.webp'
+        },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { name: 'twitter:site', content: '@nathanlagrange' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.title
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: 'https://ucarecdn.com/ef3c0424-626b-4624-a7b6-96348e9fcc8e/ogimagemusique.webp'
+        }
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://nathanlagrange.dev'
+        }
+      ]
     }
   }
 }

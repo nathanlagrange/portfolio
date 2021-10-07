@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div>
     <titlepage :title="article.title" />
     <div id="ariane">
       <nuxt-link to="/blog">
@@ -25,7 +25,7 @@
         <nuxt-content :document="article" />
       </article>
     </section>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -33,12 +33,11 @@ export default {
   layout: 'default',
   async asyncData ({ $content, params }) {
     const article = await $content('blog', params.slug).fetch()
-
     return { article }
   },
   head () {
     return {
-      title: this.article.title + ' | Nathan Lagrange',
+      title: this.article.title + ' | Nathan Lagrange - Développeur front-end',
       meta: [
         {
           hid: 'description',

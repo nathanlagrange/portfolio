@@ -18,6 +18,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: "https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" }
     ]
   },
 
@@ -46,9 +49,13 @@ export default {
     // https://go.nuxtjs.dev/
     '@nuxt/content',
     '@nuxtjs/axios',
+    '@nuxtjs/robots',
     '@nuxtjs/sitemap' // toujours en dernier dans la liste des modules
   ],
-
+  robots: {
+    UserAgent: '*',
+    Disallow: '/mentionslegales',
+  },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 

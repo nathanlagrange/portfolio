@@ -3,11 +3,12 @@ title: "RELEASE : Rêverb"
 slug: reverb-release
 date: '27 août 2021'
 description: "Je vous présente Rêverb, mon deuxième morceau sous le nom de The Solace Comes et ma première collaboration avec le groupe O'low. Le morceau mélange des sonorités dance et rap. Il est disponible sur toutes les plateformes et en téléchargement sur la page 'Musique' de mon site."
-extrait: "Presque 2 ans après Amorce, voici Rêverb, ma deuxième track en collaboration avec O'low"
+extrait: "Presque 2 ans après Amorce, voici Rêverb, ma deuxième track en collaboration avec O'low."
 id: '0027'
-img: https://i.imgur.com/4gvxT6J.gif
+img: https://ucarecdn.com/3a4bf789-8fa8-4909-9a35-370545197d02/
 alt: rêverb the solace comes o'low
 categorie: musique
+année: 2021
 ---
 
 ### <b>Pour écouter le morceau, cliquer sur [ce lien](http://smarturl.it/reverb-release/) 🎶.</b>

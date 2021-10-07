@@ -5,9 +5,10 @@ date: '01 novembre 2019'
 description: "Je compose et mixe de la musique sous le nom de The Solace Comes. Amorce est le premier morceau que j'ai produit, avec l'artiste Anaysa. Un morceau dans le style French pop avec mes principales influences (Daft Punk, Madeon, ...) et des sonorités trap. Le morceau est disponible sur toutes les plateformes de streaming et en téléchargement sur Bandcamp."
 extrait: "Amorce est le premier morceau que j'ai produit avec l'artiste Anaysa. Disponible sur toutes les plateformes de streaming."
 id: '0000'
-img: https://i.imgur.com/pMCcB1Z.gif
+img: https://ucarecdn.com/b65c2845-f350-4d0d-ab50-097f7b95c835/
 alt: amorce the solace comes
 categorie: musique
+année: 2019
 ---
 
 ### <b>Pour écouter le morceau, cliquer sur [ce lien](https://li.sten.to/amorce) 🎶.</b>

@@ -92,6 +92,7 @@ p {
 html {
   font-family: 'Manrope';
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 body {

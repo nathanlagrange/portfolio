@@ -1,7 +1,7 @@
 <template>
-    <section class="titlepage">
-        <h1>{{ title }}</h1>
-    </section>
+  <section class="titlepage">
+    <h1>{{ title }}</h1>
+  </section>
 </template>
 
 <script>
@@ -21,8 +21,7 @@ export default {
   .titlepage{
     display: flex;
     align-items: center;
-    height: auto;
-    background: $dark-color;
+    height: 30vh;
     width: 100%;
     padding-top: 120px;
     display: flex;

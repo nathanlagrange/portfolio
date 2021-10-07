@@ -14,7 +14,7 @@
         </p>
         <div class="sep-30" />
         <p>
-          <strong>Propriétaire</strong> :   Nathan Lagrange – 80 rue de Redon 35580 Guichen
+          <strong>Propriétaire</strong> : Nathan Lagrange – 80 rue de Redon 35580 Guichen
           <br>
           <strong>Responsable publication</strong> : Nathan Lagrange – nathanlagrange98@gmail.com<br>
         </p>
@@ -191,6 +191,75 @@
         </p>
         <div class="sep-30" />
         <h3>C. Droit d’accès, de rectification et d’opposition</h3>
+        <div class="sep-30" />
+        <p>
+          Conformément à la réglementation européenne en vigueur, les Utilisateurs de nathanlagrange.dev disposent des droits suivants :
+        </p>
+        <div class="sep-30" />
+        <ul>
+          <li>
+            - droit d'accès (article 15 RGPD) et de rectification (article 16 RGPD), de mise à jour,
+            de complétude des données des Utilisateurs droit de verrouillage ou d’effacement des données
+            des Utilisateurs à caractère personnel (article 17 du RGPD), lorsqu’elles sont inexactes,
+            incomplètes, équivoques, périmées, ou dont la collecte, l'utilisation, la communication ou
+            la conservation est interdite.
+          </li>
+           <div class="sep-10" />
+          <li>
+            - droit de retirer à tout moment un consentement (article 13-2c RGPD)
+          </li>
+          <div class="sep-10" />
+          <li>
+            - droit à la limitation du traitement des données des Utilisateurs (article 18 RGPD)
+          </li>
+          <div class="sep-10" />
+          <li>
+            - droit d’opposition au traitement des données des Utilisateurs (article 21 RGPD)
+          </li>
+          <div class="sep-10" />
+          <li>
+            - droit à la portabilité des données que les Utilisateurs auront fournies, lorsque ces données
+            font l’objet de traitements automatisés fondés sur leur consentement ou sur un contrat (article 20 RGPD)
+          </li>
+          <div class="sep-10" />
+          <li>
+            - droit de définir le sort des données des Utilisateurs après leur mort et de choisir à qui
+            nathanlagrange.dev devra communiquer (ou non) ses données à un tiers qu’ils aura préalablement désigné
+          </li>
+        </ul>
+        <div class="sep-30" />
+        <p>
+          Dès que nathanlagrange.dev a connaissance du décès d’un Utilisateur et à défaut
+          d’instructions de sa part, nathanlagrange.dev s’engage à détruire ses données, sauf si leur
+          conservation s’avère nécessaire à des fins probatoires ou pour répondre à une obligation légale.
+        </p>
+        <div class="sep-30" />
+        <p>
+          Si l’Utilisateur souhaite savoir comment nathanlagrange.dev
+          utilise ses Données Personnelles, demander à les rectifier ou s’oppose à leur traitement,
+          l’Utilisateur peut contacter nathanlagrange.dev par écrit à l’adresse suivante :
+        </p>
+        <div class="sep-30" />
+        <p>
+          Nathan Lagrange – DPO, Nathan Lagrange <br>
+          2595 Boulevard Paul Valéry 34070 Montpellier.
+        </p>
+        <div class="sep-30" />
+        <p>
+          Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que
+          nathanlagrange.dev corrige, mette à jour ou supprime, en
+          s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport).
+        </p>
+        <div class="sep-30" />
+        <p>
+          Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à
+          nathanlagrange.dev par la loi, notamment en matière de conservation ou d’archivage des documents.
+          Enfin, les Utilisateurs de nathanlagrange.dev peuvent déposer une réclamation auprès des autorités
+          de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).
+        </p>
+        <div class="sep-30" />
+        <h3>D. Non-communication des données personnelles</h3>
+        <div class="sep-30" />
       </div>
     </section>
   </div>
@@ -234,6 +303,7 @@
       }
       li{
         list-style-type: none;
+        color: $cold-color;
       }
     }
   }
