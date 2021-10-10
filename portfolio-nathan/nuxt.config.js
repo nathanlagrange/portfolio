@@ -42,7 +42,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@/modules/generator',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -90,5 +91,9 @@ export default {
     duration: 5000,
     continuous: true,
     failedColor: 'red'
+  },
+  
+  googleAnalytics: {
+    id: 'G-WX4Y787MBD'
   }
 }
