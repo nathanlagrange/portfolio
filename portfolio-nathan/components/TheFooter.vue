@@ -18,9 +18,6 @@
         <nuxt-link to="/musique">
           <li>musique</li>
         </nuxt-link>
-        <nuxt-link to="/contact">
-          <li>contact</li>
-        </nuxt-link>
         <nuxt-link to="/mentionslegales">
           <li>mentions légales</li>
         </nuxt-link>
@@ -28,9 +25,10 @@
     </div>
     <div id="footer-icon">
       <a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank"><img src="../assets/img/icon/linkedin.svg" alt="linkedin nathan lagrange"></a>
-      <nuxt-link to="/contact">
+      <a href="https://github.com/nathanlagrange" target="_blank"><img src="../assets/img/icon/github-logo.svg" alt="github"></a>
+      <a href="mailto:nathanlagrange98@gmail.com" target="_blank">
         <img src="../assets/img/icon/envelope.svg" alt="contact nathan lagrange">
-      </nuxt-link>
+      </a>
     </div>
     <div id="footer-meta">
       <span>{{ date }} - Tout droits réservés - <b>nathanlagrange.dev</b></span>

@@ -34,7 +34,9 @@
           </p>
           <div class="sep-20" />
           <p id="cv-dl">
-            <a href="../assets/files/cv-lagrange.pdf" download><img src="../assets/img/icon/download.svg" alt="télécharger"><u><b>Télécharger mon CV</b></u></a>
+            <nuxt-link to="/cv">
+              <img src="../assets/img/icon/download.svg" alt="télécharger"><u><b>Télécharger mon CV</b></u>
+            </nuxt-link>
           </p>
         </div>
       </div>
@@ -144,6 +146,16 @@ export default {
           href: 'https://nathanlagrange.dev'
         }
       ]
+    }
+  },
+  mounted () {
+    this.rotateprofil()
+  },
+  methods: {
+    rotateprofil () {
+      document.getElementById('profil__pic').addEventListener('mouseover', function () {
+        document.getElementById('profil__pic').style.transform = 'rotate(0deg)'
+      })
     }
   }
 }
@@ -255,10 +267,6 @@ export default {
       opacity: 1;
       transition: transform 0.3s ease-out;
       transform: rotate(4deg);
-      &:hover{
-        transform: rotate(0deg);
-        transition: transform 0.3s ease-out;
-      }
     }
   }
 }

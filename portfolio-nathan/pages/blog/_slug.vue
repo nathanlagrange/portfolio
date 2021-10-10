@@ -5,11 +5,15 @@
       <nuxt-link to="/blog">
         blog
       </nuxt-link>
-      <div class="separator-ariane"><b>></b></div>
+      <div class="separator-ariane">
+        <b>></b>
+      </div>
       <nuxt-link :to="article.categorie">
         {{ article.categorie }}
       </nuxt-link>
-      <div class="separator-ariane"><b>></b></div>
+      <div class="separator-ariane">
+        <b>></b>
+      </div>
       <span>{{ article.slug }}</span>
     </div>
     <section id="article-section">
@@ -82,7 +86,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.article.image
+          content: this.article.img
         },
         {
           hid: 'og:image',
@@ -216,11 +220,21 @@ export default {
 
 @media screen and (max-width: 450px) {
   #article-section{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0!important;
+    padding-right: 0!important;
     article{
       border-radius: 0;
       width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #ariane{
+    flex-direction: column;
+    text-align: center;
+    .separator-ariane{
+      transform: rotate(90deg);
     }
   }
 }

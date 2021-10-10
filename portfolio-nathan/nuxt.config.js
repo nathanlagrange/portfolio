@@ -41,7 +41,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@/modules/generator'
+    '@/modules/generator',
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -58,6 +59,13 @@ export default {
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
+
+  googleFonts: {
+    families: {
+      Manrope: [300, 400, 500, 600, 700, 800]
+    },
+    display: 'swap'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

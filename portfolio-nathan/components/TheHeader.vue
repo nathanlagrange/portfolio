@@ -18,15 +18,13 @@
       <nuxt-link to="/musique">
         <li>Musique</li>
       </nuxt-link>
-      <nuxt-link to="/contact">
-        <li>Contact</li>
-      </nuxt-link>
     </ul>
     <div id="nav-social">
-      <a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank"><img id="linkedin" src="../assets/img/icon/linkedin.svg" alt="linkedin"></a>
-      <nuxt-link to="/contact">
+      <a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank"><img src="../assets/img/icon/linkedin.svg" alt="linkedin"></a>
+      <a href="https://github.com/nathanlagrange" target="_blank"><img id="github" src="../assets/img/icon/github-logo.svg" alt="github"></a>
+      <a href="mailto:nathanlagrange98@gmail.com" target="_blank">
         <img id="envelope" src="../assets/img/icon/envelope.svg" alt="envelope">
-      </nuxt-link>
+      </a>
     </div>
     <div id="burger">
       <div id="line__1" class="line" />
@@ -46,9 +44,6 @@
         </nuxt-link>
         <nuxt-link to="/musique">
           <li>Musique</li>
-        </nuxt-link>
-        <nuxt-link to="/contact">
-          <li>Contact</li>
         </nuxt-link>
       </ul>
     </div>
@@ -172,8 +167,9 @@ export default {
           transition: opacity 0.3s ease;
         }
       }
-      #linkedin{
-        margin-right: 10px;
+      #github{
+        margin-right: 15px;
+        margin-left: 15px;
       }
     }
     #burger{

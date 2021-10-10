@@ -21,7 +21,7 @@ export default {
   .titlepage{
     display: flex;
     align-items: center;
-    height: 30vh;
+    min-height: 30vh;
     width: 100%;
     padding-top: 120px;
     display: flex;

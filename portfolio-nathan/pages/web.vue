@@ -50,8 +50,10 @@
           <div class="web-blockmeta__p">
             <p>
               Ce projet est le fruit d’une partie de mon stage de fin d’IUT en développement web.
-              <strong>Je me suis chargé de la critique de l’existant, de la création de l’expérience utilisateur
-              et du développement du site.</strong>
+              <strong>
+                Je me suis chargé de la critique de l’existant, de la création de l’expérience utilisateur
+                et du développement du site.
+              </strong>
             </p>
             <br>
             <p>
@@ -77,8 +79,11 @@
           <div class="web-blockmeta__p">
             <p>
               Je souhaitais me faire la main sur <strong>le framework Vue JS (Nuxt)</strong> et malgré un processus
-              laborieux pour maitriser cette technologie, j’ai pu mieux <strong>appréhender l’environnement de
-              Node JS</strong>  et découvrir mon potentiel avec cet outil.
+              laborieux pour maitriser cette technologie, j’ai pu mieux
+              <strong>
+                appréhender l’environnement de Node JS
+              </strong>
+              et découvrir mon potentiel avec cet outil.
             </p>
             <br>
             <p>
@@ -103,8 +108,9 @@ export default {
   layout: 'default',
   data () {
     return {
-      title: 'Web / Nathan Lagrange - Développeur front-end',
-      description: 'Cette page regroupe l\'ensemble des sites que j\'ai conçu et développé.'
+      title: 'Web | Nathan Lagrange - Développeur front-end',
+      description: 'Cette page regroupe l\'ensemble des sites que j\'ai conçu et développé.',
+      ogimage: 'https://ucarecdn.com/eb4d88f8-221e-45b6-b2dc-300c468af139/ogimageweb.webp'
     }
   },
   head () {
@@ -136,7 +142,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://i.imgur.com/QxkJmkT.jpg'
+          content: this.ogimage
         },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
@@ -160,7 +166,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: 'https://i.imgur.com/QxkJmkT.jpg'
+          content: this.ogimage
         }
       ],
       link: [
@@ -353,6 +359,7 @@ export default {
     .container-web{
       flex-direction: column !important;
       padding: 0!important;
+      margin-bottom: 50px;
     }
     .web-blockimg{
       display: none!important;

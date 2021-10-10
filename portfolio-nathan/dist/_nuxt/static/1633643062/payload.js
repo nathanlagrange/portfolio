@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{articles:[{slug:"charte-graphique-hermione-medecine",title:"Charte graphique hermione.co",date:"04 octobre 2021",id:"0028"},{slug:"reverb-release",title:"RELEASE : Rêverb",date:"27 août 2021",id:"0027"},{slug:"21w26",title:"Template emailing #21w26",date:"27 juin 2021",id:"0026"}]}],fetch:{},mutations:void 0});

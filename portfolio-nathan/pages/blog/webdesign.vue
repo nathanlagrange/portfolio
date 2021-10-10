@@ -1,6 +1,6 @@
 <template>
   <div>
-    <titlepage title='Catégorie : "webdesign"' />
+    <titlepage title="Catégorie : 'webdesign'" />
     <div class="sep-20" />
     <section id="inputsearch">
       <input
@@ -22,8 +22,8 @@
       <nuxt-link to="/blog/musique">
         <button1 title="Musique" />
       </nuxt-link>
-      <nuxt-link to="/blog/autre">
-        <button1 title="Autre" />
+      <nuxt-link to="/blog/experiencepro">
+        <button1 title="Expérience pro" />
       </nuxt-link>
     </div>
     <section id="blog">
@@ -45,7 +45,9 @@
       </div>
       <div class="sep-50" />
       <div class="sep-20" />
-      <div id="seemore" @click="nolimit()"><button1 title="Afficher plus" /></div>
+      <div id="seemore" @click="nolimit()">
+        <button1 title="Afficher plus" />
+      </div>
     </section>
   </div>
 </template>
@@ -64,7 +66,75 @@ export default {
   },
   data () {
     return {
-      searchQuery: ''
+      searchQuery: '',
+      title: 'Catégorie : web design | Nathan Lagrange - Développeur front-end',
+      description: 'Ce blog regroupe mes productions en webdesign, musique et autres inclassables...',
+      ogimage: 'https://ucarecdn.com/aecefba6-372d-4a80-87c2-ee0c96bb54dc/ogimageblog.webp'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        },
+        { property: 'og:site_name', content: 'Nathan Lagrange - Développeur front-end' },
+        { hid: 'og:type', property: 'og:type', content: 'page' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://nathanlagrange.dev/blog/webdesign'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.ogimage
+        },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { name: 'twitter:site', content: '@nathanlagrange' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.title
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.ogimage
+        }
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://nathanlagrange.dev'
+        }
+      ]
     }
   },
   watch: {

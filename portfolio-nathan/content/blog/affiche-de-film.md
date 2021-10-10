@@ -8,7 +8,6 @@ id: '000'
 img: https://i.postimg.cc/15HR9gcP/etlesviolonsnechanterontpas.webp
 alt: "affiche de film"
 video-url: https://youtu.be/psyHilqXjSc
-categorie: autre
 année: 2015
 ---
 

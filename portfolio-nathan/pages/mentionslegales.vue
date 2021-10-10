@@ -204,7 +204,7 @@
             incomplètes, équivoques, périmées, ou dont la collecte, l'utilisation, la communication ou
             la conservation est interdite.
           </li>
-           <div class="sep-10" />
+          <div class="sep-10" />
           <li>
             - droit de retirer à tout moment un consentement (article 13-2c RGPD)
           </li>
@@ -260,10 +260,132 @@
         <div class="sep-30" />
         <h3>D. Non-communication des données personnelles</h3>
         <div class="sep-30" />
+        <p>
+          nathanlagrange.dev s’interdit de traiter, héberger ou transférer les Informations collectées
+          sur ses Clients vers un pays situé en dehors de l’Union européenne ou reconnu comme « non adéquat »
+          par la Commission européenne sans en informer préalablement le client. Pour autant, nathanlagrange.dev
+          reste libre du choix de ses sous-traitants techniques et commerciaux à la condition qu’ils
+          présentent les garanties suffisantes au regard des exigences du Règlement Général sur la
+          Protection des Données (RGPD : n° 2016-679).
+        </p>
+        <div class="sep-30" />
+        <p>
+          nathanlagrange.dev s’engage à prendre toutes les précautions nécessaires afin de préserver la sécurité
+          des Informations et notamment qu’elles ne soient pas communiquées à des personnes non autorisées.
+          Cependant, si un incident impactant l’intégrité ou la confidentialité des Informations du Client est portée
+          à la connaissance de nathanlagrange.dev, celle-ci devra dans les meilleurs délais informer le Client
+          et lui communiquer les mesures de corrections prises. Par ailleurs nathanlagrange.dev ne collecte
+          aucune « données sensibles ».
+        </p>
+        <div class="sep-30" />
+        <h2>VIII. Balises (“tags”) internet</h2>
+        <div class="sep-30" />
+        <p>
+          nathanlagrange.dev peut employer occasionnellement des balises Internet (également appelées « tags »,
+          ou balises d’action, GIF à un pixel, GIF transparents, GIF invisibles et GIF un à un) et les déployer
+          par l’intermédiaire d’un partenaire spécialiste d’analyses Web susceptible de se trouver
+          (et donc de stocker les informations correspondantes, y compris l’adresse IP de l’Utilisateur)
+          dans un pays étranger.
+        </p>
+        <div class="sep-30" />
+        <p>
+          Cette technologie permet à nathanlagrange.dev d’évaluer les réponses des visiteurs face
+          au Site et l’efficacité de ses actions (par exemple, le nombre de fois où une page est ouverte
+          et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur.
+          Le prestataire externe pourra éventuellement recueillir des informations sur les visiteurs
+          du Site et d’autres sites Internet grâce à ces balises, constituer des rapports sur l’activité
+          du Site à l’attention de nathanlagrange.dev, et fournir d’autres services relatifs à l’utilisation
+          de celui-ci et d’Internet.
+        </p>
+        <div class="sep-30" />
+        <h2>Droit applicable et attribution de juridiction</h2>
+        <div class="sep-30" />
+        <p>
+          Tout litige en relation avec l’utilisation du site nathanlagrange.dev est soumis au droit français.
+          En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction
+          aux tribunaux compétents de Montpellier.
+        </p>
       </div>
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      title: 'Mentions légales | Nathan Lagrange - Développeur front-end',
+      description: 'nathanlagrange.dev, page mentions légales',
+      ogimage: 'https://ucarecdn.com/8f1d6f69-d3e4-41d1-b1d1-8f9e64322e49/ogimageindex.webp'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        },
+        { property: 'og:site_name', content: 'Nathan Lagrange - Développeur front-end' },
+        { hid: 'og:type', property: 'og:type', content: 'page' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://nathanlagrange.dev/blog/musique'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.ogimage
+        },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { name: 'twitter:site', content: '@nathanlagrange' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.title
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.ogimage
+        }
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://nathanlagrange.dev'
+        }
+      ]
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
   @import "../assets/css/_mixins.scss";

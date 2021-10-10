@@ -56,49 +56,6 @@ export default {
       description: 'Je produis de la musique électronique sous le nom de The Solace Comes depuis mes 18 ans. Voici l\'ensemble de mes morceaux composés !'
     }
   },
-  mounted () {
-    this.animateEYE1()
-    this.animateEYE2()
-    this.reverbTITLE()
-  },
-  methods: {
-    animateEYE1 () {
-      anime({
-        targets: '#eye-l',
-        translateY () {
-          return anime.random(-10, 50)
-        },
-        loop: true,
-        direction: 'alternate',
-        duration: 2000,
-        easing: 'easeOutInCubic'
-      })
-    },
-    animateEYE2 () {
-      anime({
-        targets: '#eye-r',
-        translateY () {
-          return anime.random(-40, 50)
-        },
-        delay: 500,
-        loop: true,
-        direction: 'alternate',
-        duration: 2000,
-        easing: 'easeOutInCubic'
-      })
-    },
-    reverbTITLE () {
-      anime({
-        targets: '#reverbtitle',
-        strokeDashoffset: [anime.setDashoffset, 0],
-        easing: 'easeInOutSine',
-        duration: 2000,
-        delay (el, i) { return i * 250 },
-        direction: 'alternate',
-        loop: true
-      })
-    }
-  },
   head () {
     return {
       title: this.title,
@@ -162,6 +119,49 @@ export default {
           href: 'https://nathanlagrange.dev'
         }
       ]
+    }
+  },
+  mounted () {
+    this.animateEYE1()
+    this.animateEYE2()
+    this.reverbTITLE()
+  },
+  methods: {
+    animateEYE1 () {
+      anime({
+        targets: '#eye-l',
+        translateY () {
+          return anime.random(-10, 50)
+        },
+        loop: true,
+        direction: 'alternate',
+        duration: 2000,
+        easing: 'easeOutInCubic'
+      })
+    },
+    animateEYE2 () {
+      anime({
+        targets: '#eye-r',
+        translateY () {
+          return anime.random(-40, 50)
+        },
+        delay: 500,
+        loop: true,
+        direction: 'alternate',
+        duration: 2000,
+        easing: 'easeOutInCubic'
+      })
+    },
+    reverbTITLE () {
+      anime({
+        targets: '#reverbtitle',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: 'easeInOutSine',
+        duration: 2000,
+        delay (el, i) { return i * 250 },
+        direction: 'alternate',
+        loop: true
+      })
     }
   }
 }

@@ -1,0 +1,23 @@
+@import '_mixins.scss';
+@import '_colors.scss';
+
+::-webkit-scrollbar {
+    width: 7px;
+    @include border-radius;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: $bg-color;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $cold-color;
+    @include border-radius;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
