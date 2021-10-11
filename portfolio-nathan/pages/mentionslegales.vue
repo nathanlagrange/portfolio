@@ -1,7 +1,7 @@
 <template>
   <div>
     <section id="titre">
-      <titlepage title="Mentions légales" />
+      <titlepage title="Mentions légales 🧾" />
     </section>
     <section id="mention">
       <div id="mention-block">

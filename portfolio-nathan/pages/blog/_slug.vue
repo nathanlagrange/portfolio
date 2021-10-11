@@ -218,6 +218,16 @@ export default {
   }
 }
 
+@media screen and (max-width: 599px) {
+  #ariane{
+    flex-direction: column;
+    text-align: center;
+    .separator-ariane{
+      transform: rotate(90deg);
+    }
+  }
+}
+
 @media screen and (max-width: 450px) {
   #article-section{
     padding-left: 0!important;
@@ -225,16 +235,6 @@ export default {
     article{
       border-radius: 0;
       width: 100%;
-    }
-  }
-}
-
-@media screen and (max-width: 320px) {
-  #ariane{
-    flex-direction: column;
-    text-align: center;
-    .separator-ariane{
-      transform: rotate(90deg);
     }
   }
 }

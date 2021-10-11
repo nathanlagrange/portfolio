@@ -42,8 +42,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@/modules/generator',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -52,6 +51,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/axios',
     '@nuxtjs/robots',
+    '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap' // toujours en dernier dans la liste des modules
   ],
   robots: {
