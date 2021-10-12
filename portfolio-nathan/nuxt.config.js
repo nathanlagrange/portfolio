@@ -18,9 +18,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    script: [
-      { src: "https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" }
     ]
   },
 
@@ -57,6 +54,9 @@ export default {
   robots: {
     UserAgent: '*',
     Disallow: '/mentionslegales',
+    Disallow: '/blog/musique',
+    Disallow: '/blog/experiencepro',
+    Disallow: 'blog/webdesign/'
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

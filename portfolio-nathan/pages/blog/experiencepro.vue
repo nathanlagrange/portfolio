@@ -53,7 +53,7 @@ export default {
   async asyncData ({ $content, params }) {
     const blog = await $content('blog', params.slug)
       .only(['title', 'date', 'createdAt', 'extrait', 'slug', 'id', 'img', 'alt'])
-      .where({ categorie: 'experience professionnelle' })
+      .where({ categorie: 'experiencepro' })
       .sortBy('id', 'desc')
       .fetch()
     return { blog }

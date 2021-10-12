@@ -4,7 +4,8 @@
     <section id="top-web">
       <div id="top-web__box">
         <p>Cette page est en construction...</p>
-        <p><strong>Work in progress ⏳ !</strong></p>
+        <div class="sep-10" />
+        <p><strong>Patience ⏳ !</strong></p>
       </div>
       <div id="top-web__img">
         <a href="#" target="_self">
