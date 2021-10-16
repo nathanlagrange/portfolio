@@ -1,6 +1,6 @@
 <template>
   <section>
-    <nuxt-link to="/web">
+    <nuxt-link to="/blog/web">
       <button3 title="Voir plus" />
     </nuxt-link>
     <div class="sep-50" />

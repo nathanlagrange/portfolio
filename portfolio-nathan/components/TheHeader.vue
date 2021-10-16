@@ -9,9 +9,6 @@
       <nuxt-link to="/">
         <li>Accueil</li>
       </nuxt-link>
-      <nuxt-link to="/web">
-        <li>Web</li>
-      </nuxt-link>
       <nuxt-link to="/blog">
         <li>Blog</li>
       </nuxt-link>
@@ -35,9 +32,6 @@
       <ul id="menu-phone__list" @click="closeNav()">
         <nuxt-link to="/">
           <li>Accueil</li>
-        </nuxt-link>
-        <nuxt-link to="/web">
-          <li>Web</li>
         </nuxt-link>
         <nuxt-link to="/blog">
           <li>Blog</li>

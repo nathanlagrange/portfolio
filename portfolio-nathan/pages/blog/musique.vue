@@ -1,6 +1,6 @@
 <template>
   <div>
-    <titlepage title="Catégorie : 'musique'" />
+    <titlepage title="Catégorie : 'Musique'" />
     <div class="sep-20" />
     <section id="inputsearch">
       <input
@@ -19,8 +19,8 @@
       <nuxt-link to="/blog/webdesign">
         <button1 title="Web design" />
       </nuxt-link>
-      <nuxt-link to="/blog/musique">
-        <button2 title="Musique" />
+      <nuxt-link to="/blog/web">
+        <button1 title="Web" />
       </nuxt-link>
       <nuxt-link to="/blog/experiencepro">
         <button1 title="Expérience pro" />
@@ -61,7 +61,7 @@ export default {
   data () {
     return {
       searchQuery: '',
-      title: 'Catégorie : musique | Nathan Lagrange - Développeur front-end',
+      title: 'Catégorie : Musique | Nathan Lagrange - Développeur front-end',
       description: 'Ce blog regroupe mes productions en webdesign, musique et autres inclassables...',
       ogimage: 'https://ucarecdn.com/aecefba6-372d-4a80-87c2-ee0c96bb54dc/ogimageblog.webp'
     }

@@ -1,2 +1,6 @@
-User-agent: *
-Disallow: blog/webdesign/
+User-agent: Googlebot
+Disallow: /blog/musique
+Disallow: /blog/webdesign
+Disallow: /blog/web
+Disallow: /blog/experiencepro
+Disallow: /mentionslegales

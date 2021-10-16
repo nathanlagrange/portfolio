@@ -7,8 +7,8 @@ extrait: "Amorce est le premier morceau que j'ai produit avec l'artiste Anaysa. 
 id: '0000'
 img: https://ucarecdn.com/b65c2845-f350-4d0d-ab50-097f7b95c835/
 alt: amorce the solace comes
-categorie: musique
 année: 2019
+categorie: musique
 ---
 
 ### <b>Pour écouter le morceau, cliquer sur [ce lien](https://li.sten.to/amorce) 🎶.</b>
@@ -25,8 +25,7 @@ année: 2019
 
 <div class="sep-50"></div>
 
-### Crédits :
-
+### Crédits
 
 <br>
 <p style="text-align: center">

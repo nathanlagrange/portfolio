@@ -35,7 +35,7 @@
           <div class="sep-20" />
           <p id="cv-dl">
             <nuxt-link to="/cv">
-              <img src="../assets/img/icon/download.svg" alt="télécharger"><u><b>Télécharger mon CV</b></u>
+              <img src="../assets/img/icon/download.svg" alt="télécharger"><u><b>Afficher mon CV</b></u>
             </nuxt-link>
           </p>
         </div>

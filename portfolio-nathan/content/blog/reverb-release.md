@@ -7,8 +7,8 @@ extrait: "Presque 2 ans après Amorce, voici Rêverb, ma deuxième track en coll
 id: '0027'
 img: https://ucarecdn.com/3a4bf789-8fa8-4909-9a35-370545197d02/
 alt: rêverb the solace comes o'low
-categorie: musique
 année: 2021
+categorie: musique
 ---
 
 ### <b>Pour écouter le morceau, cliquer sur [ce lien](http://smarturl.it/reverb-release/) 🎶.</b>

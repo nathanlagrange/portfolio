@@ -51,13 +51,12 @@ export default {
     '@nuxtjs/google-analytics',
     '@nuxtjs/sitemap' // toujours en dernier dans la liste des modules
   ],
-  robots: {
-    UserAgent: '*',
-    Disallow: '/mentionslegales',
-    Disallow: '/blog/musique',
-    Disallow: '/blog/experiencepro',
-    Disallow: 'blog/webdesign/'
-  },
+  robots: [
+    {
+      UserAgent: 'Googlebot',
+      Disallow: ['/blog/musique', '/blog/webdesign', '/blog/web', '/blog/experiencepro', '/mentionslegales']
+    }
+  ],
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
@@ -91,9 +90,5 @@ export default {
     duration: 5000,
     continuous: true,
     failedColor: 'red'
-  },
-  
-  googleAnalytics: {
-    id: 'G-WX4Y787MBD'
   }
 }
