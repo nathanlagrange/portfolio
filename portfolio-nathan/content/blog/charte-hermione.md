@@ -4,7 +4,7 @@ slug: charte-hermione
 date: '04 octobre 2021'
 description: "J'ai réalisé la charte graphique de Hermione, l'entreprise où je réalise mon alternance pour l'année 2021-2022. En tant que webmaster au sein de l'équipe, j'ai proposé une semi-refonte graphique du site (couleurs, boutons, font, header, papier peint, ...)."
 extrait: "La charte graphique de Hermione que j'ai réalisé à l'occasion de mon alternance à My Digital School (Bachelor 3)."
-id: '0028'
+id: '0029'
 img: https://ucarecdn.com/5ec8b852-fed0-4521-8485-2123514fadad/hermionecharteprev.webp
 alt: charte graphique hermione.co
 categorie: 'experiencepro'
