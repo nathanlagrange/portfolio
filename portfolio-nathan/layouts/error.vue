@@ -18,8 +18,8 @@ export default {
   layout: 'default',
   props: {
     error: {
-      type: String,
-      required: true
+      required: true,
+      type: String
     }
   }
 }
