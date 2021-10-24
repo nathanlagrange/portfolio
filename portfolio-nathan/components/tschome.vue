@@ -65,7 +65,6 @@
         }
         h2{
             color: white;
-            font-size: 30px;
             font-weight: 700;
             text-align: center;
         }

@@ -5,7 +5,7 @@
     <div class="sep-50" />
     <div id="grid">
       <div class="grid-assets">
-        <div class="grid-assets-block" v-for="asset in assets" :key="asset">
+        <div v-for="asset in assets" :key="asset" class="grid-assets-block">
           <img :src="asset.img" :alt="asset.alt">
           <div class="sep-10" />
           <h3>{{ asset.name }}</h3>
@@ -60,6 +60,7 @@ export default {
       }
       #grid{
         @include padding-section;
+        width: 100%;
         .grid-assets{
           width: 100%;
           display: grid;

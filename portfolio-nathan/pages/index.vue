@@ -44,22 +44,25 @@
         <div id="profil__pic" />
       </div>
     </section>
+    <bio />
     <prev-site />
     <competences />
     <section id="miniblog">
-      <h2>Blog de web design</h2>
+      <h2>Dernières réalisations</h2>
       <div class="sep-50" />
-      <div id="container-article">
-        <div v-for="article of articles" :key="article.slug" class="article-preview">
+      <div id="blog-grid">
+        <div v-for="article of articles" :key="article.slug" class="blog-grid-block">
           <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+            <img class="blog-grid-block-img" :src="article.img" :alt="article.alt">
+            <span class="date">{{ article.date }}</span>
             <h3>{{ article.title }}</h3>
-            <span>{{ article.date }}</span>
+            <p>{{ article.extrait }}</p>
+            <open-article />
           </nuxt-link>
         </div>
       </div>
-      <div class="sep-10" />
       <nuxt-link to="/blog">
-        <button2 title="En voir plus" />
+        <button2 title="Visiter le blog" />
       </nuxt-link>
     </section>
     <tschome />
@@ -71,7 +74,7 @@ export default {
   layout: 'default',
   async asyncData ({ $content, params }) {
     const articles = await $content('blog', params.slug)
-      .only(['title', 'date', 'slug', 'id'])
+      .only(['title', 'date', 'img', 'slug', 'id'])
       .sortBy('id', 'desc')
       .limit(3)
       .fetch()
@@ -161,9 +164,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import "../assets/css/_mixins.scss";
-@import "../assets/css/_colors.scss";
+<style lang="scss">
+@import "~/assets/css/_mixins.scss";
+@import "~/assets/css/_colors.scss";
 //landing section
 #landing{
   width: 100%;
@@ -318,86 +321,85 @@ export default {
   }
 }
 
-// mini blog
 #miniblog{
+  min-height: 70vh;
+  height: auto;
+  width: 100%;
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   @include padding-section;
-  height: auto;
-  background: linear-gradient(180deg, #000000 0%, #000000 100%);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: -1px;
   h2{
-      color: white;
+    color: white;
+    text-align: center;
   }
-  #container-article{
-    width: auto;
+  #blog-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 390px);
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-auto-rows: minmax(390px, auto);
+    width: 100%;
     height: auto;
-    .article-preview{
-      padding-left: 20px;
-      padding-right: 20px;
-      height: 100px;
-      width: 750px;
-      background-image: url('../assets/img/banner/banner-nl.webp');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 5px;
-      margin-bottom: 25px;
+    min-height: 500px;
+    .blog-grid-block{
+      width: 390px;
+      height: 390px;
+      color: white;
+      margin-bottom: 35px;
       a{
-        height: 100%;
-        width: 100%;
         text-decoration: none;
         color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        transition: opacity 0.3s ease;
-        &:hover{
-          opacity: 0.6;
+        .blog-grid-block-img{
+          @include border-radius;
+          width: 100%;
+          height: auto;
+          margin-bottom: 10px;
           transition: opacity 0.3s ease;
+          &:hover{
+            opacity: 0.6;
+            transition: opacity 0.3s ease;
+          }
+        }
+        .date{
+          font-size: 14px;
         }
         h3{
-          font-size: 24px;
+          font-weight: 700;
+          font-size: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
-        span{
-          font-size: 16px;
-          right: 0;
+        p{
+          font-size: 14px;
+          font-weight: 400;
+          margin-bottom: 10px;
         }
       }
     }
   }
 }
-
 @media screen and (max-width: 850px) {
   #miniblog{
     @include padding-section-mobile;
-    #container-article{
-      width: 100%;
-      .article-preview{
-        width: 100%;
-      }
-    }
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 499px) {
   #miniblog{
-    @include padding-section-mobile;
-    #container-article{
-      width: 100%;
-      .article-preview{
-        width: 100%;
+    #blog-grid{
+      grid-template-columns: repeat(auto-fit, 100%);
+      .blog-grid-block{
+        width: 100%!important;
+        height: auto;
+        margin-bottom: 0;
         a{
-          flex-direction: column;
-          justify-content: center;
-          h3{
-            text-align: center;
-            font-size: 20px;
+          .blog-grid-block-img{
+            width: 100%;
           }
         }
       }
