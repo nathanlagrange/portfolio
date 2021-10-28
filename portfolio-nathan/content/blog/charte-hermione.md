@@ -4,12 +4,76 @@ slug: charte-hermione
 date: '04 octobre 2021'
 description: "J'ai réalisé la charte graphique de Hermione, l'entreprise où je réalise mon alternance pour l'année 2021-2022. En tant que webmaster au sein de l'équipe, j'ai proposé une semi-refonte graphique du site (couleurs, boutons, font, header, papier peint, ...)."
 extrait: "La charte graphique de Hermione que j'ai réalisé à l'occasion de mon alternance à My Digital School (Bachelor 3)."
-id: '0029'
-img: https://ucarecdn.com/5ec8b852-fed0-4521-8485-2123514fadad/hermionecharteprev.webp
+id: '0030'
+img: https://ucarecdn.com/5ec8b852-fed0-4521-8485-2123514fadad/
 alt: charte graphique hermione.co
 categorie: 'experiencepro'
 année: 2021
 ---
+## Contexte et enjeux
+
+<div class="sep-50"></div>
+
+La création de cette charte graphique a été la toute première mission réalisée au sein de l'agence durant tout le mois de septembre 2021.
+<br>
+<br>
+Le site [hermione.co](https://hermione.co) ne disposait pas d'une charte précisement définie et j'ai suggéré dès le départ de **définir une identité graphique précise et en cohérence avec les valeurs de l'entreprise.**
+<br>
+<br>
+Cette charte allait être utilisée principalement sur l'ensemble du site vitrine hermione.co, son blog et les publications du compte Instagram dans le but d'harmoniser la communication de l'agence, de combler la cohérence graphique qui manquait et enfin d'afficher une identité reconnaissable et authentique. Elle a été réalisée en étroite collaboration avec Gabriel Dobricean (mon référent et fondateur de Hermione).
+<br>
+<br>
+
+### Objectifs
+
+<div class="sep-50"></div>
+
+![charte graphique hermione.co portrait chinois](https://ucarecdn.com/44436339-826a-406d-b4d5-db0ff8381ae8/-/preview/900x900/)
+
+<div class="sep-50"></div>
+
+En ayant comme prérequis de proposer une vision graphique d'un média identifiable (lié au domaine médical et à l'e-learning) et en se basant sur un ensemble de valeurs, de croyances et d'éléments visuels, j'ai construit l'univers de Hermione en proposant de
+
+<div class="sep-50"></div>
+
+<ul>
+    <li>
+        gagner du temps dans la mise en page des articles et la construction des pages du site
+    </li>
+    <li>
+        corriger le manque de cohérence graphique entre les éléments du site (boutons, containers, typographie, icônes, ...), les publications sur les autres plateformes (Instagram et Youtube) et les supports print (poster, cahier, etc.).
+    </li>
+    <li>
+        convaincre les prospects de façon qualitative avec une identité visuelle propre et indentifiable
+    </li>
+    <li>
+        restituer la vision de Hermione à travers des éléments visuels ("Le monde est injuste" symbolisé par des couleurs froides et la récompense par une couleur plus chaleureuse. L'univers de la médecine et de l'enseignement mis en avant avec divers dessins d'anatomie humaine, ...).
+    </li>
+</ul>
+
+<div class="sep-50"></div>
+
+![charte graphique hermione.co anatomie papier peint](https://ucarecdn.com/3feb8628-6c0c-4233-a0bb-85de4666180c/)
+>L'univers de la médecine et de l'enseignement mis en avant avec divers dessins d'anatomie humaine, ...)
+
+<div class="sep-50"></div>
+
+## Actions réalisés
+
+<div class="sep-50"></div>
+
+## Résultats
+
+<div class="sep-50"></div>
+
+## Preuves et témoignages
+
+<div class="sep-50"></div>
+
+## La charte graphique
+
+<div class="sep-50"></div>
+
 ![charte graphique hermione.co couleurs](https://ucarecdn.com/aa8faf38-9b03-481f-8b95-3992c7dd83f9/Couleursmin.webp)
 >Les couleurs de <a href="https://hermione.co" target="_blank">Hermione</a>
 

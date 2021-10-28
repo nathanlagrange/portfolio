@@ -192,6 +192,14 @@ export default {
       blockquote{
         text-align: center;
       }
+      ul{
+        max-width: 500px;
+        list-style-type: '-  ';
+      }
+      li{
+        margin-bottom: 15px;
+        font-size: 16px;
+      }
     }
   }
 }
@@ -214,6 +222,9 @@ export default {
     article{
       @include padding-section-mobile;
       width: 100%;
+      ul{
+        width: 85%;
+      }
     }
   }
 }

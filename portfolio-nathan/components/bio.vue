@@ -44,11 +44,14 @@
     <div id="bio-p-2">
       <p>
         Je suis <strong>diplômé d’un DUT MMI</strong> (métiers du multimédia et de l’internet) et je suis actuellement en
-        <strong>Bachelor 3 spécialisation web design.</strong> Après mes études, j’aspire à <strong>devenir un développeur
-          front-end</strong> confirmé en continuant à me former aux évolutions technologiques de mon métier.
-        Mes ambitions me donnent envie d’évoluer dans ce poste mais de m’y épanouir avant tout.
-        Ma détermination m’a permis de sortir de ma zone de confort et de découvrir mon potentiel
-        car j’estime avoir de la chance d’intégrer ce milieu professionnel.
+        <strong>Bachelor 3 spécialisation web design</strong> à l'école My Digital School de Rennes.
+        <br><br>
+        Cette dernière année d'étude devrait me permettre de diversifier mes aptitudes en design d'interface et
+        d'expérience utilisateur. Il ne m'était pas imaginable de simplement développer des interfaces web
+        mais de pouvoir agir sur la phase de conception pour comprendre le monde numérique qui m'entoure et ses enjeux.
+        <br><br>
+        Après mes études, j’aspire à <strong>devenir un développeur front-end</strong>
+        confirmé en continuant à me former parrallèlement aux évolutions technologiques de mon métier.
       </p>
     </div>
     <div class="sep-50" />
@@ -58,10 +61,11 @@
 
 <style lang="scss" scoped>
 @import "../assets/css/_mixins.scss";
+@import "../assets/css/_colors.scss";
   section{
     width: 100%;
     min-height: 100vh;
-    background-image: url('https://ucarecdn.com/930fdef9-439a-4a00-8335-b289b462ec54/-/preview/1600x1600/');
+    background: $dark-color;
     background-size: cover;
     background-position: center;
     @include padding-section;

@@ -4,7 +4,7 @@ slug: ram-illustrator
 date: '24 septembre 2021'
 description: "Ma version de la jaquette de Random Access Memories réalisée avec Illustrator durant mon cours de technique de production (je me suis toujours pas remis de leur rupture 💔)."
 extrait: "Ma version de la jaquette de Random Access Memories réalisée avec Illustrator"
-id: '0028'
+id: '0029'
 img: https://ucarecdn.com/e10ef00f-e680-4f9f-bb3b-58af6afa80ef/
 alt: random access memories
 categorie: autre
