@@ -20,7 +20,7 @@
             </span>
             <br>
             <div class="sep-10" />
-            J. Wooden
+            John Wooden
           </blockquote>
           <div class="sep-30" />
           <p>
