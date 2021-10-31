@@ -90,5 +90,8 @@ export default {
     duration: 5000,
     continuous: true,
     failedColor: 'red'
+  },
+  generate: {
+    fallback: true
   }
 }

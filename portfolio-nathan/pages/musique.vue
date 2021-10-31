@@ -15,14 +15,13 @@
         <a href="http://smarturl.it/reverb-release/" target="_blank"><img class="reverb-link" src="~/assets/img/icon/play.svg" alt="streamer rêverb"></a>
       </div>
       <div id="reverb-link-mobile">
-        <a href="https://bit.ly/3sKUCnB" target="_blank"><img class="reverb-link" src="~/assets/img/icon/download2.svg" alt="télécharger rêverb"></a>
         <a href="http://smarturl.it/reverb-release/" target="_blank"><img class="reverb-link" src="~/assets/img/icon/play.svg" alt="streamer rêverb"></a>
       </div>
-      <img id="redvision" src="~/assets/img/icon/eye.webp" alt="red vision">
+      <video id="redvision" autoplay src="~/assets/img/tsc/eye-loop.mp4" alt="red vision" />
     </section>
     <section id="video-reverb">
       <a href="https://www.youtube.com/watch?v=6jxo0qom5fw" target="_blank">
-        <video src="~/assets/video/video-reverb.webm" autoplay="autoplay" loop />
+        <video src="~/assets/img/tsc/video-reverb.mp4" autoplay="autoplay" loop />
       </a>
     </section>
     <section id="amorce">
@@ -221,8 +220,8 @@ export default {
       display: none;
     }
     #redvision{
-      width: 50px;
-      height: auto;
+      width: 80px;
+      height: 80px;
       margin-top: 10px;
     }
     #reverb-img{

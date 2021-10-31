@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/blog/web", {data:[{blog:[{slug:"helene-boyer-astro",title:"helene-boyer.com",date:"21 août 2021",extrait:"Site vitrine lié au thème de l'astrologie, développé entièrement avec Nuxt",id:"0027",img:"https:\u002F\u002Fucarecdn.com\u002F9e86506f-3d25-4a89-810b-f1badfa7948e\u002F-\u002Fpreview\u002F390x390\u002F",alt:null}]}],fetch:{},mutations:void 0});
