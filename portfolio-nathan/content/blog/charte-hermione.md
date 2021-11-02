@@ -62,6 +62,18 @@ En ayant comme prérequis de proposer une vision graphique d'un média identifia
 
 <div class="sep-50"></div>
 
+### 1. Audit 📋
+
+<br>
+
+Dans un premier temps, j'ai proposé de réaliser un audit de l'interface du site que j'ai présenté à mon équipe pour exposer mon point de vue sur ses défauts et ses qualités. À ce moment-là, j'ai pu me mettre d'accord avec elle sur la direction à prendre, les envies du groupe, ma propre vision et commencer à faire le tri dans ce qui existait déjà.
+
+<br>
+
+### 2. Analyse concurentielle / inspiration 🌻
+
+<div class="sep-50"></div>
+
 ## Résultats
 
 <div class="sep-50"></div>

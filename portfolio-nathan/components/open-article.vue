@@ -1,5 +1,7 @@
 <template>
-    <span class="link-article">OUVRIR L’ARTICLE<img src="~/assets/img/icon/arrow-article.svg"></span>
+  <span class="link-article">OUVRIR L’ARTICLE
+    <img src="~/assets/img/icon/arrow-article.svg">
+  </span>
 </template>
 
 <style lang="scss">

@@ -49,13 +49,15 @@ input[type="search"], select:focus{
   #blog-grid{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, 390px);
+    grid-template-columns: repeat(auto-fit, minmax(390px, auto) );
     column-gap: 50px;
     row-gap: 50px;
     grid-auto-rows: minmax(390px, auto);
-    width: 100%;
+    max-width: 1300px;
     height: auto;
     min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
     .blog-grid-block{
       width: 390px;
       height: 390px;
