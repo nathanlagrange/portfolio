@@ -12,67 +12,109 @@ année: 2021
 ---
 ## Contexte et enjeux
 
-<div class="sep-50"></div>
+<br><br>
 
 La création de cette charte graphique a été la toute première mission réalisée au sein de l'agence durant tout le mois de septembre 2021.
+
 <br>
-<br>
+
 Le site [hermione.co](https://hermione.co) ne disposait pas d'une charte précisement définie et j'ai suggéré dès le départ de **définir une identité graphique précise et en cohérence avec les valeurs de l'entreprise.**
-<br>
-<br>
+<br><br>
+
 Cette charte allait être utilisée principalement sur l'ensemble du site vitrine hermione.co, son blog et les publications du compte Instagram dans le but d'harmoniser la communication de l'agence, de combler la cohérence graphique qui manquait et enfin d'afficher une identité reconnaissable et authentique. Elle a été réalisée en étroite collaboration avec Gabriel Dobricean (mon référent et fondateur de Hermione).
+
+<br><br>
+
+### Objectifs 🎯
+
 <br>
-<br>
-
-### Objectifs
-
-<div class="sep-50"></div>
-
-![charte graphique hermione.co portrait chinois](https://ucarecdn.com/44436339-826a-406d-b4d5-db0ff8381ae8/-/preview/900x900/)
-
-<div class="sep-50"></div>
 
 En ayant comme prérequis de proposer une vision graphique d'un média identifiable (lié au domaine médical et à l'e-learning) et en se basant sur un ensemble de valeurs, de croyances et d'éléments visuels, j'ai construit l'univers de Hermione en proposant de
 
-<div class="sep-50"></div>
+<br>
 
 <ul>
     <li>
-        gagner du temps dans la mise en page des articles et la construction des pages du site
+      gagner du temps dans la mise en page des articles et la construction des pages du site
     </li>
     <li>
-        corriger le manque de cohérence graphique entre les éléments du site (boutons, containers, typographie, icônes, ...), les publications sur les autres plateformes (Instagram et Youtube) et les supports print (poster, cahier, etc.).
+      corriger le manque de cohérence graphique entre les éléments du site (boutons, containers, typographie, icônes, ...), les publications sur les autres plateformes (Instagram et Youtube) et les supports print (poster, cahier, etc.).
     </li>
     <li>
-        convaincre les prospects de façon qualitative avec une identité visuelle propre et indentifiable
+      convaincre les prospects de façon qualitative avec une identité visuelle propre et indentifiable
     </li>
     <li>
-        restituer la vision de Hermione à travers des éléments visuels ("Le monde est injuste" symbolisé par des couleurs froides et la récompense par une couleur plus chaleureuse. L'univers de la médecine et de l'enseignement mis en avant avec divers dessins d'anatomie humaine, ...).
+      restituer la vision de Hermione à travers des éléments visuels ("Le monde est injuste" symbolisé par des couleurs froides et la récompense par une couleur plus chaleureuse. L'univers de la médecine et de l'enseignement mis en avant avec divers dessins d'anatomie humaine, ...).
     </li>
 </ul>
 
-<div class="sep-50"></div>
+<br><br>
 
 ![charte graphique hermione.co anatomie papier peint](https://ucarecdn.com/3feb8628-6c0c-4233-a0bb-85de4666180c/)
 >L'univers de la médecine et de l'enseignement mis en avant avec divers dessins d'anatomie humaine, ...)
 
-<div class="sep-50"></div>
+<br><br>
 
-## Actions réalisés
+## Actions réalisées
 
-<div class="sep-50"></div>
+<br><br>
 
 ### 1. Audit 📋
 
 <br>
 
-Dans un premier temps, j'ai proposé de réaliser un audit de l'interface du site que j'ai présenté à mon équipe pour exposer mon point de vue sur ses défauts et ses qualités. À ce moment-là, j'ai pu me mettre d'accord avec elle sur la direction à prendre, les envies du groupe, ma propre vision et commencer à faire le tri dans ce qui existait déjà.
+Dans un premier temps, j'ai proposé de réaliser un audit de l'interface du site que j'ai présenté à mon équipe pour exposer mon point de vue sur ses défauts et ses qualités. À ce moment-là, j'ai pu me mettre d'accord avec elle sur la direction à prendre, les envies du groupe, ma propre vision et commencer à faire le tri dans ce qui existait déjà chez Hermione.
 
-<br>
+<br><br>
 
 ### 2. Analyse concurentielle / inspiration 🌻
 
-<div class="sep-50"></div>
+<br>
+
+J'ai commencé par m'inspirer de quelques chartes d'agence concurrentes pour construire une structure cohérente et suffisante (couleurs, fonts, pied de page, container, en-tête, illustrations, dimensions, taille des titres, etc.) puis j'ai commencé à réfléchir à comment j'allais agencer tous ces éléments à partir des directives et informations que l'on m'avait tranmises (voir partie suivante).
+
+<br><br>
+
+### 3. Apporter du sens 🧠
+
+<br>
+
+Le défi le plus complexe a sûrement été de retranscrire les croyances ("chacun a un potentiel incroyable"), les valeurs (courage, voyage, stratège) et surtout le domaine d'activité à travers des représentations visuelles. Je me devais de justifier chaque choix, même pour les éléments déjà existants dans la charte.
+
+<br><br>
+
+![charte graphique hermione.co portrait chinois](https://ucarecdn.com/44436339-826a-406d-b4d5-db0ff8381ae8/-/preview/900x900/)
+
+<br><br>
+
+**Voici quelques explications que j'ai pu donner :**
+
+<br>
+
+<ul>
+    <li>
+      Les couleurs froides 🔹 (bleu clair et marine) symbolisant l'exigence des études de médecine en opposition aux couleurs chaudes 🔸 symbolisant la récompense que peut apporter la formation "La Méthode PASS" de Hermione.
+    </li>
+    <li>
+      Le logo de Hermione fluorescent symbolise le prestige avec ses lauriers de la victoire et la pureté (blanc).
+    </li>
+</ul>
+
+<br>
+
+![charte graphique hermione.co logo](https://ucarecdn.com/924ee8cd-f3cd-43f3-b545-dd68f356a677/-/preview/120x120/)
+
+<br>
+
+L'utilisation d'emojis liés à :
+  
+<br>
+
+- l'univers de Harry Potter/scolaire 🦉📚🧠🎓🏫📝🧑‍🎓,
+- la motivation 👊💪🔥🥇🏆,
+- et la médecine 🧬🧑‍⚕️😷👩‍⚕️
+
+<br><br>
 
 ## Résultats
 

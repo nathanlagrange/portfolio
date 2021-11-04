@@ -179,6 +179,9 @@ export default {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      h3, h4, h5{
+        margin-right: auto;
+      }
       img{
         max-width: 750px;
         height: auto;

@@ -172,7 +172,7 @@ export default {
       .line{
         height: 1.2px;
         width: 35px;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         margin-top: 3px;
         margin-bottom: 3px;
         border-radius: 80px;
