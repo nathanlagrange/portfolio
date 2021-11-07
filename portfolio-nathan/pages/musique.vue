@@ -216,8 +216,8 @@ export default {
       display: none;
     }
     #redvision{
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
       margin-top: 10px;
     }
     #redvision-picture{

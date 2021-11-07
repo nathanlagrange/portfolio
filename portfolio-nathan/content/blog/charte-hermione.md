@@ -10,7 +10,7 @@ alt: charte graphique hermione.co
 categorie: 'experiencepro'
 année: 2021
 ---
-## Contexte et enjeux
+## Contexte et enjeux 📜
 
 <br><br>
 
@@ -50,12 +50,12 @@ En ayant comme prérequis de proposer une vision graphique d'un média identifia
 
 <br><br>
 
-![charte graphique hermione.co anatomie papier peint](https://ucarecdn.com/3feb8628-6c0c-4233-a0bb-85de4666180c/)
+![charte graphique hermione.co anatomie papier peint](https://ucarecdn.com/3feb8628-6c0c-4233-a0bb-85de4666180c/-/preview/1500x1500/)
 >L'univers de la médecine et de l'enseignement mis en avant avec divers dessins d'anatomie humaine, ...)
 
 <br><br>
 
-## Actions réalisées
+## Actions réalisées 📑
 
 <br><br>
 
@@ -71,7 +71,7 @@ Dans un premier temps, j'ai proposé de réaliser un audit de l'interface du sit
 
 <br>
 
-J'ai commencé par m'inspirer de quelques chartes d'agence concurrentes pour construire une structure cohérente et suffisante (couleurs, fonts, pied de page, container, en-tête, illustrations, dimensions, taille des titres, etc.) puis j'ai commencé à réfléchir à comment j'allais agencer tous ces éléments à partir des directives et informations que l'on m'avait tranmises (voir partie suivante).
+J'ai commencé par m'inspirer de quelques chartes d'agences concurrentes pour construire une structure cohérente et suffisante (couleurs, fonts, pied de page, container, en-tête, illustrations, dimensions, taille des titres, etc.) puis j'ai commencé à réfléchir à comment j'allais agencer tous ces éléments à partir des directives et informations que l'on m'avait tranmises (voir partie suivante).
 
 <br><br>
 
@@ -87,7 +87,7 @@ Le défi le plus complexe a sûrement été de retranscrire les croyances ("chac
 
 <br><br>
 
-**Voici quelques explications que j'ai pu donner :**
+**Voici quelques justifications que j'ai pu donner :**
 
 <br>
 
@@ -116,54 +116,101 @@ L'utilisation d'emojis liés à :
 
 <br><br>
 
-## Résultats
+La création d'image sous forme de vieux papier peint avec des images de cellules, de dessins d'anatomie et d'emojis liés à la médecine (molécule d'ADN, microscope, bocal, livre, ...) arborant les principales pages du site de manière à ce que la forme suggère la fonction et le domaine d'activité de l'entreprise.
 
-<div class="sep-50"></div>
+<br><br>
 
-## Preuves et témoignages
+![charte graphique hermione.co papier peint mockup](https://ucarecdn.com/db25242f-3e98-4bb0-b7f7-410228458473/-/preview/1400x1400/)
+>Les papiers peints de Hermione
 
-<div class="sep-50"></div>
+<br><br>
 
-## La charte graphique
+### 4. Améliorer l'interface utilisateur 🖌️
 
-<div class="sep-50"></div>
+<br><br>
 
-![charte graphique hermione.co couleurs](https://ucarecdn.com/aa8faf38-9b03-481f-8b95-3992c7dd83f9/Couleursmin.webp)
+**En proposant une nouvelle charte graphique, j'ai également eu l'idée de la lier intimement avec les éléments du site les plus importants.**
+
+<br><br>
+
+Le site était très incertain dans sa cohérence graphique et très peu d'éléments se ressemblaient. En listant tous ces différents éléments, j'ai fini par réussir à uniformiser et obtenir cette cohérence que je recherchais pour ces éléments :
+
+<br><br>
+
+![charte graphique hermione.co header](https://ucarecdn.com/6e7c1949-4092-4052-be3a-9ddd6f463f18/-/preview/1400x1400/)
+>L'en-tête (header)
+
+<br><br>
+
+![charte graphique hermione.co footer](https://ucarecdn.com/19cba15d-0010-4829-a8c9-c1ae892bd7ae/-/preview/1400x1400/)
+>Le pied de page (footer)
+
+<br><br>
+
+![charte graphique hermione.co containers](https://ucarecdn.com/c0f016e8-66c6-496e-997a-cb8a78c64250/-/preview/1400x1400/)
+>Les containers (texte, image, ...)
+
+<br><br>
+
+![charte graphique hermione.co boutons](https://ucarecdn.com/b57d39de-0760-451a-a816-70bc3b194bc3/-/preview/1400x1400/)
+>Les CTA (boutons)
+
+<br><br>
+
+![charte graphique hermione.co titre-taille](https://ucarecdn.com/1d57cc6a-aed7-40fc-bd02-209b233ab9dd/-/preview/1400x1400/)
+>Les tailles de titres
+
+<br><br>
+
+Pour réaliser l'ensemble de la charte graphique, j'ai principalement utilisé **Adobe Photoshop** (création des papiers peints), **Figma** (header, footer, ...) et quelques fois **Adobe Illustrator** pour des modifications apportées sur le logo.
+
+<br><br>
+## Résultats 📦
+
+<br><br>
+### D'un point de vue qualitatif 💎
+
+<br>
+
+Les effets de la réalisation de cette charte graphique ont été assez positifs. J'ai réussi à créer **un bon point de repère graphique permettant d'uniformiser les éléments graphiques du site** en éliminant les incohérences. De cette façon, **les visiteurs du site se sentent plus en confiance** avec une interface utilisateur qui n'est plus hasardeuse. Cette charte propose ainsi **une vision plus claire et aboutie des valeurs (graphiques et sémantiques) de l'agence** avec des éléments évoquants + explicitement le service que nous (Hermione) proposons. D'après les retours de mon équipe, une partie de la communauté de Hermione à appréciée ces changements graphiques et **le niveau d'engagement a sensiblement augmenté sur Instagram**
+
+<br><br>
+
+### D'un point de vue quantitatif 🔢
+
+<br>
+
+J'ai remarqué que je passais beaucoup **moins de temps à mettre en page le contenu du site** (article, landing page, ...) car je me référais systématiquement à cet outil devenant maintenant indispensable. Les tâches liées au web design ont également pu être beaucoup plus simple car je ne partais jamais vraiment de zéro.
+
+<br><br>
+
+## Preuves et témoignages ☑️
+
+<br><br>
+
+Cette liste est non-exhaustive. Tous les autres éléments de la charte graphique ont été dévoilés plus haut.
+
+<br><br>
+
+![charte graphique hermione.co couleurs](https://ucarecdn.com/aa8faf38-9b03-481f-8b95-3992c7dd83f9/-/preview/1400x1400/)
 >Les couleurs de <a href="https://hermione.co" target="_blank">Hermione</a>
 
-<div class="sep-50"></div>
+<br><br>
 
-![charte graphique hermione.co fonts](https://ucarecdn.com/385b779d-e95b-45b8-918c-276884660060/Fontmin.webp)
->Gilroy et Amiri, les fonts principales et secondaires
+![charte graphique hermione.co fonts](https://ucarecdn.com/385b779d-e95b-45b8-918c-276884660060/-/preview/1400x1400/)
+>Gilroy et Amiri, les fonts de hermione.co
 
-<div class="sep-50"></div>
+<br><br>
 
-![charte graphique hermione.co boutons](https://ucarecdn.com/b57d39de-0760-451a-a816-70bc3b194bc3/boutonsmin.webp)
+![charte graphique hermione.co background](https://ucarecdn.com/c5b879bf-dbe4-4309-9f7a-94f3fd20bcc7/-/preview/1400x1400/)
+>Papier peint "Emoji"
 
-<div class="sep-50"></div>
+<br><br>
 
-![charte graphique hermione.co containers](https://ucarecdn.com/c0f016e8-66c6-496e-997a-cb8a78c64250/containermin.webp)
+![charte graphique hermione.co background-2](https://ucarecdn.com/b16eeaa2-6247-4b12-b9b6-224df6e76f1a/-/preview/1400x1400/)
+>Papier peint "anatomie" (version beige)
 
-<div class="sep-50"></div>
+<br><br>
 
-![charte graphique hermione.co header](https://ucarecdn.com/6e7c1949-4092-4052-be3a-9ddd6f463f18/Headermin.webp)
-
-<div class="sep-50"></div>
-
-![charte graphique hermione.co background](https://ucarecdn.com/c5b879bf-dbe4-4309-9f7a-94f3fd20bcc7/bghermionemin.webp)
->Background "Emoji"
-
-<div class="sep-50"></div>
-
-![charte graphique hermione.co background-2](https://ucarecdn.com/b16eeaa2-6247-4b12-b9b6-224df6e76f1a/bghermione2min.webp)
->Background "anatomie"
-
-<div class="sep-50"></div>
-
-![charte graphique hermione.co titre-taille](https://ucarecdn.com/d682fe8f-8c6c-4d49-8bb9-a7c67932b973/tailletitremin.webp)
->Les différentes tailles de titres
-
-<div class="sep-50"></div>
-
-![charte graphique hermione.co footer](https://ucarecdn.com/19cba15d-0010-4829-a8c9-c1ae892bd7ae/footermin.webp)
->Pied de page
+![charte graphique hermione.co background-2](https://ucarecdn.com/abafd79f-4215-4238-baae-501840d17f00/-/preview/1600x1600/)
+>Bulle SMS
