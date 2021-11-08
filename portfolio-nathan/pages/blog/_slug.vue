@@ -155,6 +155,7 @@ export default {
     justify-content: flex-start;
     align-items: center;
     background-color: white;
+    max-width: 1000px;
     width: 80%;
     border-radius: 5px;
     min-height: 120vh;
@@ -179,6 +180,9 @@ export default {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      h2{
+        text-align: center;
+      }
       h3, h4, h5{
         margin-right: auto;
       }
@@ -190,6 +194,7 @@ export default {
       }
       p{
         max-width: 750px;
+        text-align: left;
       }
       blockquote{
         text-align: center;
@@ -201,6 +206,12 @@ export default {
       li{
         margin-bottom: 15px;
         font-size: 16px;
+      }
+      iframe{
+        width: 750px;
+        max-width: 100%;
+        min-height: 421px;
+        @include border-radius;
       }
     }
   }

@@ -10,7 +10,7 @@ alt: helene boyer astro
 categorie: web
 année: 2021
 ---
-### <b>Pour accéder au site, cliquer sur [ce lien](https://helene-boyer.com) 🌐.</b>
+## <b>Pour accéder au site, cliquer sur [ce lien](https://helene-boyer.com) 🌐.</b>
 
 <div class="sep-50"></div>
 
@@ -19,7 +19,7 @@ année: 2021
 
 <div class="sep-50"></div>
 
-### Mon point de vue sur le projet
+## 👁️ Mon point de vue sur le projet
 
 <div class="sep-50"></div>
 

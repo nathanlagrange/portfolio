@@ -1,5 +1,5 @@
 ---
-title: "RELEASE : Amorce"
+title: "RELEASE : Amorce 🦎"
 slug: amorce-release
 date: '01 novembre 2019'
 description: "Je compose et mixe de la musique sous le nom de The Solace Comes. Amorce est le premier morceau que j'ai produit, avec l'artiste Anaysa. Un morceau dans le style French pop avec mes principales influences (Daft Punk, Madeon, ...) et des sonorités trap. Le morceau est disponible sur toutes les plateformes de streaming et en téléchargement sur Bandcamp."
@@ -25,9 +25,9 @@ categorie: musique
 
 <div class="sep-50"></div>
 
-### Crédits
+## 📃 Crédits
 
-<br>
+<br><br>
 <p style="text-align: center">
 <b>Composition / mixage</b>
 <br> 

@@ -10,7 +10,7 @@ alt: charte graphique hermione.co
 categorie: 'experiencepro'
 année: 2021
 ---
-## Contexte et enjeux 📜
+## 📜 Contexte et enjeux
 
 <br><br>
 
@@ -19,6 +19,7 @@ La création de cette charte graphique a été la toute première mission réali
 <br>
 
 Le site [hermione.co](https://hermione.co) ne disposait pas d'une charte précisement définie et j'ai suggéré dès le départ de **définir une identité graphique précise et en cohérence avec les valeurs de l'entreprise.**
+
 <br><br>
 
 Cette charte allait être utilisée principalement sur l'ensemble du site vitrine hermione.co, son blog et les publications du compte Instagram dans le but d'harmoniser la communication de l'agence, de combler la cohérence graphique qui manquait et enfin d'afficher une identité reconnaissable et authentique. Elle a été réalisée en étroite collaboration avec Gabriel Dobricean (mon référent et fondateur de Hermione).
@@ -55,7 +56,7 @@ En ayant comme prérequis de proposer une vision graphique d'un média identifia
 
 <br><br>
 
-## Actions réalisées 📑
+## 📑 Actions réalisées
 
 <br><br>
 
@@ -165,11 +166,12 @@ Le site était très incertain dans sa cohérence graphique et très peu d'élé
 Pour réaliser l'ensemble de la charte graphique, j'ai principalement utilisé **Adobe Photoshop** (création des papiers peints), **Figma** (header, footer, ...) et quelques fois **Adobe Illustrator** pour des modifications apportées sur le logo.
 
 <br><br>
-## Résultats 📦
+
+## 📦 Résultats
 
 <br><br>
 
-### D'un point de vue qualitatif 💎
+### Aspect qualitatif 💎
 
 <br>
 
@@ -177,7 +179,7 @@ Les effets de la réalisation de cette charte graphique ont été assez positifs
 
 <br><br>
 
-### D'un point de vue quantitatif 🔢
+### Aspect quantitatif 🔢
 
 <br>
 
@@ -185,11 +187,11 @@ J'ai remarqué que je passais beaucoup **moins de temps à mettre en page le con
 
 <br><br>
 
-## Preuves et témoignages ☑️
+## ☑️ Preuves et témoignages
 
-<br>
+<br><br>
 
-### Extraits de la charte 🖼️
+### La charte 🖼️
 
 <br>
 

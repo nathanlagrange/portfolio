@@ -1,5 +1,5 @@
 ---
-title: "RELEASE : Rêverb"
+title: "RELEASE : Rêverb 👁️"
 slug: reverb-release
 date: '27 août 2021'
 description: "Je vous présente Rêverb, mon deuxième morceau sous le nom de The Solace Comes et ma première collaboration avec le groupe O'low. Le morceau mélange des sonorités dance et rap. Il est disponible sur toutes les plateformes et en téléchargement sur la page 'Musique' de mon site."
@@ -13,37 +13,37 @@ categorie: musique
 
 ### <b>Pour écouter le morceau, cliquer sur [ce lien](http://smarturl.it/reverb-release/) 🎶.</b>
 
-<div class="sep-50"></div>
+<br><br>
 
 ![the solace comes rêverb](https://i.imgur.com/G0IvlKu.jpg)
 >La jaquette de <i>Rêverb</i>.
 
-<div class="sep-50"></div>
+<br><br>
 
 ![the solace comes rêverb dlhjw](https://i.imgur.com/k92wbob.jpg)
 >Don't Listen Her Just Watch (visuel 1/5).
 
-<div class="sep-50"></div>
+<br><br>
 
 ![the solace comes rêverb friends](https://i.imgur.com/3Ohms2F.jpg)
 >The Solace Comes & O'low (visuel 2/5).
 
-<div class="sep-50"></div>
+<br><br>
 
 ![the solace comes rêverb closer](https://i.imgur.com/RI4LEds.jpg)
 >and then the music pulls us closer (visuel 3/5).
 
-<div class="sep-50"></div>
+<br><br>
 
 ![the solace comes rêverb garrigue](https://i.imgur.com/U7poMbe.jpg)
 >Lost in Phrygana (visuel 4/5).
 
-<div class="sep-50"></div>
+<br><br>
 
 ![the solace comes rêverb crédits](https://i.imgur.com/KAONuvX.jpg)
 >Crédits (visuel 5/5).
 
-<div class="sep-50"></div>
+<br><br>
 
 <b>Hi !</b>
 <br><br>
