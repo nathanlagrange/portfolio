@@ -187,7 +187,6 @@ export default {
         height: auto;
         @include border-radius;
         margin-bottom: 10px;
-        filter: drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.3));
       }
       p{
         max-width: 750px;
