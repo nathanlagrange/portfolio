@@ -2,7 +2,7 @@
 title: "Charte graphique hermione.co"
 slug: charte-hermione
 date: '04 octobre 2021'
-description: "J'ai réalisé la charte graphique de Hermione, l'entreprise où je réalise mon alternance pour l'année 2021-2022. En tant que webmaster au sein de l'équipe, j'ai proposé une semi-refonte graphique du site (couleurs, boutons, font, header, papier peint, ...)."
+description: "J'ai réalisé la charte graphique de Hermione, l'entreprise où je réalise mon alternance pour l'année 2021-2022. En tant que webmaster/web designer au sein de l'équipe, j'ai proposé une semi-refonte graphique du site (couleurs, boutons, font, header, papier peint, ...)."
 extrait: "La charte graphique de Hermione que j'ai réalisé à l'occasion de mon alternance à My Digital School (Bachelor 3)."
 id: '0030'
 img: https://ucarecdn.com/5ec8b852-fed0-4521-8485-2123514fadad/
@@ -168,11 +168,12 @@ Pour réaliser l'ensemble de la charte graphique, j'ai principalement utilisé *
 ## Résultats 📦
 
 <br><br>
+
 ### D'un point de vue qualitatif 💎
 
 <br>
 
-Les effets de la réalisation de cette charte graphique ont été assez positifs. J'ai réussi à créer **un bon point de repère graphique permettant d'uniformiser les éléments graphiques du site** en éliminant les incohérences. De cette façon, **les visiteurs du site se sentent plus en confiance** avec une interface utilisateur qui n'est plus hasardeuse. Cette charte propose ainsi **une vision plus claire et aboutie des valeurs (graphiques et sémantiques) de l'agence** avec des éléments évoquants + explicitement le service que nous (Hermione) proposons. D'après les retours de mon équipe, une partie de la communauté de Hermione à appréciée ces changements graphiques et **le niveau d'engagement a sensiblement augmenté sur Instagram**
+Les effets de la réalisation de cette charte graphique ont été assez positifs. J'ai réussi à créer **un bon point de repère graphique permettant d'uniformiser les éléments graphiques du site** en éliminant les incohérences. De cette façon, **les visiteurs du site se sentent plus en confiance** avec une interface utilisateur qui n'est plus hasardeuse. Cette charte propose ainsi **une vision mieux définie et aboutie des valeurs (graphiques et sémantiques) de l'agence** avec des éléments évoquants + explicitement le service que nous (Hermione) proposons. D'après les retours de mon équipe, une partie de la communauté de Hermione à appréciée ces changements graphiques et **le niveau d'engagement a sensiblement augmenté sur Instagram**
 
 <br><br>
 
@@ -186,7 +187,11 @@ J'ai remarqué que je passais beaucoup **moins de temps à mettre en page le con
 
 ## Preuves et témoignages ☑️
 
-<br><br>
+<br>
+
+### Extraits de la charte 🖼️
+
+<br>
 
 Cette liste est non-exhaustive. Tous les autres éléments de la charte graphique ont été dévoilés plus haut.
 
@@ -212,5 +217,25 @@ Cette liste est non-exhaustive. Tous les autres éléments de la charte graphiqu
 
 <br><br>
 
-![charte graphique hermione.co background-2](https://ucarecdn.com/abafd79f-4215-4238-baae-501840d17f00/-/preview/1600x1600/)
+![charte graphique hermione.co background-3](https://ucarecdn.com/abafd79f-4215-4238-baae-501840d17f00/-/preview/1600x1600/)
 >Bulle SMS
+
+<br><br>
+
+### Quelques témoignages 🎤
+
+<br><br>
+
+Très heureux des retours positifs que j'ai eu de la part de mon équipe, sachant le nombre d'heures que j'ai pu passer dessus...
+
+<br><br>
+
+![charte graphique hermione.co temoignage](https://ucarecdn.com/4d10cc52-f2e1-4e34-9647-b0b119bdb69c/-/preview/400x400/)
+
+<br><br>
+
+![charte graphique hermione.co temoignage-2](https://ucarecdn.com/1525d4ba-e8ab-40a4-97d1-47cc9d3c1005/-/preview/400x400/)
+
+<br><br>
+
+Je vous invite à consulter mes réalisations dans la catégorie **[expérience professionnelle](/blog/experiencepro)** pour découvrir ce que je réalise dans le cadre de mon travail de développeur.
