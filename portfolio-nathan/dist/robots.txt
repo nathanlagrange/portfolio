@@ -5,3 +5,4 @@ Disallow: /blog/web
 Disallow: /blog/experiencepro
 Disallow: /blog/autre
 Disallow: /mentionslegales
+Disallow: /cv
