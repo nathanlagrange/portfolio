@@ -1,6 +1,6 @@
 <template>
   <div>
-    <titlepage title="Blog 📝" />
+    <titlepage title="Blog 📰" />
     <div class="sep-20" />
     <section id="inputsearch">
       <input

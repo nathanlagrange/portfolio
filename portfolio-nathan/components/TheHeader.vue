@@ -7,13 +7,16 @@
     </div>
     <ul id="links">
       <nuxt-link to="/">
-        <li>Accueil</li>
+        <li>🏠 Accueil</li>
       </nuxt-link>
       <nuxt-link to="/blog">
-        <li>Blog</li>
+        <li>📰 Blog</li>
+      </nuxt-link>
+      <nuxt-link to="/filmographie">
+        <li>🎬 Filmographie</li>
       </nuxt-link>
       <nuxt-link to="/musique">
-        <li>Musique</li>
+        <li>🎹 Musique</li>
       </nuxt-link>
     </ul>
     <div id="nav-social">
@@ -31,13 +34,16 @@
     <div id="menu-phone" class="on">
       <ul id="menu-phone__list" @click="closeNav()">
         <nuxt-link to="/">
-          <li>Accueil</li>
+          <li>🏠 Accueil</li>
         </nuxt-link>
         <nuxt-link to="/blog">
-          <li>Blog</li>
+          <li>📰 Blog</li>
+        </nuxt-link>
+        <nuxt-link to="/filmographie">
+          <li>🎬 Vidéo</li>
         </nuxt-link>
         <nuxt-link to="/musique">
-          <li>Musique</li>
+          <li>🎹 Musique</li>
         </nuxt-link>
       </ul>
     </div>

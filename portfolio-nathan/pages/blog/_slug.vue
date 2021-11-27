@@ -197,7 +197,9 @@ export default {
         text-align: left;
       }
       blockquote{
-        text-align: center;
+        p{
+          text-align: center;
+        }
       }
       ul{
         max-width: 500px;

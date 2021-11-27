@@ -44,7 +44,7 @@
     <div id="bio-p-2">
       <p>
         Je suis <strong>diplômé d’un DUT MMI</strong> (métiers du multimédia et de l’internet) et je suis actuellement en
-        <strong>Bachelor 3 spécialisation web design</strong> à l'école My Digital School de Rennes.
+        <strong>Bachelor 3 spécialisation web design</strong> à l'école My Digital School.
         <br><br>
         Cette dernière année d'étude devrait me permettre de diversifier mes aptitudes en design d'interface et
         d'expérience utilisateur. Il ne m'était pas imaginable de simplement développer des interfaces web

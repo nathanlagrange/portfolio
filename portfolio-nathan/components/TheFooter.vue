@@ -15,6 +15,9 @@
         <nuxt-link to="/musique">
           <li>musique</li>
         </nuxt-link>
+        <nuxt-link to="/filmographie">
+          <li>filmographie</li>
+        </nuxt-link>
         <nuxt-link to="/mentionslegales">
           <li>mentions légales</li>
         </nuxt-link>

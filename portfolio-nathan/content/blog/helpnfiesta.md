@@ -189,6 +189,14 @@ Afin de créer les pages et les différentes templates/thèmes (résultat de rec
 
 <br>
 
+**Sur-mesure**
+
+<br>
+
+Très concrètement, la puissance de cet outil m'a permis d'intégrer un header personnalisé et les fonctions que je vais évoquer plus bas. Ces choix n'auraient pas toujours été possible avec des widgets pré-faits.
+
+<br>
+
 #### 🔍 Quelques fonctions en détail
 
 <br>
@@ -211,7 +219,28 @@ Quand on clique sur la question plusieurs éléments se déclenchent :
 
 <br><br>
 
-En ce qui concerne l'espace de personnalisation du profil, j'ai développé un système d'onglets permettant d'accéder à ses identifiants, la possibilité de changer son mot de passe et de supprimer son compte très facilement.
+En ce qui concerne l'espace de personnalisation du profil, j'ai développé un système d'onglets permettant d'accéder à ses identifiants, la possibilité de changer son mot de passe et de supprimer son compte très facilement. Je l'ai développé en Javascript Vanilla en partant de zéro, sans aucune aide extérieure.
+
+<br>
+
+**Simplification du principe**
+
+<br>
+
+Quand on clique sur un onglet, le contenu relié (situé en dessous) s'affiche _(css -> display: flex)_ et le contenu des autres onglets est caché _(css -> display: none)_. J'ai simplement utilisé la fonction "addEventListener (déclenchement au click) pour cacher/montrer ces sections.
+
+<br>
+
+````
+tabLeft.addEventListener('click', function () {
+    tabLeftContent.style.display = "flex";
+    tabMidContent.style.display = "none";
+    tabRightContent.style.display = "none";
+    tabLeft.classList.add("activetab");
+    tabMid.classList.remove("activetab")
+    tabRight.classList.remove("activetab");
+});
+````
 
 <br><br>
 
@@ -219,9 +248,40 @@ En ce qui concerne l'espace de personnalisation du profil, j'ai développé un s
 
 #### 📲 Optimisation et affichage mobile
 
+<br>
+
+Pour favoriser le bon référencent du site et son utilisation sur mobile, j'ai mis en place différentes règles.
+
+<br>
+
+- L'utilisation d'image JPG (le plus léger possible) 🖼️
+- Limiter le nombre d'extension pour améliorer le temps de chargement 🏃
+- Penser l'affichage mobile en amont du développement (éviter les éléments complexes comme les tableaux) 📱
+- Procéder au dé-réferencement des pages inutiles (robots.txt) 🤖
+- Désactivation systématique des vidéos sur mobile 📺
+
+<br>
+
+![temps de chargement helpnfiesta.fr](https://ucarecdn.com/4e5635cf-2f8f-45b5-bf12-7817e238a63e/-/preview/-/quality/smart/)
+>Performance de chargement de la page informations
+
 <br><br>
 
-### Référencement SEO
+### Référencement SEO 🤖
+
+<br>
+
+J'ai utilisé l'extension **Yoast SEO** pour référencer l'ensemble des pages et les articles (renseigner la requête cible, la méta-description, méta-titre, ...) et **améliorer la visibilité du site sur les moteurs de recherche**.
+
+<br>
+
+Dans un second temps, je me suis chargé d'intégrer la **Google Search Console** pour vérifier la bonne **indexation des pages du site** sur Google et pouvoir accéder à différentes statistiques (nombre de clicks, impressions, positionnement, etc.). Même processus pour **Google Analytics**.
+
+<br>
+
+Le processus de référencement n'était pas central dans notre projet, je me suis arrêté à ces étapes essentielles. S'il devait être amélioré, je porterai mon attention sur une stratégie de création de backlinks avec des sites partenaires et améliorer sa crédibilité aux yeux de Google.
+
+<br><br>
 
 ## 📦 Résultats
 
@@ -229,10 +289,34 @@ En ce qui concerne l'espace de personnalisation du profil, j'ai développé un s
 
 ### 💎 Aspect qualitatif
 
+<br>
+
+Mon équipe et moi-même étions **très satisfait du résultat** global du site car il correspondait exactement à l'idée que l'on s'en était faite une fois le cahier des charges rédigé. **Toutes les fonctions étaient abouties à 100%** grâce à notre détermination et nos erreurs commises. 
+
+<br>
+
+Notre commanditaire nous a beacoup remercié pour notre travail accompli durant ces 6 mois de travail intensif. **Nous avons réussi à concevoir et développer un site** permettant à une association de cette envergure de pouvoir mettre en avant ses actions et son actualité, **en accord avec sa vision et ses valeurs**. La possibilité pour elle de rentrer en contact avec ses adhérents par mail très facilement depuis l'espace administratif de Wordpress. **helpnfiesta.fr est finalement un site entièrement fonctionnel, sécurisé et en conformité avec la réglementation** sur l'utilisation des données des utilisateurs.
+
 <br><br>
 
 ### 🔢 Aspect quantitatif
 
+<br>
+
+Je suis satisfait de mon travail réalisé car j'ai réussi à développer une interface répondant aux critères quantitatifs les plus importants du point de vue de l'optimisation d'affichage sur téléphone et du temps de chargement. Ce site permet un gain de temps considérable pour l'association Help'n Fiesta, à la fois dans sa communication et dans l'administration du site pour la mise à jour des informations.
+
 <br><br>
 
 ## ☑️ Preuves et témoignages
+
+<br>
+
+Cliquer ici pour accéder au site de **[helpnfiesta.fr](https://helpnfiesta.fr)🔗**
+
+<br>
+
+Concernant les témoignages, nous n'avons pas eu de retours concrets et directs de la part de notre commanditaire du fait de la situation sanitaire ne facilitant pas une grande communication. Malgrès leur discrétion, ils étaient très satisfaits du travail mené sur l'ensemble de l'élaboration du projet.
+
+<br>
+
+Nous avons obtenu la note de 13.5 à la soutenance.

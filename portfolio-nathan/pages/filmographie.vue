@@ -1,0 +1,85 @@
+<template>
+  <div>
+    <titlepage title="Filmographie" />
+    <div id="filmographie">
+      <div v-for="film in filmo" :key="film" class="loop-filmographie">
+        <iframe :src="film.url" title="YouTube video player" frameborder="0" />
+        <div class="sep-10" />
+        <div class="sep-5" />
+        <span>{{ film.date }}</span>
+        <div class="sep-10" />
+        <h2>{{ film.title }}</h2>
+        <div class="sep-10" />
+        <p>
+          {{ film.description }}
+        </p>
+        <div class="sep-40" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      filmo: [
+        { title: 'helpnfiesta.fr | vidéo de présentation', url: 'https://www.youtube.com/embed/nrcVLlnzq3E', date: '15.03.2021', description: 'helpnfiesta.fr est un site que j’ai développé avec Lorenzo Tringali à l’occasion de ma 2e année d’IUT MMI à l’Université de Toulon' },
+        { title: 'Good Faith (french presentation)', url: 'https://www.youtube.com/embed/tAsMTSQ2lz0', date: '22.12.2020', description: 'Ma présentation personnelle de l’album de Madeon “Good Faith” réalisée pour un devoir d’animation vidéo.' },
+        { title: 'ORCHESTRE ULTIMA TEASER 2018', url: 'https://www.youtube.com/embed/MqSDsEKgfpk', date: '11.09.2018', description: 'Vidéo de promotion pour l’orchestre Ultima. Une production nextrek. En tant que cadreur/monteur.' },
+        { title: 'PUB AUTO ECOLE O’PERMIS', url: 'https://www.youtube.com/embed/EtweXG-Byh8', date: '04.09.2018', description: 'Vidéo de promotion pour l’auto école O’PERMIS. Une production nextrek. En tant que cadreur/monteur.' },
+        { title: 'Livraison dangereuse (48 HFP Montpellier)', url: 'https://www.youtube.com/embed/nG0vaw06N1c', date: '15.10.2017', description: 'Livraison Dangereuse a été réalisé pour le 48 HFP festival. J’ai participé en tant que chef opérateur.' },
+        { title: 'BLÂKE - LES UNS CONTRE LES AUTRES', url: 'https://www.youtube.com/embed/ZXWrgX56zec', date: '30.04.2017', description: 'Les Uns Contre Les Autres est le dernier clip musical que j’ai réalisé. Une production nextrek.' },
+        { title: 'Les Belles Paroles (court-métrage)', url: 'https://www.youtube.com/embed/1DCb7hwzitM', date: '18.09.2016', description: 'Les Belles paroles, un court-métrage de Chloé Mart et Alice Morin. Participation en tant que chef opérateur/monteur.' },
+        { title: 'Maïcee - Follow Me', url: 'https://www.youtube.com/embed/dIGR3bnqm_E', date: '26.07.2015', description: 'Follow Me, le dernier clip réalisé pour l’artiste Maïcee durant l’été 2015, en tant que scénariste, réalisateur, cadreur et monteur. Une production Réalis\'Arthur' },
+        { title: 'COST\'ART - Tout ce qu\'on a', url: 'https://www.youtube.com/embed/hO9u5hQzZFU', date: '23.06.2015', description: 'Une coproduction Réalis’Arthur et OTOURDEVOUS. En tant que cadreur/monteur.' },
+        { title: 'Maïcee - I Don\'t Care', url: 'https://www.youtube.com/embed/FSg4iTSMa-0', date: '27.05.2015', description: 'Premier clip réalisé pour Maïcee, aux couleurs de l’Occitanie et de l’arrière pays Montpelliérain. En tant que réalisateur et monteur.' },
+        { title: 'Chepercha freestyle 2 - Wazazat', url: 'https://www.youtube.com/embed/i_Ft_wIy3mc', date: '24.04.2015', description: 'Clip pris en one-shot aux alentours de la gare de Montpellier. Défi : ne pas tomber en filmant 😏' }
+      ]
+    }
+  }
+}
+
+</script>
+
+<style lang="scss" scoped>
+  @import "~/assets/css/_mixins.scss";
+  @import "~/assets/css/_colors.scss";
+  #filmographie{
+    @include padding-section;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    .loop-filmographie{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      iframe{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        min-height: 280px;
+        height: auto;
+        @include border-radius;
+      }
+      h2{
+        font-size: 20px;
+        color: white;
+      }
+      span{
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+      }
+      p{
+        color: rgba(200, 200, 200, 1);
+        font-size: 14px;
+      }
+    }
+  }
+  @media screen and (max-width: 850px) {
+  #filmographie{
+    @include padding-section-mobile;
+  }
+}
+</style>
