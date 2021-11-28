@@ -2,8 +2,9 @@
   <div>
     <titlepage title="Filmographie" />
     <div id="filmographie">
+      <div class="sep-20" />
       <div v-for="film in filmo" :key="film" class="loop-filmographie">
-        <iframe :src="film.url" title="YouTube video player" frameborder="0" />
+        <iframe :src="film.url" title="YouTube video player" frameborder="0" allow="fullscreen" />
         <div class="sep-10" />
         <div class="sep-5" />
         <span>{{ film.date }}</span>
@@ -13,7 +14,7 @@
         <p>
           {{ film.description }}
         </p>
-        <div class="sep-40" />
+        <div class="sep-50" />
       </div>
     </div>
   </div>
@@ -31,10 +32,21 @@ export default {
         { title: 'Livraison dangereuse (48 HFP Montpellier)', url: 'https://www.youtube.com/embed/nG0vaw06N1c', date: '15.10.2017', description: 'Livraison Dangereuse a été réalisé pour le 48 HFP festival. J’ai participé en tant que chef opérateur.' },
         { title: 'BLÂKE - LES UNS CONTRE LES AUTRES', url: 'https://www.youtube.com/embed/ZXWrgX56zec', date: '30.04.2017', description: 'Les Uns Contre Les Autres est le dernier clip musical que j’ai réalisé. Une production nextrek.' },
         { title: 'Les Belles Paroles (court-métrage)', url: 'https://www.youtube.com/embed/1DCb7hwzitM', date: '18.09.2016', description: 'Les Belles paroles, un court-métrage de Chloé Mart et Alice Morin. Participation en tant que chef opérateur/monteur.' },
-        { title: 'Maïcee - Follow Me', url: 'https://www.youtube.com/embed/dIGR3bnqm_E', date: '26.07.2015', description: 'Follow Me, le dernier clip réalisé pour l’artiste Maïcee durant l’été 2015, en tant que scénariste, réalisateur, cadreur et monteur. Une production Réalis\'Arthur' },
+        { title: 'Maïcee - Follow Me', url: 'https://www.youtube.com/embed/dIGR3bnqm_E', date: '26.07.2015', description: 'Follow Me, le dernier clip réalisé pour l’artiste Maïcee durant l’été 2015, en tant que scénariste, réalisateur, cadreur et monteur. Une production Réalis\'Arthur.' },
         { title: 'COST\'ART - Tout ce qu\'on a', url: 'https://www.youtube.com/embed/hO9u5hQzZFU', date: '23.06.2015', description: 'Une coproduction Réalis’Arthur et OTOURDEVOUS. En tant que cadreur/monteur.' },
         { title: 'Maïcee - I Don\'t Care', url: 'https://www.youtube.com/embed/FSg4iTSMa-0', date: '27.05.2015', description: 'Premier clip réalisé pour Maïcee, aux couleurs de l’Occitanie et de l’arrière pays Montpelliérain. En tant que réalisateur et monteur.' },
-        { title: 'Chepercha freestyle 2 - Wazazat', url: 'https://www.youtube.com/embed/i_Ft_wIy3mc', date: '24.04.2015', description: 'Clip pris en one-shot aux alentours de la gare de Montpellier. Défi : ne pas tomber en filmant 😏' }
+        { title: 'Chepercha freestyle 2 - Wazazat', url: 'https://www.youtube.com/embed/i_Ft_wIy3mc', date: '24.04.2015', description: 'Clip pris en one-shot aux alentours de la gare de Montpellier. Défi : ne pas tomber en filmant 😏' },
+        { title: 'Delta - Bang bang 3', url: 'https://www.youtube.com/embed/ZrYVKcNQ4xc', date: '25.02.2015', description: 'Clip musical pour Delta, en tant que cadreur/monteur.' },
+        { title: 'Pakis - Cuck Norris', url: 'https://www.youtube.com/embed/sq0W3pJ13fE', date: '01.01.2015', description: 'Clip musical pour Pakis, ex-rappeur du MS CREW. En tant que cadreur. Produit par Réalis’Arthur.' },
+        { title: 'Pakis - La Ride', url: 'https://www.youtube.com/embed/OrlTIQDyFNc', date: '24.11.2014', description: 'Projet audiovisuel expérimental réalisé à partir de différentes prises de vues. En tant que monteur.' },
+        { title: 'Pakis - Prince de la Ville', url: 'https://www.youtube.com/embed/DYYjY_UgrNE', date: '17.11.2014', description: 'Clip de rap tourné dans la ville de Sète, en tant que cadreur/monteur.' },
+        { title: 'LA Q8 - CONNEXION BILNAFRICANOTEAM', url: 'https://www.youtube.com/embed/3h24oSDWuKA', date: '07.11.2014', description: 'Première réalisation vidéo-musicale avec une trame scénaristique, sans doute l’un des clips les plus aboutis que j’ai pu réaliser.' },
+        { title: 'LA Q8 - DANS LA PLACE', url: 'https://www.youtube.com/embed/-XzRQaA9_fI', date: '26.09.2014', description: 'En tant que cadreur/monteur.' },
+        { title: 'MS CREW - Plus l\'temps', url: 'https://www.youtube.com/embed/DPx43dtwr6o', date: '19.12.2013', description: 'Mon dernier clip réalisé pour le MS CREW.' },
+        { title: 'Récidive (scène d\'ouverture)', url: 'https://www.youtube.com/embed/_kWmu8bcqNQ', date: '13.09.2013', description: 'Récidive, un court-métrage d’Hayatt Carrier. Participation en tant que cadreur.' },
+        { title: 'MS CREW - Montpell’Horizon', url: 'https://www.youtube.com/embed/ze3koqp9AIc', date: '01.06.2012', description: 'Mon tout premier clip réalisé dans les belles rues de Montpellier. Participation en tant que réalisateur, cadreur et monteur.' },
+        { title: 'Le chemin de l’ermitage (bande annonce)', url: 'https://www.youtube.com/embed/WJEPIZMYO8Q', date: '03.12.2011', description: 'Deuxième court-métrage tourné dans le village de St Guilhem Le Désert. En tant que réalisateur. Produit par SO films ind.' },
+        { title: 'Solo (court-métrage)', url: 'https://www.youtube.com/embed/MGv67g9uoGA', date: '20.06.2011', description: 'Premier court-métrage amateur. Produit par QDA et SO films ind.' }
       ]
     }
   }
