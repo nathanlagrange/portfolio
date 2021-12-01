@@ -2,7 +2,24 @@
   <div>
     <titlepage title="Filmographie" />
     <div id="filmographie">
-      <div class="sep-20" />
+      <div class="sep-10" />
+      <p>
+        Cette page regroupe toute ma filmographie du début à la fin des années 2010.
+      </p>
+      <br>
+      <p>
+        J'ai cessé toute activité audiovisuelle depuis plusieurs années déjà mais je continue de
+        publier certaines vidéos pour mettre mon travail de développeur et compositeur en avant
+      </p>
+      <br>
+      <p>
+        <i style="color: #3D87E0;">Fun fact : il m'arrive de les regarder par nostalgie </i>😔
+      </p>
+      <br>
+      <p>
+        🍿 <strong>Bon visionnage !</strong>
+      </p>
+      <div class="sep-50" />
       <div v-for="film in filmo" :key="film" class="loop-filmographie">
         <iframe :src="film.url" title="YouTube video player" frameborder="0" allow="fullscreen" />
         <div class="sep-10" />
@@ -47,6 +64,73 @@ export default {
         { title: 'MS CREW - Montpell’Horizon', url: 'https://www.youtube.com/embed/ze3koqp9AIc', date: '01.06.2012', description: 'Mon tout premier clip réalisé dans les belles rues de Montpellier. Participation en tant que réalisateur, cadreur et monteur.' },
         { title: 'Le chemin de l’ermitage (bande annonce)', url: 'https://www.youtube.com/embed/WJEPIZMYO8Q', date: '03.12.2011', description: 'Deuxième court-métrage tourné dans le village de St Guilhem Le Désert. En tant que réalisateur. Produit par SO films ind.' },
         { title: 'Solo (court-métrage)', url: 'https://www.youtube.com/embed/MGv67g9uoGA', date: '20.06.2011', description: 'Premier court-métrage amateur. Produit par QDA et SO films ind.' }
+      ],
+      title: 'Filmographie | Nathan Lagrange - Développeur front-end',
+      description: 'Voici différentes créations audiovisuelles réalisées par moi-même entre 2011 et 2018 pour différentes personnes (artistes, associations, entreprises,...).'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        },
+        { property: 'og:site_name', content: 'Nathan Lagrange - Développeur front-end' },
+        { hid: 'og:type', property: 'og:type', content: 'page' },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://ucarecdn.com/8f1d6f69-d3e4-41d1-b1d1-8f9e64322e49/ogimageindex.webp'
+        },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { name: 'twitter:site', content: '@nathanlagrange' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: 'https://nathanlagrange.dev'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.title
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: 'https://ucarecdn.com/8f1d6f69-d3e4-41d1-b1d1-8f9e64322e49/ogimageindex.webp'
+        }
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://nathanlagrange.dev'
+        }
       ]
     }
   }
@@ -62,6 +146,10 @@ export default {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    p{
+      color: white;
+      font-weight: 300;
+    }
     .loop-filmographie{
       display: flex;
       flex-direction: column;

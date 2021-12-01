@@ -17,7 +17,7 @@
       <div id="reverb-link-mobile">
         <a href="http://smarturl.it/reverb-release/" target="_blank"><img class="reverb-link" src="~/assets/img/icon/play.svg" alt="streamer rêverb"></a>
       </div>
-      <video id="redvision" autoplay src="~/assets/img/tsc/eye-loop.mp4" alt="red vision" />
+      <video id="redvision" autoplay loop src="~/assets/img/tsc/eye-loop.mp4" alt="red vision" />
       <img id="redvision-picture" src="~/assets/img/tsc/EYE.svg" alt="red vision">
     </section>
     <section id="amorce">
