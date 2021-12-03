@@ -42,8 +42,10 @@ export default {
   data () {
     return {
       filmo: [
+        { title: 'The Solace Comes & O\'low - Rêverb', url: 'https://www.youtube.com/embed/6jxo0qom5fw', date: '27.08.2021', description: 'Rêverb, mon 2e single avec le groupe de rap Montpelliérain O\'low' },
         { title: 'helpnfiesta.fr | vidéo de présentation', url: 'https://www.youtube.com/embed/nrcVLlnzq3E', date: '15.03.2021', description: 'helpnfiesta.fr est un site que j’ai développé avec Lorenzo Tringali à l’occasion de ma 2e année d’IUT MMI à l’Université de Toulon' },
         { title: 'Good Faith (french presentation)', url: 'https://www.youtube.com/embed/tAsMTSQ2lz0', date: '22.12.2020', description: 'Ma présentation personnelle de l’album de Madeon “Good Faith” réalisée pour un devoir d’animation vidéo.' },
+        { title: 'The Solace Comes - Amorce', url: 'https://www.youtube.com/embed/jXc3xgeQN6w', date: '01.11.2019', description: 'La vidéo de Amorce, mon tout premier single avec la talentueuse Anaysa.' },
         { title: 'ORCHESTRE ULTIMA TEASER 2018', url: 'https://www.youtube.com/embed/MqSDsEKgfpk', date: '11.09.2018', description: 'Vidéo de promotion pour l’orchestre Ultima. Une production nextrek. En tant que cadreur/monteur.' },
         { title: 'PUB AUTO ECOLE O’PERMIS', url: 'https://www.youtube.com/embed/EtweXG-Byh8', date: '04.09.2018', description: 'Vidéo de promotion pour l’auto école O’PERMIS. Une production nextrek. En tant que cadreur/monteur.' },
         { title: 'Livraison dangereuse (48 HFP Montpellier)', url: 'https://www.youtube.com/embed/nG0vaw06N1c', date: '15.10.2017', description: 'Livraison Dangereuse a été réalisé pour le 48 HFP festival. J’ai participé en tant que chef opérateur.' },

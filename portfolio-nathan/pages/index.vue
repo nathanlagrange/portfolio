@@ -66,6 +66,7 @@
       </nuxt-link>
     </section>
     <tschome />
+    <filmosection />
   </div>
 </template>
 
