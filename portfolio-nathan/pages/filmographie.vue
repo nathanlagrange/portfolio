@@ -20,7 +20,14 @@
         🍿 <strong>Bon visionnage !</strong>
       </p>
       <div class="sep-50" />
-      <div v-for="film in filmo" :key="film" class="loop-filmographie">
+      <div
+        v-for="film in filmo"
+        :key="film"
+        class="loop-filmographie"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-out-cubic"
+      >
         <iframe :src="film.url" title="YouTube video player" frameborder="0" allow="fullscreen" />
         <div class="sep-10" />
         <div class="sep-5" />

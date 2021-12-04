@@ -2,7 +2,14 @@
   <section>
     <h2>Créations musicales</h2>
     <div class="sep-50" />
-    <img id="tsc-profil" src="~/assets/img/photo/tsc.webp" alt="the solace comes">
+    <img
+      id="tsc-profil"
+      data-aos="flip-right"
+      data-aos-duration="1500"
+      data-aos-easing="ease-out-back"
+      src="~/assets/img/photo/tsc.webp"
+      alt="the solace comes"
+    >
     <div class="sep-30" />
     <h3>The Solace Comes</h3>
     <div class="sep-10" />
@@ -22,7 +29,13 @@
     </nuxt-link>
     <div class="sep-40" />
     <div id="container-music">
-      <a href="https://li.sten.to/amorce" target="_blank">
+      <a
+        href="https://li.sten.to/amorce"
+        target="_blank"
+        data-aos="flip-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-out-back"
+      >
         <div class="box-music">
           <img src="~/assets/img/tsc/amorce.webp" alt="The Solace Comes - Amorce">
           <div class="sep-10" />
@@ -30,7 +43,14 @@
           <span>2019</span>
         </div>
       </a>
-      <a href="http://smarturl.it/reverb-release/" target="_blank">
+      <a
+        href="http://smarturl.it/reverb-release/"
+        target="_blank"
+        data-aos="flip-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-out-back"
+        data-aos-delay="500"
+      >
         <div class="box-music">
           <img src="~/assets/img/tsc/reverb.webp" alt="The Solace Comes / O'low - Rêverb">
           <div class="sep-10" />

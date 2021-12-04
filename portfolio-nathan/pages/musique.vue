@@ -8,16 +8,31 @@
       <div id="reverb-titles">
         <a href="https://bit.ly/3sKUCnB"><img class="reverb-link" src="~/assets/img/icon/download2.svg" alt="télécharger rêverb"></a>
         <div id="reverb-titles__credits">
-          <img src="~/assets/img/tsc/logo_tsc.svg" alt="the solace comes">
-          <img src="~/assets/img/tsc/olow.svg" alt="o'low">
-          <img id="reverbtitle" src="~/assets/img/tsc/RÊVERB.svg" alt="RÊVERB">
+          <img data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800" src="~/assets/img/tsc/logo_tsc.svg" alt="the solace comes">
+          <img data-aos="fade" data-aos-duration="1000" data-aos-delay="1600" src="~/assets/img/tsc/olow.svg" alt="o'low">
+          <img
+            id="reverbtitle"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            src="~/assets/img/tsc/RÊVERB.svg"
+            alt="RÊVERB"
+          >
         </div>
         <a href="http://smarturl.it/reverb-release/" target="_blank"><img class="reverb-link" src="~/assets/img/icon/play.svg" alt="streamer rêverb"></a>
       </div>
       <div id="reverb-link-mobile">
         <a href="http://smarturl.it/reverb-release/" target="_blank"><img class="reverb-link" src="~/assets/img/icon/play.svg" alt="streamer rêverb"></a>
       </div>
-      <video id="redvision" autoplay loop src="~/assets/img/tsc/eye-loop.mp4" alt="red vision" />
+      <video
+        id="redvision"
+        autoplay
+        loop
+        src="~/assets/img/tsc/eye-loop.mp4"
+        alt="red vision"
+        data-aos="fade"
+        data-aos-duration="1000"
+        data-aos-delay="2500"
+      />
       <img id="redvision-picture" src="~/assets/img/tsc/EYE.svg" alt="red vision">
     </section>
     <section id="amorce">
@@ -25,7 +40,7 @@
         <img src="~/assets/img/tsc/micro-amorce.webp" alt="the solace comes amorce">
       </div>
       <div id="amorce-titles">
-        <img src="~/assets/img/tsc/amorce-title.webp" alt="the solace comes amorce">
+        <img src="~/assets/img/tsc/amorce-title.webp" data-aos="fade" data-aos-duration="2000" alt="the solace comes amorce">
         <div class="sep-30" />
         <div id="platforms">
           <a href="https://open.spotify.com/artist/6aLE276JCRs6kclrdEeaGk" target="_blank"><img src="~/assets/img/icon/spotify.webp" alt="spotify"></a>

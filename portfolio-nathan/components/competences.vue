@@ -5,7 +5,13 @@
     <div class="sep-50" />
     <div id="grid">
       <div class="grid-assets">
-        <div v-for="asset in assets" :key="asset" class="grid-assets-block">
+        <div
+          v-for="asset in assets"
+          :key="asset"
+          class="grid-assets-block"
+          data-aos="fade-up"
+          data-aos-duration="750"
+        >
           <img :src="asset.img" :alt="asset.alt">
           <div class="sep-10" />
           <h3>{{ asset.name }}</h3>
@@ -99,6 +105,11 @@ export default {
             grid-template-columns: repeat(auto-fit, 160px) !important;
           }
         }
+      }
+    }
+    @media screen and (max-width: 500px) {
+      section{
+        display: none;
       }
     }
 </style>

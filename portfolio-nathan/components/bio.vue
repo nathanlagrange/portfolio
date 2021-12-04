@@ -3,19 +3,19 @@
     <div class="sep-50" />
     <div class="sep-50" />
     <div id="bio-img">
-      <figure>
+      <figure data-aos="flip-left" data-aos-duration="800" data-aos-easing="ease-out-cubic">
         <img src="https://ucarecdn.com/26143775-5662-4cf7-8eb8-3ab3e962e734/-/preview/300x300/" alt="nathan lagrange enfance">
         <figcaption>
           Ille-et-Vilaine, 2003
         </figcaption>
       </figure>
-      <figure id="nathan-arcachon">
+      <figure id="nathan-arcachon" data-aos="flip-left" data-aos-duration="800" data-aos-delay="200" data-aos-easing="ease-out-cubic">
         <img src="https://ucarecdn.com/c2f5d19b-f3d7-4329-ba6c-0944aa89457d/-/preview/300x300/" alt="nathan lagrange tournage">
         <figcaption>
           Haute-Garonne, 2011
         </figcaption>
       </figure>
-      <figure>
+      <figure data-aos="flip-left" data-aos-duration="800" data-aos-delay="400" data-aos-easing="ease-out-cubic">
         <img src="https://ucarecdn.com/7140cb19-ead0-4de8-8b38-d44a31a0a191/-/preview/300x300/" alt="nathan lagrange chien">
         <figcaption>
           Hérault, 2019

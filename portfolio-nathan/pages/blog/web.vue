@@ -33,7 +33,14 @@
         <button2 title="Retour" />
       </div>
       <div id="blog-grid">
-        <div v-for="article of blog" :key="article.slug" class="blog-grid-block">
+        <div
+          v-for="article of blog"
+          :key="article.slug"
+          class="blog-grid-block"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-cubic"
+        >
           <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <img class="blog-grid-block-img" :src="article.img" :alt="article.alt">
             <span class="date">{{ article.date }}</span>

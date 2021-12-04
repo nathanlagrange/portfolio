@@ -4,9 +4,11 @@
       <div id="description">
         <div id="description__text">
           <img id="nate-mobile" src="../assets/img/photo/rednate.webp" alt="nathan lagrange">
-          <h1>nathan<b>lagrange</b></h1>
+          <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
+            nathan<b>lagrange</b>
+          </h1>
           <div class="sep-30" />
-          <h2>
+          <h2 data-aos="fade" data-aos-duration="2000" data-aos-delay="500">
             { Développeur front-end (VueJS)
             <br>
             Webmaster <a href="https://hermione.co" target="_blank">@hermione.co</a>
@@ -28,7 +30,7 @@
             <br>
           </p>
           <div class="sep-20" />
-          <p>
+          <p data-aos="fade" data-aos-duration="1500" data-aos-delay="1500">
             Ce support web est dédié à la présentation de mes compétences en développement front-end, web design et production musicale.
             Ce site a été entièrement pensé et développé par moi-même avec le framework Nuxt (basé sur Vue).
           </p>
@@ -51,7 +53,13 @@
       <h2>Dernières réalisations</h2>
       <div class="sep-50" />
       <div id="blog-grid">
-        <div v-for="article of articles" :key="article.slug" class="blog-grid-block">
+        <div
+          v-for="article of articles"
+          :key="article.slug"
+          class="blog-grid-block"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
           <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <img class="blog-grid-block-img" :src="article.img" :alt="article.alt">
             <span class="date">{{ article.date }}</span>
@@ -61,6 +69,7 @@
           </nuxt-link>
         </div>
       </div>
+      <div class="sep-20" />
       <nuxt-link to="/blog">
         <button2 title="Visiter le blog" />
       </nuxt-link>

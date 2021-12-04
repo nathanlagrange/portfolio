@@ -1,6 +1,8 @@
 <template>
   <section class="titlepage">
-    <h1>{{ title }}</h1>
+    <h1 data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
+      {{ title }}
+    </h1>
   </section>
 </template>
 
