@@ -262,6 +262,7 @@ export default {
     background-image: url('../assets/img/banner/banner-nl.webp');
     background-position: center;
     background-repeat: repeat;
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -269,6 +270,7 @@ export default {
     box-sizing: border-box;
     padding-left: 50px;
     padding-right: 50px;
+    box-shadow: inset 0px 0px 400px 0px rgba(0, 0, 0, 0.5);
     #profil__pic{
       background-image: url('../assets/img/photo/rednate.webp');
       background-position: center;

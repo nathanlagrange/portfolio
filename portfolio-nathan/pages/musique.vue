@@ -5,6 +5,7 @@
         <img id="eye-l" src="~/assets/img/tsc/eye-l.webp" alt="eye">
         <img id="eye-r" src="~/assets/img/tsc/eye-r.webp" alt="eye">
       </div>
+      <div class="sep-40" />
       <div id="reverb-titles">
         <a href="https://bit.ly/3sKUCnB"><img class="reverb-link" src="~/assets/img/icon/download2.svg" alt="télécharger rêverb"></a>
         <div id="reverb-titles__credits">
@@ -23,7 +24,7 @@
       <div id="reverb-link-mobile">
         <a href="http://smarturl.it/reverb-release/" target="_blank"><img class="reverb-link" src="~/assets/img/icon/play.svg" alt="streamer rêverb"></a>
       </div>
-      <video
+      <!-- <video
         id="redvision"
         autoplay
         loop
@@ -32,8 +33,16 @@
         data-aos="fade"
         data-aos-duration="1000"
         data-aos-delay="2500"
-      />
-      <img id="redvision-picture" src="~/assets/img/tsc/EYE.svg" alt="red vision">
+      /> -->
+      <img
+        id="redvision-picture"
+        src="~/assets/img/tsc/EYE.svg"
+        alt="red vision"
+        data-aos="fade"
+        data-aos-duration="2000"
+        data-aos-easing="ease-out-sine"
+        data-aos-delay="2000"
+      >
     </section>
     <section id="amorce">
       <div id="mic">
@@ -185,12 +194,16 @@ export default {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     @include padding-section;
     padding-top: 15vh;
     padding-bottom: 10vh;
-    background: $dark-color;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('https://ucarecdn.com/48e0aace-f209-484b-9563-a10f6a40d3d5/-/preview/1800x1800/');
+    background-position: 52%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     #theeye{
       img{
         width: auto;
@@ -239,7 +252,6 @@ export default {
       width: 80px;
       height: 80px;
       margin-top: 10px;
-      display: none;
     }
     #reverb-img{
       img{
@@ -269,9 +281,6 @@ export default {
           a{
               display: none;
           }
-      }
-      #redvision-picture{
-        display: block;
       }
       #redvision{
         display: none;
