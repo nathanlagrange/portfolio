@@ -22,8 +22,8 @@
       <nuxt-link to="/blog/web">
         <button2 title="Web" />
       </nuxt-link>
-      <nuxt-link to="/blog/experiencepro">
-        <button1 title="Expérience pro" />
+      <nuxt-link to="/blog/alternance">
+        <button1 title="Alternance" />
       </nuxt-link>
     </div>
     <section id="blog">

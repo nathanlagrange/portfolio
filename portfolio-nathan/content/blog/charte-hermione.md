@@ -7,7 +7,7 @@ extrait: "La charte graphique de Hermione que j'ai réalisé à l'occasion de mo
 id: '0030'
 img: https://ucarecdn.com/5ec8b852-fed0-4521-8485-2123514fadad/
 alt: charte graphique hermione.co
-categorie: 'experiencepro'
+categorie: 'alternance'
 année: 2021
 ---
 ## 📜 Contexte et enjeux

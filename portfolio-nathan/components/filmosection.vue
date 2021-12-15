@@ -51,7 +51,8 @@
   }
   #filmographie-section__content{
     padding: 10vw;
-    max-width: 70%;
+    width: 70%;
+    max-width: 1500px;
     color: white;
     height: 100vh;
     display: flex;

@@ -197,8 +197,10 @@ export default {
         text-align: left;
       }
       blockquote{
+        color: rgb(107, 107, 107);
         p{
           text-align: center;
+          font-size: 16px;
         }
       }
       ul{
