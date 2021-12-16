@@ -28,11 +28,33 @@
         </nuxt-link>
       </div>
     </div>
-    <video autoplay loop poster="https://ucarecdn.com/210fd8bf-d988-4d50-9f71-c00dbe016210/-/preview/1900x1900/">
+    <video id="video-filmo" autoplay loop poster="https://ucarecdn.com/210fd8bf-d988-4d50-9f71-c00dbe016210/-/preview/1900x1900/">
       <source src="~/assets/video/randommemories.mp4" type="video/mp4">
     </video>
   </div>
 </template>
+
+<script>
+export default {
+  mounted () {
+    this.hideVideo()
+  },
+  methods: {
+    hideVideo () {
+      const video = document.getElementById('video-filmo')
+      const myScrollFunc = function () {
+        const y = window.scrollY
+        if (y >= 4000) {
+          video.style.display = 'block'
+        } else {
+          video.style.display = 'none'
+        }
+      }
+      window.addEventListener('scroll', myScrollFunc)
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 @import "~/assets/css/_mixins.scss";

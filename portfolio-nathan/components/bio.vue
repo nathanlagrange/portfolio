@@ -26,14 +26,13 @@
     <div id="bio-p-1">
       <p>
         Je m’appelle Nathan Lagrange et je suis un étudiant alternant en développement web
-        (front-end) agé de 23 ans. Passionné par la dance musique et le cyclisme depuis
+        (front-end) agé de {{ date }} ans. Passionné par la dance music et le sport depuis
         mon enfance, ma région préférée est la Bretagne et je ne reviendrai pour rien au monde
         dans le sud de la France où j’ai grandi.
         <br>
         <br>
-        Au fil des années, j’ai développé des atouts me permettant d’anticiper les difficultés et
-        les contraintes de temps et à proposer des idées là où ne m’attend pas toujours.
-        Si je prend mon temps, c’est pour éviter d’en perdre sur le long terme !
+        Au fil des années, j’ai développé des atouts me permettant de me différencier dans ma façon d'aborder mes projets et être là où ne m’attend pas toujours.
+        J'accorde le plus d'importance possible à la rigeur tout en étant en phase avec mes collaborateurs.
       </p>
       <figure>
         <img src="https://ucarecdn.com/b8e60eb9-8ca2-4b5e-85fe-4e5c18de0aa0/-/preview/220x220/" alt="Music Sounds Better With You">
@@ -44,11 +43,11 @@
     <div id="bio-p-2">
       <p>
         Je suis <strong>diplômé d’un DUT MMI</strong> (métiers du multimédia et de l’internet) et je suis actuellement en
-        <strong>Bachelor 3 spécialisation web design</strong> à l'école My Digital School.
+        <strong>Bachelor 3 web design</strong> à l'école My Digital School.
         <br><br>
-        Cette dernière année d'étude devrait me permettre de diversifier mes aptitudes en design d'interface et
-        d'expérience utilisateur. Il ne m'était pas imaginable de simplement développer des interfaces web
-        mais de pouvoir agir sur la phase de conception pour comprendre le monde numérique qui m'entoure et ses enjeux.
+        Cette dernière année d'étude devrait me permettre de diversifier mes compétences en design d'interface et
+        d'expérience utilisateur car il ne m'était pas imaginable de développer des interfaces web
+        sans pouvoir être critique sur la phase de conception.
         <br><br>
         Après mes études, j’aspire à <strong>devenir un développeur front-end</strong>
         confirmé en continuant à me former parrallèlement aux évolutions technologiques de mon métier.
@@ -58,6 +57,16 @@
     <div class="sep-50" />
   </section>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      date: new Date().getUTCFullYear() - 1998
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 @import "../assets/css/_mixins.scss";

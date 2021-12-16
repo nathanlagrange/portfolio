@@ -55,7 +55,7 @@ export default {
   robots: [
     {
       UserAgent: 'Googlebot',
-      Disallow: ['/blog/musique', '/blog/webdesign', '/blog/web', '/blog/experiencepro', '/blog/autre', '/mentionslegales', '/cv']
+      Disallow: ['/realisations/musique', '/realisations/webdesign', '/realisations/web', '/realisations/alternance', '/realisations/autre', '/mentionslegales', '/cv']
     }
   ],
   // Content module configuration: https://go.nuxtjs.dev/config-content

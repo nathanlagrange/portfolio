@@ -70,7 +70,7 @@
         </div>
       </div>
       <div class="sep-20" />
-      <nuxt-link to="/blog">
+      <nuxt-link to="/realisations">
         <button2 title="Visiter le blog" />
       </nuxt-link>
     </section>
@@ -83,7 +83,7 @@
 export default {
   layout: 'default',
   async asyncData ({ $content, params }) {
-    const articles = await $content('blog', params.slug)
+    const articles = await $content('realisations', params.slug)
       .only(['title', 'date', 'img', 'slug', 'id'])
       .sortBy('id', 'desc')
       .limit(3)
