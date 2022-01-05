@@ -23,6 +23,13 @@
           </nuxt-link>
         </div>
       </div>
+<<<<<<< HEAD
+=======
+      <div class="sep-20" />
+      <nuxt-link to="/blog">
+        <button2 title="Visiter le blog" />
+      </nuxt-link>
+>>>>>>> parent of 4111327 (blog -> réalisations)
     </section>
     <tschome />
     <filmosection />
@@ -33,7 +40,7 @@
 export default {
   layout: 'default',
   async asyncData ({ $content, params }) {
-    const articles = await $content('realisations', params.slug)
+    const articles = await $content('blog', params.slug)
       .only(['title', 'date', 'img', 'slug', 'id'])
       .sortBy('id', 'desc')
       .limit(3)
