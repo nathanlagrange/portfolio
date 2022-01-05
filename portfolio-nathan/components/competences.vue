@@ -32,13 +32,10 @@ export default {
         { name: 'Wordpress', img: 'https://ucarecdn.com/36c9c611-514b-4cd0-aac0-e37200bd24c9/wordpress.webp', alt: 'Wordpress' },
         { name: 'Github', img: 'https://ucarecdn.com/e114257d-fef4-49aa-a825-c4eb4b672137/github.webp', alt: 'Github' },
         { name: 'Sass', img: 'https://ucarecdn.com/a7c78a20-3b88-4b8e-b433-017c83237977/sass.webp', alt: 'Sass' },
-<<<<<<< HEAD
         { name: 'Tailwind', img: 'https://ucarecdn.com/10e6af29-638e-4b15-a91c-195669a3b26c/-/preview/-/quality/smart/', alt: 'Tailwind' },
         { name: 'Oxygen', img: 'https://ucarecdn.com/7b40c91d-5c4c-4883-94a9-382ceff87636/oxygen.webp', alt: 'Oxygen Builder' },
-=======
         { name: 'Elementor', img: 'https://ucarecdn.com/cae12cd0-8b61-48bb-aa6b-86ded855be78/elementor.webp', alt: 'Elementor' },
         { name: 'Oxygen Builder', img: 'https://ucarecdn.com/7b40c91d-5c4c-4883-94a9-382ceff87636/oxygen.webp', alt: 'Oxygen Builder' },
->>>>>>> parent of 4111327 (blog -> réalisations)
         { name: 'Figma', img: 'https://ucarecdn.com/f7624559-e4c4-48f4-86d7-71dd7aa54f1f/figma.webp', alt: 'Figma' },
         { name: 'Photoshop', img: 'https://ucarecdn.com/d6ecffa4-2096-4016-9b57-39e31ff2be68/photoshop.webp', alt: 'Photoshop' },
         { name: 'Illustrator', img: 'https://ucarecdn.com/b5808c02-091d-4f9b-9d84-2de36b9dba4d/illustrator.webp', alt: 'Illustrator' },
