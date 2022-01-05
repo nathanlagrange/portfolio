@@ -1,21 +1,26 @@
 h1 {
-  font-size: 40px;
+  font-size: clamp(25px, calc(1.5625rem + ((1vw - 4.8px) * 1.9841)), 75px);
 }
 
 h2 {
-  font-size: 35px;
+  font-size: clamp(22px, calc(1.375rem + ((1vw - 4.8px) * 1.746)), 66px);
 }
 
 h3 {
-  font-size: 30px;
+  font-size: clamp(20px, calc(1.25rem + ((1vw - 4.8px) * 1.5873)), 60px);
 }
 
 h4 {
-  font-size: 25px;
+  font-size: clamp(18px, calc(1.125rem + ((1vw - 4.8px) * 1.4286)), 54px);
 }
 
-p {
-  font-size: 20px;
+p, span, blockquote, cite {
+  font-size: clamp(16px, calc(1rem + ((1vw - 4.8px) * 0.6349)), 32px);
+  line-height: 130%;
+}
+
+figcaption {
+  font-size: clamp(8px, calc(0.5rem + ((1vw - 4px) * 0.9231)), 32px);
 }
 
 .sep-5 {
@@ -98,14 +103,14 @@ button {
   font-family: 'Manrope';
   border-radius: 5px !important;
   width: auto;
-  min-height: 45px;
-  max-height: 45px;
+  min-height: clamp(45px, calc(2.8125rem + ((1vw - 8px) * 1.2727)), 73px);
+  max-height: clamp(45px, calc(2.8125rem + ((1vw - 8px) * 1.2727)), 73px);
   outline: none;
   border: none;
   cursor: pointer;
-  min-width: 154px;
-  max-width: 154px;
-  font-size: 16px;
+  min-width: clamp(154px, calc(9.625rem + ((1vw - 8px) * 4.3636)), 250px);
+  max-width: clamp(154px, calc(9.625rem + ((1vw - 8px) * 4.3636)), 250px);
+  font-size: clamp(16px, calc(1rem + ((1vw - 8px) * 0.4545)), 26px);
   color: white;
   font-weight: 600;
   -webkit-transition: all 0.2s ease;

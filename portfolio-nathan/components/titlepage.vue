@@ -33,7 +33,6 @@ export default {
     h1{
       color: white;
       font-weight: 400;
-      font-size: 40px;
       text-align: center;
     }
   }

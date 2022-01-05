@@ -68,7 +68,7 @@
     max-width: 100%;
     .prev-site__box{
       width: 33.34%;
-      height: 380px;
+      height: clamp(380px, calc(23.75rem + ((1vw - 8px) * 13.6364)), 680px);
       padding: 5%;
       color: white;
       h3{

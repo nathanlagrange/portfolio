@@ -1,52 +1,6 @@
 <template>
   <div>
-    <section id="landing">
-      <div id="description">
-        <div id="description__text">
-          <img id="nate-mobile" src="../assets/img/photo/rednate.webp" alt="nathan lagrange">
-          <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
-            nathan<b>lagrange</b>
-          </h1>
-          <div class="sep-30" />
-          <h2 data-aos="fade" data-aos-duration="2000" data-aos-delay="500">
-            { Développeur front-end (VueJS)
-            <br>
-            Webmaster <a href="https://hermione.co" target="_blank">@hermione.co</a>
-            <br>
-            Bachelor 3 Web Design @MyDigitalSchool }
-          </h2>
-          <div class="sep-30" />
-          <blockquote>
-            <span>
-              <b>“When opportunity knocks, it’s too late to prepare.”</b>
-            </span>
-            <br>
-            <div class="sep-10" />
-            John Wooden
-          </blockquote>
-          <div class="sep-30" />
-          <p>
-            <b>Bienvenue sur mon portfolio 👋</b>
-            <br>
-          </p>
-          <div class="sep-20" />
-          <p data-aos="fade" data-aos-duration="1500" data-aos-delay="1500">
-            Ce support web est dédié à la présentation de mes compétences en développement front-end, web design et production musicale.
-            Ce site a été entièrement pensé et développé par moi-même avec le framework Nuxt (basé sur Vue).
-          </p>
-          <div class="sep-20" />
-          <p id="cv-dl">
-            <nuxt-link to="/cv">
-              <img src="../assets/img/icon/download.svg" alt="télécharger"><u><b>Afficher mon CV</b></u>
-            </nuxt-link>
-          </p>
-        </div>
-      </div>
-      <div id="profil">
-        <div id="profil__pic" />
-      </div>
-    </section>
-    <bio />
+    <hero />
     <prev-site />
     <competences />
     <section id="miniblog">
@@ -60,7 +14,7 @@
           data-aos="fade-up"
           data-aos-duration="800"
         >
-          <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+          <nuxt-link :to="{ name: 'realisations-slug', params: { slug: article.slug } }">
             <img class="blog-grid-block-img" :src="article.img" :alt="article.alt">
             <span class="date">{{ article.date }}</span>
             <h3>{{ article.title }}</h3>
@@ -69,10 +23,6 @@
           </nuxt-link>
         </div>
       </div>
-      <div class="sep-20" />
-      <nuxt-link to="/realisations">
-        <button2 title="Visiter le blog" />
-      </nuxt-link>
     </section>
     <tschome />
     <filmosection />
@@ -160,16 +110,6 @@ export default {
         }
       ]
     }
-  },
-  mounted () {
-    this.rotateprofil()
-  },
-  methods: {
-    rotateprofil () {
-      document.getElementById('profil__pic').addEventListener('mouseover', function () {
-        document.getElementById('profil__pic').style.transform = 'rotate(0deg)'
-      })
-    }
   }
 }
 </script>
@@ -177,169 +117,12 @@ export default {
 <style lang="scss">
 @import "~/assets/css/_mixins.scss";
 @import "~/assets/css/_colors.scss";
-//landing section
-#landing{
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  #description{
-    min-height: 100vh;
-    width: 60%;
-    background: $dark-color;
-    @include padding-section;
-    padding-top: 100px;
-    padding-bottom: 5px;
-    box-sizing: border-box;
-    #description__text{
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      blockquote{
-        color: white;
-        font-weight: 400;
-        font-style: italic;
-        span{
-          color: $light-color;
-        }
-      }
-      #nate-mobile{
-        display: none;
-        height: 100px;
-        width: 100px;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.3));
-      }
-      h1{
-        color: white;
-        font-weight: 400;
-        letter-spacing: 0.18em;
-      }
-      h2{
-        color: white;
-        font-size: 20px;
-        font-weight: 300;
-        background-color: $cold-color;
-        @include border-radius;
-        max-width: 420px;
-        padding: 15px;
-        a{
-          color: inherit;
-          text-decoration: none;
-          font-weight: 700;
-        }
-      }
-      p{
-        color: white;
-        font-size: 20px;
-        font-weight: 300;
-        text-align: left;
-        line-height: 30px;
-      }
-      #cv-dl{
-        width: 220px;
-        a{
-          display: flex;
-          align-items: center;
-          color: white;
-        }
-        img{
-          margin-right: 5px;
-          height: 19px;
-          cursor: pointer;
-        }
-      }
-    }
-  }
-  #profil{
-    min-height: 100vh;
-    width: 40%;
-    background-image: url('../assets/img/banner/banner-nl.webp');
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding-left: 50px;
-    padding-right: 50px;
-    box-shadow: inset 0px 0px 400px 0px rgba(0, 0, 0, 0.5);
-    #profil__pic{
-      background-image: url('../assets/img/photo/rednate.webp');
-      background-position: center;
-      background-size: cover;
-      width: 200px;
-      height: 200px;
-      border-radius: 5px;
-      filter: drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.3));
-      opacity: 1;
-      transition: transform 0.3s ease-out;
-      transform: rotate(4deg);
-    }
-  }
-}
-// responsive landing section
-@media screen and (max-width: 850px) {
-  #landing{
-    #description{
-      width: 100%;
-      background-image: url('../assets/img/banner/banner-nl.webp');
-      @include padding-section-mobile;
-      #nate-mobile{
-        display: block!important;
-      }
-      h1{
-        font-size: 30px;
-      }
-      p{
-        font-size: 18px!important;
-      }
-      blockquote{
-        font-size: 16px;
-      }
-      #cv-dl{
-        display: none!important;
-      }
-    }
-    #profil{
-      display: none;
-    }
-  }
-}
-@media screen and (max-width: 350px) {
-  #landing{
-    #description{
-      #nate-mobile{
-        height: 75px!important;
-        width: 75px!important;
-      }
-      h1{
-        font-size: 20px;
-      }
-      h2{
-        font-size: 16px!important;
-      }
-      p{
-        font-size: 14px!important;
-      }
-    }
-  }
-}
-
 #miniblog{
-  min-height: 70vh;
   height: auto;
   width: 100%;
   background: black;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10%;
+  padding-bottom: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -351,18 +134,18 @@ export default {
   #blog-grid{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, 390px);
-    column-gap: 50px;
-    row-gap: 50px;
-    grid-auto-rows: minmax(390px, auto);
+    grid-template-columns: repeat(auto-fit, clamp(250px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px));
+    column-gap: 2%;
+    row-gap: 2%;
     width: 100%;
-    height: auto;
-    min-height: 500px;
+    height: clamp(300px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px)!important;
     .blog-grid-block{
-      width: 390px;
-      height: 390px;
+      width: clamp(250px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px);
+      height: clamp(250px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px);
+      margin-left: auto;
+      margin-right: auto;
       color: white;
-      margin-bottom: 35px;
+      margin-bottom: 15%;
       a{
         text-decoration: none;
         color: white;

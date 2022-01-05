@@ -18,7 +18,7 @@
     </ul>
     <div id="nav-social">
       <a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank"><img src="../assets/img/icon/linkedin.svg" alt="linkedin"></a>
-      <a href="https://github.com/nathanlagrange" target="_blank"><img id="github" src="../assets/img/icon/github-logo.svg" alt="github"></a>
+      <a href="https://github.com/nathanlagrange" target="_blank"><img src="../assets/img/icon/github-logo.svg" alt="github"></a>
       <a href="mailto:nathanlagrange98@gmail.com" target="_blank">
         <img id="envelope" src="../assets/img/icon/envelope.svg" alt="envelope">
       </a>
@@ -87,12 +87,14 @@ export default {
     z-index: 1;
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 10vh;
     width: 100%;
     position: fixed;
     box-sizing: border-box;
     @include padding-section;
     transition: height 0.3s ease-out, background-color 0.3s ease-out;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+    font-size: clamp(10px, calc(0.625rem + ((1vw - 10px) * 1.3)), 36px);
     a.nuxt-link-exact-active{
       font-weight: bold;
       color: $light-color!important;
@@ -100,7 +102,7 @@ export default {
     &.onScroll{
       background-color: rgba($color: #000000, $alpha: 0.4);
       transition: height 0.5s ease-out, background-color 0.5s ease-out;
-      height: 75px;
+      height: 8vh;
       &:hover{
         background-color: rgba($color: #000000, $alpha: 1.0);
       }
@@ -152,18 +154,15 @@ export default {
       align-items: center;
       justify-content:flex-end;
       img{
-        width: 25px;
-        height: 25px;
+        width: clamp(16px, calc(1rem + ((1vw - 4.8px) * 1.3492)), 50px);
+        height:  clamp(16px, calc(1rem + ((1vw - 4.8px) * 1.3492)), 50px);
+        margin-left: clamp(16px, calc(1rem + ((1vw - 4.8px) * 1.3492)), 50px);
         cursor: pointer;
         transition: opacity 0.3s ease;
         &:hover{
           opacity: 0.6;
           transition: opacity 0.3s ease;
         }
-      }
-      #github{
-        margin-right: 15px;
-        margin-left: 15px;
       }
     }
     #burger{
@@ -225,7 +224,7 @@ export default {
         transition: transform 0.6s ease-out;
         background: rgba(0, 0, 0, 1);
         #menu-phone__list{
-          font-size: 30px;
+          font-size: 30px!important;
           font-weight: 400;
           letter-spacing: 0.18em;
           line-height: 80px;

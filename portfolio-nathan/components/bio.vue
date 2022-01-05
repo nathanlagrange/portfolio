@@ -16,7 +16,7 @@
         </figcaption>
       </figure>
       <figure data-aos="flip-left" data-aos-duration="800" data-aos-delay="400" data-aos-easing="ease-out-cubic">
-        <img src="https://ucarecdn.com/7140cb19-ead0-4de8-8b38-d44a31a0a191/-/preview/300x300/" alt="nathan lagrange chien">
+        <img src="https://ucarecdn.com/7140cb19-ead0-4de8-8b38-d44a31a0a191/-/preview/300x300/" alt="nathan lagrange 2011">
         <figcaption>
           Hérault, 2019
         </figcaption>
