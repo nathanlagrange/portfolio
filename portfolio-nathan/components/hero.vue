@@ -34,7 +34,7 @@
           <div class="sep-20" />
           <p id="cv-dl">
             <nuxt-link to="/cv">
-              <span>⬇️<u><b>Afficher mon CV</b></u></span>
+              <span><b><u>Afficher mon CV</u></b>⬇️</span>
             </nuxt-link>
           </p>
         </div>
@@ -43,7 +43,7 @@
     <section id="hero-2">
       <div id="hero-2-bandeau">
         <p>
-          Je m’appelle Nathan Lagrange et je suis un étudiant alternant en développement web (front-end) agé de 24 ans. Passionné par la dance music et le sport depuis mon enfance, ma région préférée est la Bretagne et je ne reviendrai pour rien au monde dans le sud de la France où j’ai grandi.
+          Je m’appelle Nathan Lagrange et je suis un étudiant alternant en développement web (front-end) agé de {{ date }} ans. Passionné par la dance music et le sport depuis mon enfance, ma région préférée est la Bretagne et je ne reviendrai pour rien au monde dans le sud de la France où j’ai grandi ☀️.
         </p>
         <p>
           Au fil des années, j’ai développé des atouts me permettant de me différencier dans ma façon d'aborder mes projets et d'être là où ne m’attend pas toujours. J'accorde le plus d'importance possible à la rigeur et la technique tout en étant en phase avec mes collaborateurs.
@@ -65,7 +65,7 @@
         >
           <img src="https://ucarecdn.com/26143775-5662-4cf7-8eb8-3ab3e962e734/-/preview/300x300/" alt="nathan lagrange 2003">
           <figcaption>
-            2003
+            Bretagne, 2003
           </figcaption>
         </figure>
         <figure
@@ -76,7 +76,7 @@
         >
           <img src="https://ucarecdn.com/c2f5d19b-f3d7-4329-ba6c-0944aa89457d/-/preview/300x300/" alt="nathan lagrange 2011">
           <figcaption>
-            2011
+            Gers, 2011
           </figcaption>
         </figure>
         <figure
@@ -87,7 +87,7 @@
         >
           <img src="https://ucarecdn.com/7140cb19-ead0-4de8-8b38-d44a31a0a191/-/preview/300x300/" alt="nathan lagrange 2003">
           <figcaption>
-            2019
+            Gard, 2019
           </figcaption>
         </figure>
       </div>
@@ -95,12 +95,22 @@
   </div>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      date: new Date().getFullYear() - 1998
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
   @import "~/assets/css/_mixins.scss";
   @import "~/assets/css/_colors.scss";
   #hero{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: url("https://ucarecdn.com/8753232b-7a21-4b27-9687-73132f5db12e/-/preview/-/quality/smart/");
     background-position: 50% 15%;
     background-repeat: repeat-y;
@@ -191,7 +201,7 @@
     flex-direction: row-reverse;
     @include padding-section;
     #hero-2-bandeau{
-      margin: 5% 0;
+      margin: auto 0;
       width: 50%;
       color: white;
       height: 100%;
@@ -223,8 +233,8 @@
           font-weight: 500;
         }
         img{
-          height: clamp(100px, calc(6.25rem + ((1vw - 10px) * 12.5)), 350px);
-          width: clamp(100px, calc(6.25rem + ((1vw - 10px) * 12.5)), 350px);
+          height: 200px;
+          width: 200px;
           @include border-radius;
           filter: drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.3));
         }

@@ -9,7 +9,7 @@
         <nuxt-link to="/">
           <li>accueil</li>
         </nuxt-link>
-        <nuxt-link to="/blog">
+        <nuxt-link to="/realisations">
           <li>blog</li>
         </nuxt-link>
         <nuxt-link to="/musique">

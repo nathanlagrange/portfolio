@@ -23,13 +23,10 @@
           </nuxt-link>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-      <div class="sep-20" />
-      <nuxt-link to="/blog">
-        <button2 title="Visiter le blog" />
+      <div class="sep-50" />
+      <nuxt-link to="/realisations">
+        <button2 title="Mes réalisations" />
       </nuxt-link>
->>>>>>> parent of 4111327 (blog -> réalisations)
     </section>
     <tschome />
     <filmosection />
@@ -40,7 +37,7 @@
 export default {
   layout: 'default',
   async asyncData ({ $content, params }) {
-    const articles = await $content('blog', params.slug)
+    const articles = await $content('realisations', params.slug)
       .only(['title', 'date', 'img', 'slug', 'id'])
       .sortBy('id', 'desc')
       .limit(3)
@@ -128,8 +125,8 @@ export default {
   height: auto;
   width: 100%;
   background: black;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,14 +138,14 @@ export default {
   #blog-grid{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, clamp(250px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px));
-    column-gap: 2%;
-    row-gap: 2%;
+    grid-template-columns: repeat(auto-fit, 380px);
+    column-gap: 25px;
+    row-gap: 25px;
     width: 100%;
-    height: clamp(300px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px)!important;
+    height: auto;
     .blog-grid-block{
-      width: clamp(250px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px);
-      height: clamp(250px, calc(15.625rem + ((1vw - 10px) * 12.5)), 500px);
+      width: 380px;
+      height: 380px;
       margin-left: auto;
       margin-right: auto;
       color: white;

@@ -9,8 +9,8 @@
       <nuxt-link to="/">
         <li>Accueil</li>
       </nuxt-link>
-      <nuxt-link to="/blog">
-        <li>Blog</li>
+      <nuxt-link to="/realisations">
+        <li>Réalisations</li>
       </nuxt-link>
       <nuxt-link to="/musique">
         <li>Musique</li>
@@ -33,8 +33,8 @@
         <nuxt-link to="/">
           <li>Accueil</li>
         </nuxt-link>
-        <nuxt-link to="/blog">
-          <li>Blog</li>
+        <nuxt-link to="/realisations">
+          <li>Réalisations</li>
         </nuxt-link>
         <nuxt-link to="/musique">
           <li>Musique</li>
@@ -93,8 +93,8 @@ export default {
     box-sizing: border-box;
     @include padding-section;
     transition: height 0.3s ease-out, background-color 0.3s ease-out;
-    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
-    font-size: clamp(10px, calc(0.625rem + ((1vw - 10px) * 1.3)), 36px);
+    background: linear-gradient(180deg, rgba(30,30,30,0.5) 0%, rgba(0,0,0,0) 100%);
+    font-size: 18px;
     a.nuxt-link-exact-active{
       font-weight: bold;
       color: $light-color!important;
@@ -154,8 +154,8 @@ export default {
       align-items: center;
       justify-content:flex-end;
       img{
-        width: clamp(16px, calc(1rem + ((1vw - 4.8px) * 1.3492)), 50px);
-        height:  clamp(16px, calc(1rem + ((1vw - 4.8px) * 1.3492)), 50px);
+        width: 26px;
+        height: 26px;
         margin-left: clamp(16px, calc(1rem + ((1vw - 4.8px) * 1.3492)), 50px);
         cursor: pointer;
         transition: opacity 0.3s ease;

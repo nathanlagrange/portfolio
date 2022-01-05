@@ -123,13 +123,13 @@
             font-family: 'Manrope';
             @include border-radius;
             width: auto;
-             min-height: clamp(45px, calc(2.8125rem + ((1vw - 8px) * 1.2727)), 73px);
-    max-height: clamp(45px, calc(2.8125rem + ((1vw - 8px) * 1.2727)), 73px);
+            min-height: 45px;
+            max-height:45px;
             outline: none;
             border: none;
             cursor: pointer;
-            min-width: clamp(154px, calc(9.625rem + ((1vw - 8px) * 4.3636)), 250px);
-            max-width: clamp(154px, calc(9.625rem + ((1vw - 8px) * 4.3636)), 250px);
+            min-width: 154px;
+            max-width: 154px;
             font-size: 16px;
             color: white;
             font-weight: 600;

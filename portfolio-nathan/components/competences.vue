@@ -55,7 +55,7 @@ export default {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      height: clamp(850px, calc(53.125rem + ((1vw - 5px) * 38)), 1800px);
+      min-height: 100vh;
       background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #000000 100%), url(~/assets/img/banner/banner-nl.webp);
       background-position: center;
       background-size: cover;
@@ -72,13 +72,13 @@ export default {
           width: 100%;
           display: grid;
           justify-content: center;
-          grid-template-columns: repeat(4, clamp(100px, calc(6.25rem + ((1vw - 5px) * 8)), 300px));
-          column-gap: 2%;
-          row-gap: 5%;
+          grid-template-columns: repeat(4, 150px);
+          column-gap: 20px;
+          row-gap: 20px;
           .grid-assets-block{
             background: white;
-            width: clamp(100px, calc(6.25rem + ((1vw - 5px) * 8)), 300px);
-            height: clamp(100px, calc(6.25rem + ((1vw - 5px) * 8)), 300px);
+            width: 150px;
+            height: 150px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -103,7 +103,7 @@ export default {
         @include padding-section-mobile;
         #grid{
           .grid-assets{
-            grid-template-columns: repeat(auto-fit, clamp(100px, calc(6.25rem + ((1vw - 5px) * 8)), 300px)) !important;
+            grid-template-columns: repeat(auto-fit, 150px);
           }
         }
       }
