@@ -132,7 +132,7 @@ export default {
     }
     #hero-bandeau{
       @include padding-section;
-      background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(101,37,175,1) 100%);
+      background: linear-gradient(90deg, rgba(255,255,255,0) 42%, rgba(101,37,175,1) 100%);
       min-height: 40vh;
       height: auto;
       padding-top: 2%;
@@ -233,8 +233,8 @@ export default {
           font-weight: 500;
         }
         img{
-          height: 200px;
-          width: 200px;
+          height: 180px;
+          width: 180px;
           @include border-radius;
           filter: drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.3));
         }

@@ -28,11 +28,32 @@
         </nuxt-link>
       </div>
     </div>
-    <video autoplay loop poster="https://ucarecdn.com/210fd8bf-d988-4d50-9f71-c00dbe016210/-/preview/1900x1900/">
+    <video id="video-filmo" autoplay loop poster="https://ucarecdn.com/210fd8bf-d988-4d50-9f71-c00dbe016210/-/preview/1900x1900/">
       <source src="~/assets/video/randommemories.mp4" type="video/mp4">
     </video>
   </div>
 </template>
+
+<script>
+export default {
+  mounted () {
+    this.hideVideo()
+  },
+  methods: {
+    hideVideo () {
+      const videoFilmo = document.getElementById('video-filmo')
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 3900) {
+          videoFilmo.style.display = 'block'
+        } else {
+          videoFilmo.style.display = 'none'
+        }
+      })
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 @import "~/assets/css/_mixins.scss";
@@ -84,10 +105,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     video{
-      display: none;
+      display: none!important;
     }
     #filmographie-section__content{
-      max-width: 100%;
+      width: 100%;
     }
   }
 }
