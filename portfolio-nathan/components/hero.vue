@@ -46,7 +46,7 @@
           Je m’appelle Nathan Lagrange et je suis un étudiant alternant en développement web (front-end) agé de {{ date }} ans. Passionné par la dance music et le sport depuis mon enfance, ma région préférée est la Bretagne et je ne reviendrai pour rien au monde dans le sud de la France où j’ai grandi ☀️.
         </p>
         <p>
-          Au fil des années, j’ai développé des atouts me permettant de me différencier dans ma façon d'aborder mes projets et d'être là où ne m’attend pas toujours. J'accorde le plus d'importance possible à la rigeur et la technique tout en étant en phase avec mes collaborateurs.
+          Mes atouts : me différencier dans ma façon d'aborder mes projets et être là où ne m’attend pas toujours. J'accorde beaucoup d'importance à la rigeur et la technique tout en étant en phase avec mes collaborateurs.
         </p>
         <br>
         <p>
@@ -200,6 +200,8 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     @include padding-section;
+    padding-top: 2%;
+    padding-bottom: 2%;
     #hero-2-bandeau{
       margin: auto 0;
       width: 50%;
@@ -298,4 +300,9 @@ export default {
       }
     }
   }
+  @media screen and (max-width: 479px) {
+    h1{
+      font-size: 30px;
+    }
+}
 </style>

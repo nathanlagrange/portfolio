@@ -46,15 +46,15 @@
       data-aos-delay="800"
     >
       <h3>
-        helene-boyer.com
+        hermione.co
       </h3>
       <div class="sep-10" />
-      <span>dev. front-end Vue JS</span>
+      <span>webmaster / chargé SEO</span>
       <br>
-      <span>2021</span>
+      <span>2022</span>
       <br>
       <div class="sep-40" />
-      <a href="https://helene-boyer.com" target="_blank"><button3 title="Découvrir" /></a>
+      <a href="https://hermione.co" target="_blank"><button3 title="Découvrir" /></a>
     </div>
   </section>
 </template>
@@ -71,23 +71,24 @@
       height: 400px;
       padding: 5%;
       color: white;
+      background-position: center!important;
       h3{
         font-size: 30px;
         font-weight: 700;
       }
     }
     #prev-site-box__1{
-      background: linear-gradient(0deg, rgba(61, 135, 224, 0.9), rgba(61, 135, 224, 0.9)), url('../assets/img/photo/hnf-screen-miniature.webp');
+      background: linear-gradient(0deg, rgba(14, 139, 68, 0.8), rgba(14, 139, 68, 0.8)), url('../assets/img/photo/hnf-screen-miniature.webp');
       background-size: cover;
       background-repeat: no-repeat;
     }
     #prev-site-box__2{
-      background: linear-gradient(0deg, rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.9)), url('../assets/img/photo/flouvaps-screen-miniature.webp');
+      background: linear-gradient(0deg, rgba(230, 48, 48, 0.7), rgba(230, 48, 48, 0.7)), url('../assets/img/photo/flouvaps-screen-miniature.webp');
       background-size: cover;
       background-repeat: no-repeat;
     }
     #prev-site-box__3{
-      background: linear-gradient(0deg, rgba(101, 37, 175, 0.9), rgba(101, 37, 175, 0.9)), url('../assets/img/photo/hb-screen-miniature.webp');
+      background: linear-gradient(0deg, rgba(0, 132, 255, 0.7), rgba(0, 132, 255, 0.7)), url('https://ucarecdn.com/b23b7f5d-837d-4df9-900d-80ff23bb4fc6/-/preview/-/quality/smart/');
       background-size: cover;
       background-repeat: no-repeat;
     }
