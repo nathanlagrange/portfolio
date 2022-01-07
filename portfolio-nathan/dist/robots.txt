@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /blog/musique
+Disallow: /blog/webdesign
+Disallow: /blog/web
+Disallow: /blog/experiencepro
+Disallow: /blog/autre
+Disallow: /mentionslegales
+Disallow: /cv

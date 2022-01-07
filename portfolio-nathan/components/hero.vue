@@ -113,7 +113,7 @@ export default {
     min-height: 100vh;
     background: url("~/assets/img/hero/hero-1.webp");
     background-position: 50% 15%;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -280,7 +280,7 @@ export default {
     }
     #hero-2{
       @include padding-section-mobile;
-      background: url("https://ucarecdn.com/446802ba-0f66-42c1-a9ca-909bb5a13e27/-/preview/-/quality/smart/"), linear-gradient( rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5)50%);
+      background: url("~/assets/img/hero/hero-2.webp"), linear-gradient( rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5)50%);
       background-position: 45%;
       background-size: 1500px;
       background-attachment: fixed;
