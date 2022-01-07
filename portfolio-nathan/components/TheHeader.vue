@@ -87,7 +87,7 @@ export default {
     z-index: 1;
     display: flex;
     flex-direction: row;
-    height: 10vh;
+    height: 100px;
     width: 100%;
     position: fixed;
     box-sizing: border-box;
@@ -101,8 +101,8 @@ export default {
     }
     &.onScroll{
       background-color: rgba($color: #000000, $alpha: 0.4);
-      transition: height 0.5s ease-out, background-color 0.5s ease-out;
-      height: 8vh;
+      transition: height 0.5s linear, background-color 0.5s ease-out;
+      height: 80px;
       &:hover{
         background-color: rgba($color: #000000, $alpha: 1.0);
       }

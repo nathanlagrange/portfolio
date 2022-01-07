@@ -34,7 +34,7 @@
           <div class="sep-20" />
           <p id="cv-dl">
             <nuxt-link to="/cv">
-              <span><b><u>Afficher mon CV</u></b>⬇️</span>
+              <span><b><u>Afficher mon CV</u></b> ⬇️</span>
             </nuxt-link>
           </p>
         </div>
@@ -111,7 +111,7 @@ export default {
   #hero{
     width: 100%;
     min-height: 100vh;
-    background: url("https://ucarecdn.com/8753232b-7a21-4b27-9687-73132f5db12e/-/preview/-/quality/smart/");
+    background: url("~/assets/img/hero/hero-1.webp");
     background-position: 50% 15%;
     background-repeat: repeat-y;
     background-size: cover;
@@ -192,7 +192,7 @@ export default {
     width: 100%;
     min-height: 100vh;
     height: auto;
-    background: url("https://ucarecdn.com/446802ba-0f66-42c1-a9ca-909bb5a13e27/-/preview/-/quality/smart/");
+    background: url("~/assets/img/hero/hero-2.webp");
     background-position: 50% 15%;
     background-repeat: no-repeat;
     background-size: cover;
