@@ -41,7 +41,8 @@ export default {
         { name: 'Illustrator', img: 'https://ucarecdn.com/b5808c02-091d-4f9b-9d84-2de36b9dba4d/illustrator.webp', alt: 'Illustrator' },
         { name: 'Adobe XD', img: 'https://ucarecdn.com/ab07b78d-1bc9-44bb-a94d-2412680a737a/xd.webp', alt: 'Adobe XD' },
         { name: 'Premiere', img: 'https://ucarecdn.com/2a518045-92dd-4ac8-87cf-d76f906c20c9/premierepro.webp', alt: 'Premiere Pro' },
-        { name: 'After Effect', img: 'https://ucarecdn.com/6955f833-1451-4274-8b49-99568bdc03ea/aftereffect.webp', alt: 'After Effect' }
+        { name: 'After Effect', img: 'https://ucarecdn.com/6955f833-1451-4274-8b49-99568bdc03ea/aftereffect.webp', alt: 'After Effect' },
+        { name: 'Ubersuggest', img: 'https://ucarecdn.com/806d5a0f-9e74-4d99-918b-b316dcefb4fa/-/preview/-/quality/smart/', alt: 'ubersuggest' }
       ]
     }
   }
