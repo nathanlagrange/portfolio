@@ -46,7 +46,7 @@ export default {
   },
   data () {
     return {
-      title: 'Nathan Lagrange - Développeur front-end',
+      title: 'Nathan Lagrange - Webmaster SEO',
       description: 'Je m\'appelle Nathan Lagrange et je vous souhaite la bienvenue sur mon portfolio (dev, web design et musique).'
     }
   },
