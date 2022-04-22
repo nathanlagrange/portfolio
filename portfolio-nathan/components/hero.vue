@@ -10,11 +10,9 @@
       <div id="hero-bandeau">
         <div id="hero-bandeau-meta">
           <p data-aos="fade" data-aos-duration="2000" data-aos-delay="500">
-            { Développeur front-end (VueJS)
+            { Webmaster <a href="https://hermione.co" target="_blank">@hermione.co</a>
             <br>
-            Webmaster <a href="https://hermione.co" target="_blank">@hermione.co</a>
-            <br>
-            Bachelor 3 Web Design @MyDigitalSchool }
+            Bachelor 3 Web Design }
           </p>
           <blockquote>
             <div class="sep-30" />
@@ -43,18 +41,23 @@
     <section id="hero-2">
       <div id="hero-2-bandeau">
         <p>
-          Je m’appelle Nathan Lagrange et je suis un étudiant alternant en développement web (front-end) agé de {{ date }} ans. Passionné par la dance music et le sport depuis mon enfance, ma région préférée est la Bretagne et je ne reviendrai pour rien au monde dans le sud de la France où j’ai grandi ☀️.
+          Je m’appelle Nathan Lagrange et j’ai 24 ans. Très jeune, je me suis passioné par le domaine du numérique et du multimédia en réalisant mes premiers films, en composant, mixant ma propre musique et bien plus tard en développant de façon autonome des sites internets.
         </p>
         <p>
-          Mes atouts : me différencier dans ma façon d'aborder mes projets et être là où ne m’attend pas toujours. J'accorde beaucoup d'importance à la rigeur et la technique tout en étant en phase avec mes collaborateurs.
+          En 2019, j’ai commencé des études pour obtenir un DUT MMI m’ayant fait découvrir l’univers de la programmation web. 2 ans après, j’ai commencé à m’intéresser à l’ergonomie en intégrant un bachelor 3 spécialisation web design que j’espère finir cette année.
         </p>
-        <br>
         <p>
-          🎓 <b>DUT MMI Toulon</b>
+          Pour la rentrée 2022, je prévois d’intégrer un Master Expert Marketing Digital dans l’objectif d’élargir mon champ de compétences et être LE profil évident qu’une entreprise choisira. Je souhaite par cette occasion poursuivre ma relation professionnelle avec Hermione Médecine, la startup Montpelliéraine où je réalise mon alternance depuis août 2021.
+        </p>
+        <p>
+          En ce qui concerne mon profil, j’ai toujours été un touche-à-tout : excellent nul part mais bon dans la plupart des domaines. Au fil des années il est devenu pour moi une évidence de me professionaliser dans le domaine du digital pour devenir webmaster, un métier correspondant tout à fait à ma personnalité et mon profil. Ce qui était pour moi qu’un simple échappatoire et un moyen de me valoriser socialement dans la cours de récréation est devenu le métier de mes rêves grâce à de nombreuses années de détermination.
+        </p>
+        <p>
+          🎓 <b>DUT MMI / Bachelor 3 web design</b>
           <br>
-          🎯 <b>Développeur Front-end</b>
+          🎯 <b>Webmaster</b>
           <br>
-          🌟 <b>SEO / Nuxt / Figma / Oxygen Builder</b>
+          🌟 <b>SEO / Vue / React / Figma / Wordpress</b>
         </p>
       </div>
       <div id="hero-2-img">
@@ -286,10 +289,10 @@ export default {
       background-attachment: fixed;
       #hero-2-bandeau{
           margin-top: auto;
-          padding: 2%;
+          padding: 5%;
           width: 100%;
           height: 50%;
-          background-color: rgba(0, 0, 0, 0.3);
+          background-color: rgba(0, 0, 0, 0.6);
           @include border-radius;
         p{
           width: 100%;

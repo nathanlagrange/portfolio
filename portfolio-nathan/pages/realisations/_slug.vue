@@ -182,22 +182,26 @@ export default {
       align-items: center;
       h2{
         text-align: center;
+        margin-bottom: 20px;
       }
       h3, h4, h5{
         margin-right: auto;
+        margin-bottom: 20px;
       }
       img{
         max-width: 750px;
         height: auto;
         @include border-radius;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
       }
       p{
         max-width: 750px;
         text-align: left;
+        margin-bottom: 20px;
       }
       blockquote{
         color: rgb(107, 107, 107);
+        margin-bottom: 20px;
         p{
           text-align: center;
           font-size: 16px;
