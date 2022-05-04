@@ -44,7 +44,7 @@
           Je m’appelle Nathan Lagrange et j’ai 24 ans. Très jeune, je me suis passioné par le domaine du numérique et du multimédia en réalisant mes premiers films, en composant, mixant ma propre musique et bien plus tard en développant de façon autonome des sites internets.
         </p>
         <p>
-          En 2019, j’ai commencé des études pour obtenir un DUT MMI m’ayant fait découvrir l’univers de la programmation web. 2 ans après, j’ai commencé à m’intéresser à l’ergonomie en intégrant un bachelor 3 spécialisation web design que j’espère finir cette année.
+          En 2019, j’ai commencé des études pour obtenir un DUT MMI m’ayant fait découvrir l’univers de la programmation web. 2 ans après, j’ai commencé à m’intéresser à l’ergonomie en intégrant un bachelor 3 spécialisation web design que je compte finir cette année.
         </p>
         <p>
           Pour la rentrée 2022, je prévois d’intégrer un Master Expert Marketing Digital dans l’objectif d’élargir mon champ de compétences et être LE profil évident qu’une entreprise choisira. Je souhaite par cette occasion poursuivre ma relation professionnelle avec Hermione Médecine, la startup Montpelliéraine où je réalise mon alternance depuis août 2021.

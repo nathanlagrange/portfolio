@@ -1,7 +1,7 @@
 ---
 title: "Refonte globale de hermione.co"
 slug: refonte-hermione
-date: '07 février 2022'
+date: '01 mai 2022'
 description: "Pendant une grande partie de mon alternance, j'ai eu la possibilité de proposer une refonte graphique, web et une amélioration du SEO de l'ensemble du site de Hermione Médecine."
 extrait: "Optimisation SEO des contenus, cohérence graphique et amélioration de l'expérience d'utilisation sur mobile."
 id: '0032'
@@ -93,6 +93,8 @@ readingTime();
 
 En parallèle de la refonte graphique de [hermione.co](https://hermione.co), j'ai proposé de nombreuses améliorations du côté de l'ergonomie et de l'expérience utilisateur.
 
+**Cette liste n'est qu'un extrait du travail d'amélioration ergonomique réalisé sur l'ensemble de cette année, j'ai regroupé ici seulement ce qui me semblait être le plus intéressant et le plus pertinent.**
+
 Par exemple, il n'était pas évident de cerner le secteur d'activité de l'entreprise. C'est pour cela que j'ai ajouté un slogan et une typographie au logo existant pour que tout cela soit plus transparent pour l'utilisateur.
 L'objectif était également de permettre aux visiteurs du site de mieux mémoriser le nom de l'agence et ses objectifs.
 <br />
@@ -114,13 +116,109 @@ Ensuite, j'ai évalué que les CTA (boutons call to action) avaient tendance à 
 
 ![CTA hermione.co](https://ucarecdn.com/e52f35d7-965c-4e36-9399-28ac3520a2fd/-/preview/300x300/)
 
+J'ai également souhaité mettre l'accent sur la simplification des données que nous récoltons sur l'ensemble du site. Pour que l'utilisateur gagne du temps, j'ai réduit le plus possible le nombre d'information à fournir en se limitant à l'adresse e-mail quand cela était possible.
+
+![newsletter hermione.co](https://ucarecdn.com/4d703f03-4267-46c8-bdf3-ba6fcb70d996/-/preview/-/quality/smart/)
+>Le lead magnet du blog de hermione.co : on ne récupère que l'adresse e-mail
+
+Enfin, j'ai travaillé avec Gabriel Dobricean à l'élaboration d'un meilleur tunnel de vente (le parcours utilisateur amenant à l'achat de notre formation). Pour amener à cette réflexion, nous avons mis en place différent test AB (afficher la même page à un utilisateur mais avec des légères différences).
+
+La plupart des utilisateurs avaient tendance à cliquer sur des liens les redirigeants vers du contenu gratuit (quiz, modèle de lettre de motivation, fiche de révision, ...) plutôt que vers des liens mettant en avant la formation de Hermione Médecine.
+
+![cta méthode pass](https://ucarecdn.com/efc6e1e0-f604-47af-abbe-bb5920a11352/-/preview/-/quality/smart/)
+>Un "Call To Action" menant vers la page de vente de la formation "La Méthode PASS"
+
+![quiz hermione médecine](https://ucarecdn.com/55081090-2f7d-4cd9-a213-7cb2206d71fe/-/preview/-/quality/smart/)
+>Le lead magnet redirigeant vers le quiz pour estimer ses chances de réussir en PASS
+
+J'ai proposé de placer des lead magnet (une section présentant du contenu gratuit) et des pop up exit (des fenêtes modales s'affichant lorsque l'utilisateur essaye de quitter le site) permettant l'accès à nos contenus gratuits en échange d'un e-mail.
+
+![pop up exit](https://ucarecdn.com/e90fc0b3-a7df-4779-81b3-07884712124d/-/preview/-/quality/smart/)
+
+Une fois l'e-mail récupéré, le prospect reçoit chaque semaine la newsletter. C'est à partir de là que nous essayons de le fidéliser et de l'amener vers l'achat de la formation.
+
+
 ### Audit SEO
 
+Pour terminer cette partie, je vais évoquer le 3e axe de la refonte du site de Hermione Médecine en décrivant le changement de stratégie de référencement SEO que j'ai mis en place. Comme je l'ai évoqué, l'année 2021 a été très mauvaise pour le site car il ramenait très peu de trafic et les contenus les plus consultés n'avaient que très peu de rapport avec la formation en vente.
 
+A partir du mois de novembre 2021, j'ai proposé de changer de stratégie et d'attirer une clientèle plus qualifié et nombreuse à l'aide de quelques outils dont ubersuggest (un générateur de mot clé) et keywordtool. Ces outils m'ont permis d'analyser ce que notre cible recherchait et en quelle quantité.
+
+Grâce à ces données, nous avons commencé par trier les articles les moins pertinents puis à réécrire ceux qui étaient améliorables. Dans un second temps, nous (moi et la rédactrice en chef) avons établi un calendrier sur plusieurs mois afin d'anticiper les prochains évènements lié aux études de médecine en y associant des thèmes d'article. Les rédacteurs ont rédigés alors de nouveaux contenus selon cet emploi du temps.
+
+Pour les 6 premiers mois de 2022 :
+
+- Janvier 2022 : Début du 2ème semestre -> [Réussir son 2e semestre](https://hermione.co/reussir-deuxieme-semestre-pass/)
+- Mars-avril 2022 : Période Parcoursup -> [Lettre de motivation PASS](https://hermione.co/lettre-de-motivation-en-pass/)
+- Juin-juillet 2022 : Oraux de PASS -> [Oraux PASS médecine](https://hermione.co/oraux-pass-medecine/)
+
+<br>
+
+Cette nouvelle stratégie a été payante car nous avons acquis beaucoup plus de trafic (25 000 pour le mois de mars) et obtenu plusieurs milliers d'abonnement à la newsletter pour le même mois.
+
+![hermione.co analytics](https://ucarecdn.com/b68e2d82-d0eb-4e93-a746-0e7eec8277da/-/preview/-/quality/smart/)
+>Evolution du trafic global entre novembre et avril 2022
 ## 🎁 Résultats
 
 ### Aspect quantitatif
 
+En ce qui concerne la réinitialisation du site, il y a plusieurs conséquences positives, notamment l'augmentation de la rapidité de chargement des pages et des gains de performances sur l'ensemble du site.
+Pour donner un exemple concret, la page d'accueil mettait à l'origine environ 12 secondes à se charger entièrement. La plupart des données visibles ci-dessous étaient dans le rouge.
+
+![speed page landing hermione.co](https://ucarecdn.com/a684f3ad-6274-4058-8068-21d8056e2e78/-/preview/-/quality/smart/)
+>Données pour le 1er mai 2022 (page d'accueil hermione.co)
+
+J'ai également réussi à supprimer totalement les pages à erreur 404 en utilisant l'extension redirection de l'outil SEO rankMath et en désindexant les pages supprimées définitivement.
+
+![erreur 404](https://ucarecdn.com/0172abbd-131c-4569-a90b-28a1a87975a3/-/preview/-/quality/smart/)
+>Evolution du nombre page "erreur 404"
+
+En ce qui concerne le SEO, j'ai constaté une augmentation du trafic organique progressive puis très rapide. Le fait d'avoir rédigé du contenu plus qualitatif (qui répond à ce que recherche notre cible) à provoqué l'indexation de pages qui ne l'étaient pas depuis plusieurs mois et une diminution progressive de la variation  de positionnement de nos pages dans le SERP de Google (voir la capture d'écran ci-dessous).
+
+![evolution trafic hermione](https://ucarecdn.com/f419bbe4-2f08-4b17-be2e-c54ea373ad3a/-/preview/-/quality/smart/)
+>En orange : positionnement, en violet : nombre d'impressions
+Ce gain de trafic nous a fait gagner un nombre d'abonné à la newsletter très conséquent (+ de 4000 pour le mois de mars 2022).
 ### Aspect qualitatif
 
-## ☑️ Preuves et témoignages
+D'un point de vue qualitatif, le site est maintenant beaucoup plus sécurisé suite à l'ajout d'un système de double authentification (cette décision a été prise suite au hacking subi l'année dernière). Nous recevons chaque semaine des alertes de tentatives de connexion non fructueuses.
+
+Concernant la réglementation générale sur la protection des données, l'ensemble du site est dorénavant conforme à la nouvelle réglementation (coche de consentement lors de l'envoi de données personnelles par l'utilsateur, déclaration des données récoltées, droit à la modification/suppression des données personnelles, etc.).
+
+![RGPD hermione.co](https://ucarecdn.com/bc1721bd-7e40-40c8-8225-19e55807c638/-/preview/300x300/)
+>"J'ai lu et accepte le RGPD"
+
+Ensuite, l'image d'Hermione Médecine est bien mieux définie, plus compréhensible. Le travail autour du logo permettra aux futurs visiteurs du site de comprendre plus facilement l'objectif d'Hermione et ses formations. L'utilisation des nuances mauves tranche avec les couleurs beaucoup plus sombres utilisées auparavant. Cet apport ajoute plus de féminité, d'apaisement, une invitation au rêve, tout en se différenciant de la concurrence, utilisant des couleurs beaucoup plus claires et bleutées.
+
+![couleurs hermione médecine](https://ucarecdn.com/f6d3580c-13ca-424e-b4c1-629e65976145/)
+
+Enfin, après plusieurs mois de réécriture et d'évolution de stratégie, notre contenu s'est progressivement amélioré et est rentré en adéquation avec les attentes de notre cible. La conséquence a été l'augmentation du temps d'utilisation du site et de la diminution du taux de rebond (% d'utilisateurs quittant le site dès la première page). En parallèle de cela, j'ai remarqué une évolution maintenue des backlinks (liens redirigeant vers notre site) attestant de notre évolution de crédibilité dans le domaine des études de santé.
+
+## ☑️ Preuves
+
+La liste exhaustive de ce projet est disponible sur [hermione.co](https://hermione.co).
+Voici quelques images du rendu du projet.
+
+**Toutes les images et la représentation qu'elles en font présentent dans cette page appartiennent à Hermione Médecine.
+
+### Refonte graphique
+
+![](https://ucarecdn.com/b2bc2b83-4234-4e0f-a9eb-1b650c375da9/-/preview/-/quality/smart/)
+>Blog, page de vente, page d'accueil et article
+
+![](https://ucarecdn.com/28e9dadb-e0e0-4282-9f01-811d17af6a0a/-/preview/-/quality/smart/)
+>Page d'avis, à propos et page de vente du Planner d'Hermione
+
+![](https://ucarecdn.com/1d9d4aa5-7031-49a9-87ef-4b1d5ec1fe04/-/preview/-/quality/smart/)
+>Affichage responsive
+
+![logo slogan hermione médecine](https://ucarecdn.com/bade3d2b-48c6-4728-9e6d-ff2b5f308d5b/-/preview/350x350/)
+>Ajout d'une typographie et d'un slogan sur le logo de Hermione Médecine
+
+![couleurs charte graphique](https://ucarecdn.com/f6d3580c-13ca-424e-b4c1-629e65976145/)
+>Les nouvelles couleurs de la charte graphique
+
+![typographie hermione médecine](https://ucarecdn.com/29f1cbb8-56ea-4477-a7aa-d4f43c8086f8/-/preview/-/quality/smart/)
+>Nouvelle typographie : Gilroy présentait des problèmes d'accents sur certaines graisses
+
+![composants UI hermione médecine](https://ucarecdn.com/85832fcd-aaea-4ef3-9858-7fed00933a1d/-/preview/-/quality/smart/)
+>Composants UI cohérents entre eux
