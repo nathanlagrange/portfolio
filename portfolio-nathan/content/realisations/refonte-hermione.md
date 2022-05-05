@@ -62,7 +62,7 @@ Ensuite, à partir de la nouvelle [charte graphique](https://nathanlagrange.dev/
 En parallèle de ça, j'ai défini un design system avec des composants que j'allais réutiliser à travers le site dans le but suivant : créer une redondance et une cohérence graphique dans le site.
 <br />
 <br />
-Cette étape fut assez frustrante et longue car mes supérieurs hiérarchiques souhaitent fréquemment opérer à des changements dans le choix des couleurs, des composants et l'organisation des pages.
+Cette étape fut assez frustrante et longue car mes supérieurs hiérarchiques souhaitent fréquemment opérer à des changements dans le choix des couleurs, des composants et l'organisation des pages. Nous avons finalement réussi à convenir d'un choix en nous inspirant de l'interface et de l'univers graphique du site germinal.io
 
 ![design system hermione médecine](https://ucarecdn.com/6b4aaacc-979f-4c4b-bdc1-32c5cd1f5f26/-/preview/-/quality/smart/)
 >le design system de Hermione Médecine
@@ -211,8 +211,10 @@ Voici quelques images du rendu du projet.
 ![](https://ucarecdn.com/1d9d4aa5-7031-49a9-87ef-4b1d5ec1fe04/-/preview/-/quality/smart/)
 >Affichage responsive
 
+![logo hermione médecine](https://ucarecdn.com/250fa2e7-b740-44b4-8da3-d9e3b0edb631/-/preview/150x150/)
+
 ![logo slogan hermione médecine](https://ucarecdn.com/bade3d2b-48c6-4728-9e6d-ff2b5f308d5b/-/preview/350x350/)
->Ajout d'une typographie et d'un slogan sur le logo de Hermione Médecine
+>Evolution du logo avec ajout d'une typographie et d'un slogan sur le logo de Hermione Médecine
 
 ![couleurs charte graphique](https://ucarecdn.com/f6d3580c-13ca-424e-b4c1-629e65976145/)
 >Les nouvelles couleurs de la charte graphique
@@ -222,3 +224,30 @@ Voici quelques images du rendu du projet.
 
 ![composants UI hermione médecine](https://ucarecdn.com/85832fcd-aaea-4ef3-9858-7fed00933a1d/-/preview/-/quality/smart/)
 >Composants UI cohérents entre eux
+
+![avant après article hermione.co](https://ucarecdn.com/581822c6-512a-4306-9535-5848540953d8/-/preview/-/quality/smart/)
+>Un avant-après la refonte UI/UX du blog
+
+![avant après page hermione.co](https://ucarecdn.com/d49d697b-5bc5-443d-913b-45c556d4472d/-/preview/-/quality/smart/)
+>Un avant-après de la page à propos
+
+![page 404 hermione.co](https://ucarecdn.com/f22e7e8c-531c-4fdd-9547-7d9acb89dc71/-/preview/-/quality/smart/)
+>L'ancienne page d'erreur 404 (à gauche) et sa nouvelle version (à droite)
+### Refonte du contenu / stratégie SEO
+
+![evolution trafic hermione médecine](https://ucarecdn.com/f419bbe4-2f08-4b17-be2e-c54ea373ad3a/-/preview/-/quality/smart/)
+>Evolution du trafic (impressions + positionnement en orange) entre le 30.08.2021 et le 27.04.2022
+
+![evolution durée session hermione médecine](https://ucarecdn.com/f7def14c-9baf-4d6e-bed4-b10b04d64b75/-/preview/-/quality/smart/)
+>Evolution de la durée moyenne des sessions sur hermione.co (entre novembre et avril) - écarts stabilisés
+
+![](https://ucarecdn.com/13a38b8e-16d3-40ed-95e1-c66fb4df4bda/-/preview/-/quality/smart/)
+>Les articles avec le plus de trafic redirigent vers des pages de téléchargement de contenu gratuit en échange de l'email de l'utilisateur. Voici un exemple de ces pages.
+
+![](https://ucarecdn.com/e90fc0b3-a7df-4779-81b3-07884712124d/-/preview/-/quality/smart/)
+>La fenêtre modale s'affichant au moment où l'utilisateur scroll vers le haut pour quitter le site.
+
+![](https://ucarecdn.com/4d703f03-4267-46c8-bdf3-ba6fcb70d996/-/preview/-/quality/smart/)
+>Nouveau lead magnet pour attirer de nouveaux abonnés sur la newsletter
+
+Je tiens à remercier toute l'équipe de Hermione Médecine et particulièrement Gabriel Dobricean, de m'avoir fait confiance tout au long de cette année et sur ce projet !
