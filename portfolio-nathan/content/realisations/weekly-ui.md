@@ -4,7 +4,7 @@ slug: weekly-ui
 date: '27 juin 2021'
 description: "Cette page réunit tous les projets du défi weekly UI que je me suis lancé début 2021. L'idée était de réaliser une interface design par semaine pendant 6 mois et de pouvoir constituer un portfolio plus complet que celui que j'avais à l'époque."
 extrait: "Défi weekly UI lancé en 2021 : réaliser une interface par semaine pendant 6 mois"
-id: 'weekly-ui'
+id: '0033'
 img: https://ucarecdn.com/4ed0e34b-b5f1-47e4-949e-ad690022eb33/-/preview/-/quality/smart/
 alt: "weekly UI nathan lagrange"
 categorie: webdesign

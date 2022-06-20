@@ -1,0 +1,225 @@
+<!doctype html>
+<html data-n-head-ssr lang="fr" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22fr%22%7D%7D">
+  <head>
+    <title>FriendsTrip : approche graphique et ergonomique | Nathan Lagrange - Développeur front-end</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta data-n-head="ssr" name="format-detection" content="telephone=no"><meta data-n-head="ssr" data-hid="description" name="description" content="Dans le cadre de mon bachelor 3 web design, j'ai réalisé la création de l'univers graphique et ergonomique de l'application de voyage FriendStrip. Je vais vous présenter le processus de réflexion et de création du projet."><meta data-n-head="ssr" data-hid="og:title" name="og:title" content="FriendsTrip : approche graphique et ergonomique"><meta data-n-head="ssr" data-hid="og:description" name="og:description" content="Réalisation de l'univers graphique et ergonomique pour l'application friendstrip (projet étudiant)"><meta data-n-head="ssr" data-hid="og:type" property="og:type" content="article"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://nathanlagrange.dev/realisations/friendstrip"><meta data-n-head="ssr" data-hid="twitter:url" name="twitter:url" content="https://nathanlagrange.dev/realisations/friendstrip"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="FriendsTrip : approche graphique et ergonomique"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Réalisation de l'univers graphique et ergonomique pour l'application friendstrip (projet étudiant)"><meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://ucarecdn.com/23dad0e7-1f35-48c5-868f-6a26448031af/-/preview/-/quality/smart/"><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://ucarecdn.com/23dad0e7-1f35-48c5-868f-6a26448031af/-/preview/-/quality/smart/"><meta data-n-head="ssr" property="article:published_time" content="20 juin 2022"><meta data-n-head="ssr" property="article:tag" content=""><meta data-n-head="ssr" name="twitter:label1" content="Publié par"><meta data-n-head="ssr" name="twitter:data1" content="Nathan Lagrange"><meta data-n-head="ssr" name="twitter:data2" content=""><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link data-n-head="ssr" data-hid="gf-prefetch" rel="dns-prefetch" href="https://fonts.gstatic.com/"><link data-n-head="ssr" data-hid="gf-preconnect" rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link data-n-head="ssr" data-hid="gf-preload" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"><link data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://nathanlagrange.dev/realisations/friendstrip"><script data-n-head="ssr" data-hid="gf-script">!function(){var e=document.createElement("link");e.rel="stylesheet",e.href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap",document.querySelector("head").appendChild(e)}()</script><noscript data-n-head="ssr" data-hid="gf-noscript"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"></noscript><link rel="preload" href="/_nuxt/6a7af78.js" as="script"><link rel="preload" href="/_nuxt/85c67ef.js" as="script"><link rel="preload" href="/_nuxt/d8b86f3.js" as="script"><link rel="preload" href="/_nuxt/fe1569a.js" as="script"><link rel="preload" href="/_nuxt/efc4b73.js" as="script"><style data-vue-ssr-id="f52d43e0:0 a07579c2:0 517a8dd7:0 fa7ff0ca:0 2ecf6f91:0 0f6479c2:0 005d7784:0 196f605c:0 2932575c:0">h1{font-size:40px}h2{font-size:35px}h3{font-size:30px}h4{font-size:25px}blockquote,cite,p{font-size:20px}.sep-5{min-height:5px;width:100%}.sep-10{min-height:10px;width:100%}.sep-20{min-height:20px;width:100%}.sep-30{min-height:30px;width:100%}.sep-40{min-height:40px;width:100%}.sep-50{min-height:50px;width:100%}::-webkit-scrollbar{width:7px;border-radius:5px!important}::-webkit-scrollbar-track{background:#6525af}::-webkit-scrollbar-thumb{background:#3d87e0;border-radius:5px!important}::-webkit-scrollbar-thumb:hover{background:#fff}*{padding:0;margin:0;box-sizing:border-box;max-width:100vw}html{font-family:Manrope;width:100%}body{background-color:#1e1e1e}main{width:100%}blockquote{font-size:20px}button{font-family:Manrope;border-radius:5px!important;width:auto;min-height:45px;max-height:45px;outline:0;border:none;cursor:pointer;min-width:154px;max-width:154px;font-size:16px;color:#fff;font-weight:600;transition:all .2s ease}button:hover{color:#c7cf00}input{border-radius:5px!important}h1{font-size:40px}h2{font-size:35px}h3{font-size:30px}h4{font-size:25px}blockquote,cite,p{font-size:20px}.sep-5{min-height:5px;width:100%}.sep-10{min-height:10px;width:100%}.sep-20{min-height:20px;width:100%}.sep-30{min-height:30px;width:100%}.sep-40{min-height:40px;width:100%}.sep-50{min-height:50px;width:100%}::-webkit-scrollbar{width:7px;border-radius:5px!important}::-webkit-scrollbar-track{background:#6525af}::-webkit-scrollbar-thumb{background:#3d87e0;border-radius:5px!important}::-webkit-scrollbar-thumb:hover{background:#fff}*{padding:0;margin:0;box-sizing:border-box;max-width:100vw}html{font-family:Manrope;width:100%}body{background-color:#1e1e1e}main{width:100%}blockquote{font-size:20px}button{font-family:Manrope;border-radius:5px!important;width:auto;min-height:45px;max-height:45px;outline:0;border:none;cursor:pointer;min-width:154px;max-width:154px;font-size:16px;color:#fff;font-weight:600;transition:all .2s ease}button:hover{color:#c7cf00}input{border-radius:5px!important}code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#c7cf00;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}header{z-index:1;display:flex;flex-direction:row;height:100px;width:100%;position:fixed;box-sizing:border-box;padding-left:50px;padding-right:50px;transition:height .3s ease-out,background-color .3s ease-out;background:linear-gradient(180deg,rgba(30,30,30,.5),transparent);font-size:18px}header a.nuxt-link-exact-active{font-weight:700;color:#c7cf00!important}header.onScroll{background-color:rgba(0,0,0,.4);transition:height .5s linear,background-color .5s ease-out;height:80px}header.onScroll:hover{background-color:#000}header #logo-nav{display:flex;align-items:center;justify-content:flex-start;height:100%;width:20%;z-index:2}header #logo-nav img{height:40px;width:40px;cursor:pointer;transform-origin:center;transition:transform .6s ease}header #logo-nav img:hover{transition:transform .3s ease;transform:rotate(-10deg)}header #links{height:100%;width:60%;display:flex;align-items:center;justify-content:flex-start}header #links a{list-style-type:none;color:#fff;display:inline;padding-left:2%;padding-right:2%;cursor:pointer;transition:color .3s ease;text-decoration:none}header #links a:hover{color:#c7cf00;transition:color .3s ease}header #nav-social{width:20%;height:100%;display:flex;align-items:center;justify-content:flex-end}header #nav-social img{width:26px;height:26px;margin-left:clamp(16px,1rem + (1vw - 4.8px)*1.3492,50px);cursor:pointer;transition:opacity .3s ease}header #nav-social img:hover{opacity:.6;transition:opacity .3s ease}header #burger{z-index:2;display:none}header #burger .line{height:1.2px;width:35px;background-color:#fff;margin-top:3px;margin-bottom:3px;border-radius:80px;padding:1px;transition:transform .2s ease,width .2s ease}header .toggle .line{width:30px!important}header .toggle #line__1{transform:rotate(-45deg) translate(-5px,7px)}header .toggle #line__2{opacity:0}header .toggle #line__3{transform:rotate(45deg) translate(-5px,-6px)}header #menu-phone{display:none}@media screen and (max-width:999px){header{justify-content:space-between}header #links,header #nav-social{display:none}header #burger{display:flex;flex-direction:column;justify-content:center;align-items:flex-end;cursor:pointer}header #menu-phone{display:block;width:40%;height:100vh;position:fixed;top:0;right:0;transform:translateX(0);transition:transform .6s ease-out;background:#000}header #menu-phone #menu-phone__list{font-size:30px!important;font-weight:400;letter-spacing:.18em;line-height:80px;list-style-type:none;color:#fff;width:100%;height:100%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:50px;box-sizing:border-box}header #menu-phone #menu-phone__list a{cursor:pointer;transition:color .3s ease;text-decoration:none;color:#fff;text-transform:uppercase}header #menu-phone #menu-phone__list a:hover{color:#c7cf00;transition:color .3s ease}header .on{transform:translateX(100%)!important;transition:transform .3s ease-out}}@media screen and (max-width:850px){header{padding-left:25px!important;padding-right:25px!important}header #menu-phone{width:100%}}#ariane{width:100%;display:flex;cursor:pointer;justify-content:center;color:#fff}#ariane .separator-ariane{padding-left:5px;padding-right:5px}#ariane a{text-decoration:none;color:#fff;font-weight:700}#article-section{padding-left:50px;padding-right:50px;background-color:#1e1e1e;display:flex;justify-content:center;height:auto}#article-section article{margin-bottom:50px;margin-top:50px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;background-color:#fff;max-width:1000px;width:80%;border-radius:5px;min-height:120vh;padding:40px 50px;filter:drop-shadow(0 0 5px rgba(255,255,255,.3))}#article-section article h1{text-align:center}#article-section article #date{letter-spacing:6px;font-size:16px}#article-section article #description{font-size:20px;font-weight:400;max-width:750px}#article-section article .nuxt-content{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center}#article-section article .nuxt-content h2{text-align:center;margin-bottom:20px}#article-section article .nuxt-content h3,#article-section article .nuxt-content h4,#article-section article .nuxt-content h5{margin-right:auto;margin-bottom:20px}#article-section article .nuxt-content img{max-width:750px;height:auto;border-radius:5px!important;margin-bottom:5px}#article-section article .nuxt-content p{max-width:750px;text-align:left;margin-bottom:20px}#article-section article .nuxt-content blockquote{color:#6b6b6b;margin-bottom:20px}#article-section article .nuxt-content blockquote p{text-align:center;font-size:16px}#article-section article .nuxt-content ul{max-width:500px;list-style-type:"-  "}#article-section article .nuxt-content li{margin-bottom:15px;font-size:16px}#article-section article .nuxt-content iframe{width:750px;max-width:100%;min-height:421px;border-radius:5px!important}@media screen and (max-width:1199px){#article-section article .nuxt-content img{width:100%}}@media screen and (max-width:850px){#article-section,#article-section article{padding-left:25px!important;padding-right:25px!important}#article-section article{width:100%}#article-section article ul{width:85%}}@media screen and (max-width:599px){#ariane{flex-direction:column;text-align:center}#ariane .separator-ariane{transform:rotate(90deg)}}@media screen and (max-width:450px){#article-section{padding-left:0!important;padding-right:0!important}#article-section article{border-radius:0;width:100%}}.titlepage[data-v-a493acc0]{align-items:center;min-height:30vh;width:100%;padding-top:120px;display:flex;justify-content:center;padding-left:50px;padding-right:50px;margin-bottom:15px}.titlepage h1[data-v-a493acc0]{color:#fff;font-weight:400;text-align:center}@media screen and (max-width:850px){.titlepage[data-v-a493acc0]{padding-left:25px!important;padding-right:25px!important}}.button1[data-v-58214e18]{background:linear-gradient(96.41deg,#6525af,#8a5ebe)}footer[data-v-1dd36e87]{min-height:392px;background-image:url(/_nuxt/img/banner-nl.120b9cc.webp);background-repeat:repeat;background-size:auto;background-position:50%;flex-direction:column;justify-content:space-around;padding:30px 50px}footer #name[data-v-1dd36e87],footer[data-v-1dd36e87]{width:100%;display:flex}footer #name[data-v-1dd36e87]{flex-direction:row;align-items:baseline;justify-content:center}footer #name img[data-v-1dd36e87]{height:23px;widows:23px;margin-right:6px}footer #name h6[data-v-1dd36e87]{color:#fff;font-size:30px;margin-left:6px;font-weight:400;letter-spacing:.18em}footer #footer-nav[data-v-1dd36e87]{width:100%;display:flex;flex-direction:row;align-items:baseline;justify-content:center}footer #footer-nav ul[data-v-1dd36e87]{text-align:center;list-style-type:none;display:inline}footer #footer-nav ul a[data-v-1dd36e87]{text-decoration:none;color:#fff}footer #footer-nav ul a li[data-v-1dd36e87]{list-style-type:none;display:inline;padding-left:8px;padding-right:8px;font-size:20px}footer #footer-icon[data-v-1dd36e87]{display:flex;flex-direction:row;width:100%;align-items:baseline;justify-content:center}footer #footer-icon a img[data-v-1dd36e87]{margin-left:5px;margin-right:5px;height:25px;width:auto}footer #footer-meta[data-v-1dd36e87]{width:100%;display:flex;justify-content:center;align-items:center}footer #footer-meta span[data-v-1dd36e87]{font-weight:400;font-size:20px;color:#fff;text-align:center}@media screen and (max-width:850px){footer[data-v-1dd36e87]{padding-left:25px!important;padding-right:25px!important}}@media screen and (max-width:499px){footer #name h6[data-v-1dd36e87]{display:none}footer #name img[data-v-1dd36e87]{margin-right:0;height:40px}footer #footer-nav ul[data-v-1dd36e87]{display:block!important;margin-top:30px;margin-bottom:30px}footer #footer-nav ul li[data-v-1dd36e87]{display:block!important;padding-top:5px;padding-bottom:5px;text-transform:uppercase}footer #footer-meta[data-v-1dd36e87]{margin-top:30px}}</style><link rel="preload" href="/_nuxt/static/1655751392/realisations/friendstrip/state.js" as="script"><link rel="preload" href="/_nuxt/static/1655751392/realisations/friendstrip/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1655751392/manifest.js" as="script">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WX4Y787MBD"></script>
+    <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-WX4Y787MBD")</script>
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><main><header><div id="logo-nav"><a href="/" class="nuxt-link-active"><img src="/_nuxt/img/logo-nl-white.0340180.svg" alt="logo"></a></div> <ul id="links"><a href="/" class="nuxt-link-active"><li>Accueil</li></a> <a href="/realisations" class="nuxt-link-active"><li>Réalisations</li></a> <a href="/musique"><li>Musique</li></a></ul> <div id="nav-social"><a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAxOSAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuMjUyOTUgMTkuMjUwOUgwLjMxMzgzOVY2LjM5ODk5SDQuMjUyOTVWMTkuMjUwOVpNMi4yODEyNyA0LjY0NTg3QzEuMDIxNjcgNC42NDU4NyAwIDMuNTg4ODMgMCAyLjMxMjY2QzkuMDE1NjZlLTA5IDEuNjk5NjcgMC4yNDAzNDggMS4xMTE3OSAwLjY2ODE2OSAwLjY3ODMzNEMxLjA5NTk5IDAuMjQ0ODgzIDEuNjc2MjQgMC4wMDEzNzMyOSAyLjI4MTI3IDAuMDAxMzczMjlDMi44ODYzIDAuMDAxMzczMjkgMy40NjY1NSAwLjI0NDg4MyAzLjg5NDM4IDAuNjc4MzM0QzQuMzIyMiAxLjExMTc5IDQuNTYyNTQgMS42OTk2NyA0LjU2MjU0IDIuMzEyNjZDNC41NjI1NCAzLjU4ODgzIDMuNTQwNDUgNC42NDU4NyAyLjI4MTI3IDQuNjQ1ODdaTTE4Ljk5NTggMTkuMjUwOUgxNS4wNjUxVjEyLjk5NDdDMTUuMDY1MSAxMS41MDM3IDE1LjAzNTQgOS41OTE1NyAxMy4wMTcxIDkuNTkxNTdDMTAuOTY5MSA5LjU5MTU3IDEwLjY1NTMgMTEuMjExNSAxMC42NTUzIDEyLjg4NzNWMTkuMjUwOUg2LjcyMDRWNi4zOTg5OUgxMC40OTgzVjguMTUyMTJIMTAuNTUzNUMxMS4wNzk0IDcuMTQyMzUgMTIuMzY0IDYuMDc2NzMgMTQuMjgwNSA2LjA3NjczQzE4LjI2NzEgNi4wNzY3MyAxOSA4LjczNjQ5IDE5IDEyLjE5MTJWMTkuMjUwOUgxOC45OTU4WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="linkedin"></a> <a href="https://github.com/nathanlagrange" target="_blank"><img src="/_nuxt/img/github-logo.6bfc26b.svg" alt="github"></a> <a href="mailto:nathanlagrange98@gmail.com" target="_blank"><img id="envelope" src="/_nuxt/img/envelope.7c9401e.svg" alt="envelope"></a></div> <div id="burger"><div id="line__1" class="line"></div> <div id="line__2" class="line"></div> <div id="line__3" class="line"></div></div> <div id="menu-phone" class="on"><ul id="menu-phone__list"><a href="/" class="nuxt-link-active"><li>Accueil</li></a> <a href="/realisations" class="nuxt-link-active"><li>Réalisations</li></a> <a href="/musique"><li>Musique</li></a></ul></div></header> <div><section class="titlepage" data-v-a493acc0><h1 data-aos="fade" data-aos-duration="1500" data-aos-easing="ease-out-cubic" data-v-a493acc0>
+    FriendsTrip : approche graphique et ergonomique
+  </h1></section> <div id="ariane"><a href="/realisations" class="nuxt-link-active">
+      Réalisations
+    </a> <div class="separator-ariane"><b>></b></div> <a href="/realisations/webdesign">
+      webdesign
+    </a> <div class="separator-ariane"><b>></b></div> <span>friendstrip</span></div> <section id="article-section"><article><a href="javascript:history.back()"><button class="button1" data-v-58214e18>
+  Retour
+</button></a> <div class="sep-30"></div> <span id="date">20 juin 2022</span> <div class="sep-30"></div> <p id="description">
+        Dans le cadre de mon bachelor 3 web design, j'ai réalisé la création de l'univers graphique et ergonomique de l'application de voyage FriendStrip. Je vais vous présenter le processus de réflexion et de création du projet.
+      </p> <div class="sep-50"></div> <div class="nuxt-content"><h2 id="-contexte-et-enjeux"><a aria-hidden="true" href="#-contexte-et-enjeux" tabindex="-1"><span class="icon icon-link"></span></a>📜 Contexte et enjeux</h2>
+<p>Le contexte du projet a lieu dans le cadre du bachelor de l'école My Digital School. Par groupe de 5 élèves, nous devons réaliser la création et le développement d'une application dont le concept est de permettre aux personnes les moins aisées de voyager autour du monde à des prix accessibles tout en rencontrant d'autres personnes.</p>
+<br>
+<p>Je me suis chargé personnellement de la création de l'identité graphique du projet et des différentes maquettes des écrans de l'application. Je vais vous présenter ici les différentes étapes du projet et les justifications associées.</p>
+<br>
+<ul>
+<li>
+<ol>
+<li>La veille concurrentielle</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Fonctions principales et secondaires</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>Charte graphique</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>Wireframe/maquette</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>Design system</li>
+</ol>
+</li>
+</ul>
+<br>
+<h2 id="-actions-réalisées"><a aria-hidden="true" href="#-actions-r%C3%A9alis%C3%A9es" tabindex="-1"><span class="icon icon-link"></span></a>📑 Actions réalisées</h2>
+<h3 id="1-réalisation-de-la-veille-concurrentielle"><a aria-hidden="true" href="#1-r%C3%A9alisation-de-la-veille-concurrentielle" tabindex="-1"><span class="icon icon-link"></span></a>1. Réalisation de la veille concurrentielle</h3>
+<p>Afin d’établir un arbre complet de fonctions principales et secondaires, nous avons sélectionné des applications similaires à notre projet : réserver un ensemble de services (hébergement et transport) via un catalogue généré par les utilisateurs de l’application.</p>
+<p>Ces 2 applications sont Airbnb et Booking. Elles avaient chacune des aspects complémentaires que nous voulions intégrer dans notre projet. Airbnb pour son système de réservation d’hébergement et plus particulièrement pour son ergonomie très optimale et son interface claire. Booking reprenait plus largement notre concept avec la possibilité de voyager et de choisir un hébergement partout dans le monde.</p>
+<p>Pour simplifier, nous nous sommes inspirés de la forme et de l’ergonomie de Airbnb ainsi que du principe de Booking.com. Pouvoir s’appuyer sur ces applications, nous a permis de nous reposer sur une base solide et de pouvoir innover en y intégrant des fonctions propres à nos ambitions :</p>
+<p>Voyager et/ou être hébergé à bas prix en y faisant des rencontres avec un système de création de voyage personnalisable.</p>
+<p>La possibilité de pouvoir créer et rejoindre un voyage sur Airbnb est une fonction que nous avons bien entendu retenue à la différence qu’il n’est pas possible de sélectionner un hébergement sans moyen de transport. À l’inverse, l’utilisateur possède le choix de voyager en avion (ou en train) sans choisir d’hébergement. Il est également possible de contacter le responsable de l’hébergement, afficher le plan, gérer son profil, afficher ses réservations (actuelles et anciennes).</p>
+<br>
+<p><img alt="mode hôte airbnb" src="https://ucarecdn.com/b828090b-86d1-439a-bd32-201c1d030ed5/-/preview/400x400/"></p>
+<blockquote>
+<p>la fonction « passer en mode hôte » de Airbnb</p>
+</blockquote>
+<p>La fonction messagerie est également présente dans notre application à l’exception que chaque conversation n’est pas individuelle mais associé à un voyage avec tout ses participants.</p>
+<p>Des fonctions moins essentielles n’ont pas été retenues comme le fait d’ajouter un voyage à ses favoris, la traduction ou bien le système de parrainage et crédits.</p>
+<p><img alt="mode hôte airbnb" src="https://ucarecdn.com/2677a314-1a61-4201-abe3-f7a849bccd09/-/preview/400x400/"></p>
+<blockquote>
+<p>la messagerie de Airbnb</p>
+</blockquote>
+<p>Cette application présente un ensemble de fonction correspondant à ce que l’on souhaitait intégrer dans FriendsTrip. Pouvoir saisir rapidement une destination, une date de voyage et le nombre de voyageurs est avantageux. Nous avons repris ce concept et vous verrez plus tard de quelle manière nous l’avons arrangé en cohérence avec notre projet.</p>
+<p>Booking.com présente aussi une fonction associant la dimension transport et hébergement, un système de réduction dont nous nous sommes inspirés. Certaines fonctions qui auraient pu avoir leur place dans notre application n’ont pas été sélectionnées pour des questions techniques (réserver un taxi, communauté de voyageurs, location de voiture, ...).</p>
+<p><img alt="créer voyage booking.com" src="https://ucarecdn.com/eda4f33c-5cd9-431f-bb9a-5baf097ab43f/-/preview/400x400/"></p>
+<blockquote>
+<p>Création de séjours et réservations de vols avec Booking.com</p>
+</blockquote>
+<p>Pour conceptualiser l’interface de FriendsTrip et créer notre charte graphique et design system, nous nous sommes inspirés de celle de Airbnb. Ses codes visuels se sont inscrits dans l’habitude de notre cible d’utilisateurs par sa grande popularité.</p>
+<p>L’interface de Airbnb ne contient pas beaucoup de couleurs (ce qui est selon nous un de ses points faibles) : mettre l’accent sur des couleurs dans l’interface nous permettrait de nous différencier et de mettre en avant les informations importantes (Call To Action, liens, ...).</p>
+<p><img alt="inspirations graphique friendstrip" src="https://ucarecdn.com/6c77a418-7ef2-4db3-ae9a-27cf2d135580/-/preview/400x400/"></p>
+<blockquote>
+<p>Veille graphique</p>
+</blockquote>
+<h3 id="2-fonctions-principales-et-secondaires"><a aria-hidden="true" href="#2-fonctions-principales-et-secondaires" tabindex="-1"><span class="icon icon-link"></span></a>2. Fonctions principales et secondaires</h3>
+<p><strong>Inscription</strong></p>
+<br>
+<ul>
+<li>Modifier nom, prénom, adresse e-mail, ville, mot de passe, ...</li>
+<li>Supprimer son compte</li>
+<li>Consulter nombre de voyage</li>
+<li>Obtenir code de réduction</li>
+<li>Réglages d'accessibilité</li>
+<li>Révoquer mon consentement</li>
+<li>Obtenir de l'aide</li>
+</ul>
+<br>
+<p><strong>Connexion</strong></p>
+<br>
+<p><strong>Gestion du profil</strong></p>
+<br>
+<ul>
+<li>Voir les offres de voyage</li>
+<li>Sélectionner/changer la destination</li>
+<li>Envoyer des messages</li>
+<li>Payer le voyage</li>
+<li>Appliquer une réduction</li>
+<li>Choisir une date de séjour</li>
+<li>Choisir un mode de transport</li>
+<li>Afficher infos sur le train/vol</li>
+<li>Ne sélectionner que le transport</li>
+<li>Choisir un hébergement</li>
+</ul>
+<br>
+<p><strong>Réserver un voyage</strong></p>
+<br>
+<p><strong>Rejoindre un voyage</strong></p>
+<br>
+<ul>
+<li>Exclure un voyageur</li>
+<li>Annuler le voyage</li>
+<li>Envoyer un avis à un voyageur</li>
+<li>Afficher hébergement</li>
+<li>Afficher e-billet</li>
+<li>Afficher reçu</li>
+<li>Afficher conversation</li>
+</ul>
+<br>
+<p><strong>Gestion du voyage</strong></p>
+<h3 id="3-charte-graphique"><a aria-hidden="true" href="#3-charte-graphique" tabindex="-1"><span class="icon icon-link"></span></a>3. Charte graphique</h3>
+<h4 id="a-logo"><a aria-hidden="true" href="#a-logo" tabindex="-1"><span class="icon icon-link"></span></a>a) Logo</h4>
+<p>Afin de réaliser le logotype, nous avons réalisé une veille graphique en s’inspirant de symboles récurrents dans le domaine du voyage et du numérique.</p>
+<p>Grâce à cette analyse, nous avons noté plusieurs mots-clés et représentations qui se rattachaient à notre secteur d’activité. Voici une liste non-exhaustive des logos nous ayant influencés dans notre travail :</p>
+<p><img alt="inspiration logo friendstrip" src="https://ucarecdn.com/3ba9d181-a051-4976-b889-d2e0f7d667cd/-/preview/-/quality/smart/"></p>
+<p><strong>Evolution de la construction du logotype 🔽</strong></p>
+<p><img alt="évolution logo friendstrip" src="https://ucarecdn.com/5b581366-9f44-4191-bd44-e77c1d28cb2d/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Evolution du logo de FriendsTrip</p>
+</blockquote>
+<p><strong>L'avion en papier</strong> symbolise la simplicité de l'utilisation du service, des prix accessibles et la possibilité d'accomplir des grandes choses avec peu.</p>
+<p><strong>La boussole</strong> symbolise l'étoile du Nord guidant les voyageurs, aider les utilisateurs à trouver leur destination.</p>
+<p><strong>La Terre</strong> donne une vue d'ensemble des possibilités de voyage. L'omniscience dans le choix des destinations. L'universalité.</p>
+<p><img alt="logo typo friendstrip" src="https://ucarecdn.com/42b00dde-c513-4a80-a998-20e0b2eb7621/-/preview/500x500/"></p>
+<blockquote>
+<p>Version typographique du logo de FriendsTrip</p>
+</blockquote>
+<p><img alt="mockup logo friendstrip" src="https://ucarecdn.com/6550e08e-6b5c-43d9-827c-379cd584730d/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Utilisation du logo en situation réelle</p>
+</blockquote>
+<h4 id="b-couleurs"><a aria-hidden="true" href="#b-couleurs" tabindex="-1"><span class="icon icon-link"></span></a>b) Couleurs</h4>
+<p>Nous avons ensuite travaillé le choix et la signification des couleurs. Nous recherchions 2 couleurs opposées (complémentaires) et ayant chacun un rôle sémantique. Ces couleurs permettront à travers l’application (par contraste) de délimiter des zones associées à l’humain (ex : messagerie) pour l’orange et le voyage (ex : barre de navigation) pour le bleu.</p>
+<p><img alt="couleurs friendstrip" src="https://ucarecdn.com/25472af3-3037-473d-8ff7-b9f5470d0cb7/-/preview/500x500/"></p>
+<p>Le <strong>bleu</strong> qui rappelle la <strong>confiance</strong> et la sécurité en communication, elle est fréquemment utilisée pour <strong>évoquer le voyage</strong>, l’évasion. Elle est aussi associée à la <strong>couleur de notre planète</strong>, en référence au logo. Cette couleur froide et moins lumineuse que son opposée évoque aussi l’inconnu, un lieu que l’on a <strong>jamais exploré</strong>.</p>
+<p>L'orange évoque l'<strong>échange</strong>, le <strong>partage</strong>, <strong>attire l'attention</strong> sans rappeler la connotation du rouge (danger). Cette couleur représente globalement la <strong>dimension sociale</strong>, en opposition au bleu, plus froid et moins accueillant.</p>
+<h4 id="c-typographie"><a aria-hidden="true" href="#c-typographie" tabindex="-1"><span class="icon icon-link"></span></a>c) Typographie</h4>
+<p>Nous avons sélectionné 2 polices différentes. Une pour le texte (paragraphes, boutons, ...) et une pour les titres. Ce choix s’explique pour la raison qu’il est difficile d’obtenir des tailles de titres très différentes au vu de la largeur de l’application (sur mobile) et les titres ne peuvent pas être beaucoup plus grands que les paragraphes.</p>
+<p>En utilisant 2 polices d’écritures différentes, la confusion est moins probable. Ce sont des typographies sans serif, assez ronde et facile à lire sur un petit écran.</p>
+<p><img alt="typo friendstrip" src="https://ucarecdn.com/3ddade05-7aec-49df-8973-864d35c115f3/-/preview/600x600/"></p>
+<h4 id="d-images"><a aria-hidden="true" href="#d-images" tabindex="-1"><span class="icon icon-link"></span></a>d) Images</h4>
+<p>Dans le contexte de la communication de FriendsTrip, nous avons défini l’utilisation d’image avec un style particulier pour assurer une cohérence.</p>
+<p>Ces images doivent être obligatoirement libres de droit. Elles doivent évoquer l’envie, la rencontre et l’exploration d’endroits uniques. Elles ne doivent pas évoquer le luxe et la richesse.</p>
+<p>Ces images seront utilisées plus particulièrement sur les réseaux sociaux, mais peuvent être présentes dans l’application et le site vitrine de l’application également.</p>
+<p><img alt="image charte graphique" src="https://ucarecdn.com/2ae73f31-78c9-4efe-8411-08d8b9873b7c/-/preview/-/quality/smart/"></p>
+<h3 id="4-wireframemaquette"><a aria-hidden="true" href="#4-wireframemaquette" tabindex="-1"><span class="icon icon-link"></span></a>4. Wireframe/maquette</h3>
+<p>La <strong>page d’accueil</strong> a été pensée de manière à ce que l’utilisateur puisse très rapidement rechercher un voyage lorsqu’il a une destination en tête (champ de recherche situé en haut) mais également lorsqu’il ne sait pas réellement ce qu’il veut avec le Call To Action “Explorer les possibilités”. L’image de fond a été définie pour renforcer l’idée du texte “prêt à faire des rencontres inoubliables en voyageant sans se ruiner ?” et procurer l’envie de voyage.</p>
+<p><img alt="friends trip accueil" src="https://ucarecdn.com/c59163f9-b53b-40f5-9650-46d3a6bad640/-/preview/-/quality/smart/"></p>
+<p>Le <strong>processus de réservation</strong> est constitué d’un grand nombre d’étapes et nous avons alors proposé une expérience d’utilisation la plus simple possible. Pour éviter une profondeur des pages importante, les étapes de renseignements des informations ont été représentées de façon progressive et verticale plutôt qu’horizontale. De cette façon la réservation de ce voyage est plus compréhensible et l’utilisateur peut à tout moment revenir sur ses choix.</p>
+<p>L’ordre des champs est logique pour que l’utilisateur ne soit pas désorienté dans la composition du voyage.</p>
+<p>Nous avons décidé de placer quelques annonces de voyages proches du départ pour donner l’impression que l’utilisateur risque de rater une occasion de partir voyager et l’inciter à la réservation. Les résultats s’affichent en fonction de la ville de l’utilisateur. Enfin, nous avons placé en dernier lieu un Call To Action proposant à nos utilisateurs de créer un voyage personnalisé. Il a été placé en dernier car cette situation est moins fréquente dans les habitudes d’utilisation.</p>
+<p><img alt="friends trip extraits voyages" src="https://ucarecdn.com/1beb5811-546e-467a-a679-9137570bd2fd/-/preview/-/quality/smart/"></p>
+<p><img alt="friends trip processus réservation" src="https://ucarecdn.com/2d11d1e7-70e5-4df8-92a7-cb00db548242/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Première étape de la création d'un voyage</p>
+</blockquote>
+<p>À cet endroit de l’application, le voyageur peut retrouver ses réservations, mais également revoir ses anciens voyages. Il est également possible pour lui de réserver une autre destination même si un voyage est déjà en cours de route.</p>
+<p>L’icône d’accès à cet écran a été située en haut à droite par opposition à la barre de navigation qui elle est réservée à la recherche/création de voyage, à la communication et la modification du profil. Il est situé dans une zone de stretching, car c’est une fonction de l’application qui est moins fréquemment utilisée.</p>
+<p>La zone de « stretching » n’est cependant pas une zone difficilement accessible et ne demande pas trop d’effort à l’utilisateur, ce qui est un bon compromis.</p>
+<p><img alt="friends trip réservations" src="https://ucarecdn.com/80875982-8b69-47d7-a581-588f7bf2d2b2/-/preview/-/quality/smart/"></p>
+<p>Pour la conception de la messagerie, nous avons pensé qu’il serait pertinent de rassembler les conversations par groupe et non individuellement. Les voyageurs peuvent échanger, mais pas seulement. Chaque utilisateur peut consulter la liste des voyageurs et seul l’hôte peut décider d’exclure un voyageur.</p>
+<p><img alt="friends trip messagerie" src="https://ucarecdn.com/2ed2ac58-ec27-4d4a-b3a3-7f23fdd5e566/"></p>
+<blockquote>
+<p>Wireframe de la messagerie de l'application</p>
+</blockquote>
+<p>Nous avons intégré un système de filtrage instantané, de façon à ce qu’il soit possible de préciser certaines informations pour rendre la recherche plus pertinente. Nous avons repris exactement les mêmes paramètres (nombre de nuits, langue de voyage, moyen de transport) et nous les rassemblés. Pour chaque paramètre, il est possible de régler le nombre, la valeur et l’état booléen (coche oui/coche non).</p>
+<p><img alt="friends trip filtre" src="https://ucarecdn.com/8faad059-1b97-464c-b25d-663d0321b965/-/preview/-/quality/smart/"></p>
+<p><img alt="voyage friendstrip" src="https://ucarecdn.com/b2429d39-03e1-4dbd-bdf7-28f6627ef3bc/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Ecran de voyage réservé</p>
+</blockquote>
+<h3 id="5-design-system"><a aria-hidden="true" href="#5-design-system" tabindex="-1"><span class="icon icon-link"></span></a>5. Design System</h3>
+<p>Afin de réunir tous les composants de l’application au même endroit, nous avons créé un design system. L’objectif de cette bibliothèque est de garder une cohérence graphique tout le long de l’élaboration du projet et de pouvoir facilement partir d’une base pour créer d’autres composants UI.</p>
+<p><img alt="icons friendstrip" src="https://ucarecdn.com/3e10b269-5515-4849-9f0d-05716dd7b5f8/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Les icons utilisés sur l'application</p>
+</blockquote>
+<p><img alt="CTA friendstrip" src="https://ucarecdn.com/fce6bbce-92fd-4c95-9361-a840eb463d42/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Boutons</p>
+</blockquote>
+<p><img alt="typographie friendstrip" src="https://ucarecdn.com/544885e7-784c-49f4-85d9-129f5435d5f3/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Règle d'utilisation des typographies</p>
+</blockquote>
+<p><img alt="fenêtres modales friendstrip" src="https://ucarecdn.com/df059743-b66e-4e88-ae5f-b89444bfee52/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>fenêtre modales</p>
+</blockquote>
+<p><img alt="cards friendstrip" src="https://ucarecdn.com/94328c26-9618-459b-a0e8-5b2deeef50ed/-/preview/-/quality/smart/"></p>
+<blockquote>
+<p>Cards et sliders</p>
+</blockquote>
+<h2 id="conclusion-"><a aria-hidden="true" href="#conclusion-" tabindex="-1"><span class="icon icon-link"></span></a>Conclusion 💎</h2>
+<p>Ce projet a été pour moi une réussite du point de vue de l'amélioration de mes compétences en ergonomie. Grâce à mes échecs, je me suis rendu compte que créer une application mobile est beaucoup plus complexe qu'il n'y paraît. Proposer une expérience qualitative à l'utilisateur demande beaucoup de réflexion.</p>
+<p>D'un point de vue quantitatif, je suis très satisfait du nombre de fonctions qui ont été intégrées dans l'application. Tout ce qui a été rédigé dans le cahier des charges a bien été représenté au sein de FriendsTrip. Il n'y a eu de mon côté aucune concession.</p>
+<p>D'un point de vue qualitatif, le prototype de FriendsTrip est un de mes projets les plus aboutis. Je suis satisfait du travail réalisé par moi-même autant du point de vue de l'interface que de l'expérience utilisateur.</p>
+<p>Je pense cependant qu'il existe beaucoup d'améliorations à apporter dans l'application :</p>
+<ul>
+<li>Les écrans manquent parfois d'images</li>
+<li>Certains CTA ne sont pas placés de façon stratégique (ex: les boutons placés dans la messagerie qui redirigent vers la création de voyage ne devraient pas être ici)</li>
+<li>Des fonctions supplémentaires pour se différencier davantage de la concurrence (ex: un aspect plus communautaire, réseau social)</li>
+<li>La fonction d'accessibilité est trop sommaire</li>
+<li>...</li>
+</ul></div></article></section></div> <footer data-v-1dd36e87><div id="name" data-v-1dd36e87><img src="/_nuxt/img/logo-nl-white.0340180.svg" alt="logo nathan lagrange" data-v-1dd36e87> <h6 data-v-1dd36e87>nathan<strong data-v-1dd36e87>lagrange</strong></h6></div> <div id="footer-nav" data-v-1dd36e87><ul data-v-1dd36e87><a href="/" class="nuxt-link-active" data-v-1dd36e87><li data-v-1dd36e87>accueil</li></a> <a href="/realisations" class="nuxt-link-active" data-v-1dd36e87><li data-v-1dd36e87>réalisations</li></a> <a href="/musique" data-v-1dd36e87><li data-v-1dd36e87>musique</li></a> <a href="/filmographie" data-v-1dd36e87><li data-v-1dd36e87>filmographie</li></a> <a href="/mentionslegales" data-v-1dd36e87><li data-v-1dd36e87>mentions légales</li></a></ul></div> <div id="footer-icon" data-v-1dd36e87><a href="https://www.linkedin.com/in/nathanlagrange/" target="_blank" data-v-1dd36e87><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAxOSAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuMjUyOTUgMTkuMjUwOUgwLjMxMzgzOVY2LjM5ODk5SDQuMjUyOTVWMTkuMjUwOVpNMi4yODEyNyA0LjY0NTg3QzEuMDIxNjcgNC42NDU4NyAwIDMuNTg4ODMgMCAyLjMxMjY2QzkuMDE1NjZlLTA5IDEuNjk5NjcgMC4yNDAzNDggMS4xMTE3OSAwLjY2ODE2OSAwLjY3ODMzNEMxLjA5NTk5IDAuMjQ0ODgzIDEuNjc2MjQgMC4wMDEzNzMyOSAyLjI4MTI3IDAuMDAxMzczMjlDMi44ODYzIDAuMDAxMzczMjkgMy40NjY1NSAwLjI0NDg4MyAzLjg5NDM4IDAuNjc4MzM0QzQuMzIyMiAxLjExMTc5IDQuNTYyNTQgMS42OTk2NyA0LjU2MjU0IDIuMzEyNjZDNC41NjI1NCAzLjU4ODgzIDMuNTQwNDUgNC42NDU4NyAyLjI4MTI3IDQuNjQ1ODdaTTE4Ljk5NTggMTkuMjUwOUgxNS4wNjUxVjEyLjk5NDdDMTUuMDY1MSAxMS41MDM3IDE1LjAzNTQgOS41OTE1NyAxMy4wMTcxIDkuNTkxNTdDMTAuOTY5MSA5LjU5MTU3IDEwLjY1NTMgMTEuMjExNSAxMC42NTUzIDEyLjg4NzNWMTkuMjUwOUg2LjcyMDRWNi4zOTg5OUgxMC40OTgzVjguMTUyMTJIMTAuNTUzNUMxMS4wNzk0IDcuMTQyMzUgMTIuMzY0IDYuMDc2NzMgMTQuMjgwNSA2LjA3NjczQzE4LjI2NzEgNi4wNzY3MyAxOSA4LjczNjQ5IDE5IDEyLjE5MTJWMTkuMjUwOUgxOC45OTU4WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="linkedin nathan lagrange" data-v-1dd36e87></a> <a href="https://github.com/nathanlagrange" target="_blank" data-v-1dd36e87><img src="/_nuxt/img/github-logo.6bfc26b.svg" alt="github" data-v-1dd36e87></a> <a href="mailto:nathanlagrange98@gmail.com" target="_blank" data-v-1dd36e87><img src="/_nuxt/img/envelope.7c9401e.svg" alt="contact nathan lagrange" data-v-1dd36e87></a></div> <div id="footer-meta" data-v-1dd36e87><span data-v-1dd36e87>2022 - Tout droits réservés - <b data-v-1dd36e87>nathanlagrange.dev</b></span></div></footer></main></div></div><script defer src="/_nuxt/static/1655751392/realisations/friendstrip/state.js"></script><script src="/_nuxt/6a7af78.js" defer></script><script src="/_nuxt/efc4b73.js" defer></script><script src="/_nuxt/85c67ef.js" defer></script><script src="/_nuxt/d8b86f3.js" defer></script><script src="/_nuxt/fe1569a.js" defer></script>
+    <script type="text/javascript">window._mfq=window._mfq||[],function(){var e=document.createElement("script");e.type="text/javascript",e.defer=!0,e.src="//cdn.mouseflow.com/projects/bced04b2-2f3c-4393-ae59-dc5b90fed3bc.js",document.getElementsByTagName("head")[0].appendChild(e)}()</script>
+  </body>
+</html>
