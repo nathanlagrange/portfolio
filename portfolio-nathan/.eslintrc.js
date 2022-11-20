@@ -16,6 +16,7 @@ module.exports = {
   ],
   // add your custom rules here
   "rules": {
-    "new-cap": 0
+    "new-cap": 0,
+    "no-console": "off"
   }
 }

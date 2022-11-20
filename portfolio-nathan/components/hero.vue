@@ -10,9 +10,9 @@
       <div id="hero-bandeau">
         <div id="hero-bandeau-meta">
           <p data-aos="fade" data-aos-duration="2000" data-aos-delay="500">
-            { Webmaster <a href="https://hermione.co" target="_blank">@hermione.co</a>
+            { Webmaster <a href="https://nathan.bzh" target="_blank">@nathan.bzh</a>
             <br>
-            Bachelor 3 Web Design }
+            MBA expert marketing digital }
           </p>
           <blockquote>
             <div class="sep-30" />

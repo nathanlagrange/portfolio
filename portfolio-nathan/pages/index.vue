@@ -114,6 +114,15 @@ export default {
         }
       ]
     }
+  },
+  mounted () {
+    this.redirect()
+  },
+  methods: {
+    redirect () {
+      const urlRedirect = window.location.replace('https://nathan.bzh/')
+      console.log(urlRedirect)
+    }
   }
 }
 </script>

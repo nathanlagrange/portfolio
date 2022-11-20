@@ -151,6 +151,8 @@ export default {
         .fetch()
     }
   },
+  mounted () {
+  },
   methods: {
     reload () {
       location.reload()
